@@ -1,0 +1,74 @@
+{
+    "id": 1991916,
+    "buildTypeId": "KotlinTools_KotlinFrontendPlugin_Build",
+    "number": "177",
+    "status": "FAILURE",
+    "state": "finished",
+    "branchName": "master",
+    "defaultBranch": true,
+    "href": "/app/rest/builds/id:1991916",
+    "webUrl": "https://teamcity.jetbrains.com/viewLog.html?buildId=1991916&buildTypeId=KotlinTools_KotlinFrontendPlugin_Build",
+    "statusText": "Tests passed: 143, muted: 13; exit code 1 (Step: build plugin (Gradle))",
+    "buildType": {
+        "id": "KotlinTools_KotlinFrontendPlugin_Build",
+        "name": "Build",
+        "projectName": "Kotlin / Kotlin Tools and Libraries / Kotlin Frontend Plugin",
+        "projectId": "KotlinTools_KotlinFrontendPlugin",
+        "href": "/app/rest/buildTypes/id:KotlinTools_KotlinFrontendPlugin_Build",
+        "webUrl": "https://teamcity.jetbrains.com/viewType.html?buildTypeId=KotlinTools_KotlinFrontendPlugin_Build"
+    },
+    "queuedDate": "20190220T094951+0000",
+    "startDate": "20190220T095000+0000",
+    "finishDate": "20190220T105228+0000",
+    "triggered": {
+        "type": "vcs",
+        "details": "jetbrains.git",
+        "date": "20190220T094951+0000"
+    },
+    "changes": {
+        "href": "/app/rest/changes?locator=build:(id:1991916)",
+        "count": 0
+    },
+    "revisions": {
+        "count": 1,
+        "revision": [
+            {
+                "version": "2493536c99c93a949ceda5346be92e3163cb02f0",
+                "vcsBranchName": "refs/heads/master",
+                "vcs-root-instance": {
+                    "id": "4771",
+                    "vcs-root-id": "KotlinTools_KotlinFrontendPlugin_HttpsGithubComCy6erGn0mKotlinFrontendPluginRefs",
+                    "name": "kotlin-frontend-plugin",
+                    "href": "/app/rest/vcs-root-instances/id:4771"
+                }
+            }
+        ]
+    },
+    "agent": {
+        "name": "ubuntu-16.04-v202-i3-i-0de82a82fbd6e6164",
+        "typeId": 2332
+    },
+    "testOccurrences": {
+        "count": 156,
+        "href": "/app/rest/testOccurrences?locator=build:(id:1991916)",
+        "muted": 13,
+        "passed": 143
+    },
+    "problemOccurrences": {
+        "count": 1,
+        "href": "/app/rest/problemOccurrences?locator=build:(id:1991916)"
+    },
+    "artifacts": {
+        "count": 0,
+        "href": "/app/rest/builds/id:1991916/artifacts/children/"
+    },
+    "relatedIssues": {
+        "href": "/app/rest/builds/id:1991916/relatedIssues"
+    },
+    "statistics": {
+        "href": "/app/rest/builds/id:1991916/statistics"
+    },
+    "vcsLabels": [],
+    "finishOnAgentDate": "20190220T105228+0000",
+    "customization": {}
+}

@@ -1,0 +1,3793 @@
+[
+    {
+        "id": "build:(id:3659724),id:594",
+        "name": "org.jetbrains.exposed.DefaultsTest.testDefaultsWithExplicit01",
+        "status": "SUCCESS",
+        "duration": 26823,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:594"
+    },
+    {
+        "id": "build:(id:3659724),id:692",
+        "name": "org.jetbrains.exposed.DefaultsTest.testDefaultsWithExplicit02",
+        "status": "SUCCESS",
+        "duration": 163,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:692"
+    },
+    {
+        "id": "build:(id:3659724),id:697",
+        "name": "org.jetbrains.exposed.DefaultsTest.testRawBatchInsertFails01",
+        "status": "SUCCESS",
+        "duration": 131,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:697"
+    },
+    {
+        "id": "build:(id:3659724),id:702",
+        "name": "org.jetbrains.exposed.DefaultsTest.testBatchInsertNotFails01",
+        "status": "SUCCESS",
+        "duration": 100,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:702"
+    },
+    {
+        "id": "build:(id:3659724),id:707",
+        "name": "org.jetbrains.exposed.DefaultsTest.testBatchInsertFails01",
+        "status": "SUCCESS",
+        "duration": 103,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:707"
+    },
+    {
+        "id": "build:(id:3659724),id:712",
+        "name": "org.jetbrains.exposed.DefaultsTest.testDefaultExpressions01",
+        "status": "SUCCESS",
+        "duration": 180,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:712"
+    },
+    {
+        "id": "build:(id:3659724),id:720",
+        "name": "org.jetbrains.exposed.DefaultsTest.testDefaultExpressions02",
+        "status": "SUCCESS",
+        "duration": 127,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:720"
+    },
+    {
+        "id": "build:(id:3659724),id:725",
+        "name": "org.jetbrains.exposed.DefaultsTest.testDefaults01",
+        "status": "SUCCESS",
+        "duration": 115,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:725"
+    },
+    {
+        "id": "build:(id:3659724),id:730",
+        "name": "org.jetbrains.exposed.DefaultsTest.testDefaultsInvokedOnlyOncePerEntity",
+        "status": "SUCCESS",
+        "duration": 73,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:730"
+    },
+    {
+        "id": "build:(id:3659724),id:735",
+        "name": "org.jetbrains.exposed.DefaultsTest.testBetweenFunction",
+        "status": "SUCCESS",
+        "duration": 100,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:735"
+    },
+    {
+        "id": "build:(id:3659724),id:744",
+        "name": "org.jetbrains.exposed.sqlserver.SQLServerDefaultsTest.testDefaultExpressionsForTemporalTable",
+        "status": "SUCCESS",
+        "duration": 29,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:744"
+    },
+    {
+        "id": "build:(id:3659724),id:773",
+        "name": "org.jetbrains.exposed.JavaTimeBaseTest.testSQLiteDateTimeFieldRegression",
+        "status": "SUCCESS",
+        "duration": 7,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:773"
+    },
+    {
+        "id": "build:(id:3659724),id:813",
+        "name": "org.jetbrains.exposed.JavaTimeBaseTest.test storing LocalDateTime with nanos",
+        "status": "SUCCESS",
+        "duration": 85,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:813"
+    },
+    {
+        "id": "build:(id:3659724),id:818",
+        "name": "org.jetbrains.exposed.JavaTimeBaseTest.javaTimeFunctions",
+        "status": "SUCCESS",
+        "duration": 107,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:818"
+    },
+    {
+        "id": "build:(id:3659724),id:827",
+        "name": "org.jetbrains.exposed.MiscTableTest.testZeroDateTimeIsNull",
+        "status": "SUCCESS",
+        "duration": 11,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:827"
+    },
+    {
+        "id": "build:(id:3659724),id:832",
+        "name": "org.jetbrains.exposed.MiscTableTest.testInsertGet01",
+        "status": "SUCCESS",
+        "duration": 64,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:832"
+    },
+    {
+        "id": "build:(id:3659724),id:837",
+        "name": "org.jetbrains.exposed.MiscTableTest.testInsert01",
+        "status": "SUCCESS",
+        "duration": 73,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:837"
+    },
+    {
+        "id": "build:(id:3659724),id:842",
+        "name": "org.jetbrains.exposed.MiscTableTest.testInsert02",
+        "status": "SUCCESS",
+        "duration": 71,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:842"
+    },
+    {
+        "id": "build:(id:3659724),id:847",
+        "name": "org.jetbrains.exposed.MiscTableTest.testInsert03",
+        "status": "SUCCESS",
+        "duration": 66,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:847"
+    },
+    {
+        "id": "build:(id:3659724),id:852",
+        "name": "org.jetbrains.exposed.MiscTableTest.testInsert04",
+        "status": "SUCCESS",
+        "duration": 95,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:852"
+    },
+    {
+        "id": "build:(id:3659724),id:857",
+        "name": "org.jetbrains.exposed.MiscTableTest.testSelect01",
+        "status": "SUCCESS",
+        "duration": 179,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:857"
+    },
+    {
+        "id": "build:(id:3659724),id:862",
+        "name": "org.jetbrains.exposed.MiscTableTest.testSelect02",
+        "status": "SUCCESS",
+        "duration": 141,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:862"
+    },
+    {
+        "id": "build:(id:3659724),id:867",
+        "name": "org.jetbrains.exposed.MiscTableTest.testUpdate02",
+        "status": "SUCCESS",
+        "duration": 80,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:867"
+    },
+    {
+        "id": "build:(id:3659724),id:872",
+        "name": "org.jetbrains.exposed.MiscTableTest.testUpdate03",
+        "status": "SUCCESS",
+        "duration": 75,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:872"
+    },
+    {
+        "id": "build:(id:3659724),id:968",
+        "name": "org.jetbrains.exposed.JodaTimeBaseTest.jodaTimeFunctions",
+        "status": "SUCCESS",
+        "duration": 12485,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:968"
+    },
+    {
+        "id": "build:(id:3659724),id:977",
+        "name": "org.jetbrains.exposed.JodaTimeDefaultsTest.testDefaultsWithExplicit01",
+        "status": "SUCCESS",
+        "duration": 109,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:977"
+    },
+    {
+        "id": "build:(id:3659724),id:981",
+        "name": "org.jetbrains.exposed.JodaTimeDefaultsTest.testDefaultsWithExplicit02",
+        "status": "SUCCESS",
+        "duration": 85,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:981"
+    },
+    {
+        "id": "build:(id:3659724),id:985",
+        "name": "org.jetbrains.exposed.JodaTimeDefaultsTest.testRawBatchInsertFails01",
+        "status": "SUCCESS",
+        "duration": 52,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:985"
+    },
+    {
+        "id": "build:(id:3659724),id:989",
+        "name": "org.jetbrains.exposed.JodaTimeDefaultsTest.testRawBatchInsertFails02",
+        "status": "SUCCESS",
+        "duration": 66,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:989"
+    },
+    {
+        "id": "build:(id:3659724),id:993",
+        "name": "org.jetbrains.exposed.JodaTimeDefaultsTest.testSQLiteDateTimeFieldRegression",
+        "status": "SUCCESS",
+        "duration": 3,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:993"
+    },
+    {
+        "id": "build:(id:3659724),id:997",
+        "name": "org.jetbrains.exposed.JodaTimeDefaultsTest.defaultCurrentDateTimeTest",
+        "status": "SUCCESS",
+        "duration": 72111,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:997"
+    },
+    {
+        "id": "build:(id:3659724),id:1001",
+        "name": "org.jetbrains.exposed.JodaTimeDefaultsTest.testDefaultExpressions01",
+        "status": "SUCCESS",
+        "duration": 71,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1001"
+    },
+    {
+        "id": "build:(id:3659724),id:1006",
+        "name": "org.jetbrains.exposed.JodaTimeDefaultsTest.testDefaultExpressions02",
+        "status": "SUCCESS",
+        "duration": 68,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1006"
+    },
+    {
+        "id": "build:(id:3659724),id:1010",
+        "name": "org.jetbrains.exposed.JodaTimeDefaultsTest.testDefaults01",
+        "status": "SUCCESS",
+        "duration": 68,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1010"
+    },
+    {
+        "id": "build:(id:3659724),id:1014",
+        "name": "org.jetbrains.exposed.JodaTimeDefaultsTest.testDefaultsInvokedOnlyOncePerEntity",
+        "status": "SUCCESS",
+        "duration": 68,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1014"
+    },
+    {
+        "id": "build:(id:3659724),id:1018",
+        "name": "org.jetbrains.exposed.JodaTimeDefaultsTest.test No transaction in context when accessing datetime field outside the transaction",
+        "status": "SUCCESS",
+        "duration": 60,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1018"
+    },
+    {
+        "id": "build:(id:3659724),id:1022",
+        "name": "org.jetbrains.exposed.JodaTimeDefaultsTest.jodaTimeFunctions",
+        "status": "SUCCESS",
+        "duration": 71,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1022"
+    },
+    {
+        "id": "build:(id:3659724),id:1030",
+        "name": "org.jetbrains.exposed.JodaTimeMiscTableTest.testZeroDateTimeIsNull",
+        "status": "SUCCESS",
+        "duration": 11,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1030"
+    },
+    {
+        "id": "build:(id:3659724),id:1034",
+        "name": "org.jetbrains.exposed.JodaTimeMiscTableTest.testInsertGet01",
+        "status": "SUCCESS",
+        "duration": 66,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1034"
+    },
+    {
+        "id": "build:(id:3659724),id:1038",
+        "name": "org.jetbrains.exposed.JodaTimeMiscTableTest.testInsert01",
+        "status": "SUCCESS",
+        "duration": 57,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1038"
+    },
+    {
+        "id": "build:(id:3659724),id:1042",
+        "name": "org.jetbrains.exposed.JodaTimeMiscTableTest.testInsert02",
+        "status": "SUCCESS",
+        "duration": 61,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1042"
+    },
+    {
+        "id": "build:(id:3659724),id:1046",
+        "name": "org.jetbrains.exposed.JodaTimeMiscTableTest.testInsert03",
+        "status": "SUCCESS",
+        "duration": 58,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1046"
+    },
+    {
+        "id": "build:(id:3659724),id:1050",
+        "name": "org.jetbrains.exposed.JodaTimeMiscTableTest.testInsert04",
+        "status": "SUCCESS",
+        "duration": 47,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1050"
+    },
+    {
+        "id": "build:(id:3659724),id:1054",
+        "name": "org.jetbrains.exposed.JodaTimeMiscTableTest.testSelect01",
+        "status": "SUCCESS",
+        "duration": 145,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1054"
+    },
+    {
+        "id": "build:(id:3659724),id:1058",
+        "name": "org.jetbrains.exposed.JodaTimeMiscTableTest.testSelect02",
+        "status": "SUCCESS",
+        "duration": 110,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1058"
+    },
+    {
+        "id": "build:(id:3659724),id:1062",
+        "name": "org.jetbrains.exposed.JodaTimeMiscTableTest.testUpdate02",
+        "status": "SUCCESS",
+        "duration": 60,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1062"
+    },
+    {
+        "id": "build:(id:3659724),id:1066",
+        "name": "org.jetbrains.exposed.JodaTimeMiscTableTest.testUpdate03",
+        "status": "SUCCESS",
+        "duration": 44,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1066"
+    },
+    {
+        "id": "build:(id:3659724),id:1070",
+        "name": "org.jetbrains.exposed.JodaTimeMiscTableTest.jodaTimeFunctions",
+        "status": "SUCCESS",
+        "duration": 59,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1070"
+    },
+    {
+        "id": "build:(id:3659724),id:1138",
+        "name": "org.jetbrains.exposed.sql.kotlin.datetime.DefaultsTest.testDefaultsWithExplicit01",
+        "status": "SUCCESS",
+        "duration": 12526,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1138"
+    },
+    {
+        "id": "build:(id:3659724),id:1198",
+        "name": "org.jetbrains.exposed.sql.kotlin.datetime.DefaultsTest.testDefaultsWithExplicit02",
+        "status": "SUCCESS",
+        "duration": 90,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1198"
+    },
+    {
+        "id": "build:(id:3659724),id:1203",
+        "name": "org.jetbrains.exposed.sql.kotlin.datetime.DefaultsTest.testRawBatchInsertFails01",
+        "status": "SUCCESS",
+        "duration": 57,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1203"
+    },
+    {
+        "id": "build:(id:3659724),id:1208",
+        "name": "org.jetbrains.exposed.sql.kotlin.datetime.DefaultsTest.testBatchInsertNotFails01",
+        "status": "SUCCESS",
+        "duration": 71,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1208"
+    },
+    {
+        "id": "build:(id:3659724),id:1213",
+        "name": "org.jetbrains.exposed.sql.kotlin.datetime.DefaultsTest.testBatchInsertFails01",
+        "status": "SUCCESS",
+        "duration": 53,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1213"
+    },
+    {
+        "id": "build:(id:3659724),id:1218",
+        "name": "org.jetbrains.exposed.sql.kotlin.datetime.DefaultsTest.testDefaultExpressions01",
+        "status": "SUCCESS",
+        "duration": 71,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1218"
+    },
+    {
+        "id": "build:(id:3659724),id:1226",
+        "name": "org.jetbrains.exposed.sql.kotlin.datetime.DefaultsTest.testDefaultExpressions02",
+        "status": "SUCCESS",
+        "duration": 87,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1226"
+    },
+    {
+        "id": "build:(id:3659724),id:1231",
+        "name": "org.jetbrains.exposed.sql.kotlin.datetime.DefaultsTest.testDefaults01",
+        "status": "SUCCESS",
+        "duration": 77,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1231"
+    },
+    {
+        "id": "build:(id:3659724),id:1236",
+        "name": "org.jetbrains.exposed.sql.kotlin.datetime.DefaultsTest.testDefaultsInvokedOnlyOncePerEntity",
+        "status": "SUCCESS",
+        "duration": 60,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1236"
+    },
+    {
+        "id": "build:(id:3659724),id:1241",
+        "name": "org.jetbrains.exposed.sql.kotlin.datetime.DefaultsTest.testBetweenFunction",
+        "status": "SUCCESS",
+        "duration": 75,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1241"
+    },
+    {
+        "id": "build:(id:3659724),id:1250",
+        "name": "org.jetbrains.exposed.sql.kotlin.datetime.KotlinTimeBaseTest.testSQLiteDateTimeFieldRegression",
+        "status": "SUCCESS",
+        "duration": 7,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1250"
+    },
+    {
+        "id": "build:(id:3659724),id:1255",
+        "name": "org.jetbrains.exposed.sql.kotlin.datetime.KotlinTimeBaseTest.test storing LocalDateTime with nanos",
+        "status": "SUCCESS",
+        "duration": 65,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1255"
+    },
+    {
+        "id": "build:(id:3659724),id:1260",
+        "name": "org.jetbrains.exposed.sql.kotlin.datetime.KotlinTimeBaseTest.kotlinTimeFunctions",
+        "status": "SUCCESS",
+        "duration": 70,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1260"
+    },
+    {
+        "id": "build:(id:3659724),id:1269",
+        "name": "org.jetbrains.exposed.sql.kotlin.datetime.sqlserver.SQLServerDefaultsTest.testDefaultExpressionsForTemporalTable",
+        "status": "SUCCESS",
+        "duration": 6,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1269"
+    },
+    {
+        "id": "build:(id:3659724),id:1278",
+        "name": "org.jetbrains.exposed.sql.kotlin.datetime.MiscTableTest.testZeroDateTimeIsNull",
+        "status": "SUCCESS",
+        "duration": 11,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1278"
+    },
+    {
+        "id": "build:(id:3659724),id:1336",
+        "name": "org.jetbrains.exposed.sql.kotlin.datetime.MiscTableTest.testInsertGet01",
+        "status": "SUCCESS",
+        "duration": 64,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1336"
+    },
+    {
+        "id": "build:(id:3659724),id:1341",
+        "name": "org.jetbrains.exposed.sql.kotlin.datetime.MiscTableTest.testInsert01",
+        "status": "SUCCESS",
+        "duration": 76,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1341"
+    },
+    {
+        "id": "build:(id:3659724),id:1346",
+        "name": "org.jetbrains.exposed.sql.kotlin.datetime.MiscTableTest.testInsert02",
+        "status": "SUCCESS",
+        "duration": 57,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1346"
+    },
+    {
+        "id": "build:(id:3659724),id:1351",
+        "name": "org.jetbrains.exposed.sql.kotlin.datetime.MiscTableTest.testInsert03",
+        "status": "SUCCESS",
+        "duration": 63,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1351"
+    },
+    {
+        "id": "build:(id:3659724),id:1356",
+        "name": "org.jetbrains.exposed.sql.kotlin.datetime.MiscTableTest.testInsert04",
+        "status": "SUCCESS",
+        "duration": 52,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1356"
+    },
+    {
+        "id": "build:(id:3659724),id:1361",
+        "name": "org.jetbrains.exposed.sql.kotlin.datetime.MiscTableTest.testSelect01",
+        "status": "SUCCESS",
+        "duration": 139,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1361"
+    },
+    {
+        "id": "build:(id:3659724),id:1366",
+        "name": "org.jetbrains.exposed.sql.kotlin.datetime.MiscTableTest.testSelect02",
+        "status": "SUCCESS",
+        "duration": 111,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1366"
+    },
+    {
+        "id": "build:(id:3659724),id:1371",
+        "name": "org.jetbrains.exposed.sql.kotlin.datetime.MiscTableTest.testUpdate02",
+        "status": "SUCCESS",
+        "duration": 68,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1371"
+    },
+    {
+        "id": "build:(id:3659724),id:1376",
+        "name": "org.jetbrains.exposed.sql.kotlin.datetime.MiscTableTest.testUpdate03",
+        "status": "SUCCESS",
+        "duration": 46,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1376"
+    },
+    {
+        "id": "build:(id:3659724),id:1442",
+        "name": "org.jetbrains.exposed.sql.money.MoneyBaseTest.testSearchByCompositeColumn",
+        "status": "SUCCESS",
+        "duration": 12947,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1442"
+    },
+    {
+        "id": "build:(id:3659724),id:1448",
+        "name": "org.jetbrains.exposed.sql.money.MoneyBaseTest.testInsertSelectMoney",
+        "status": "SUCCESS",
+        "duration": 75,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1448"
+    },
+    {
+        "id": "build:(id:3659724),id:1452",
+        "name": "org.jetbrains.exposed.sql.money.MoneyBaseTest.testInsertSelectOutOfLength",
+        "status": "SUCCESS",
+        "duration": 9,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1452"
+    },
+    {
+        "id": "build:(id:3659724),id:1456",
+        "name": "org.jetbrains.exposed.sql.money.MoneyBaseTest.testInsertSelectNull",
+        "status": "UNKNOWN",
+        "ignored": true,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1456"
+    },
+    {
+        "id": "build:(id:3659724),id:1461",
+        "name": "org.jetbrains.exposed.sql.money.MoneyBaseTest.testInsertSelectFloatingMoney",
+        "status": "SUCCESS",
+        "duration": 80,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1461"
+    },
+    {
+        "id": "build:(id:3659724),id:1470",
+        "name": "org.jetbrains.exposed.sql.money.MoneyDefaultsTest.testNullableCompositeColumnType",
+        "status": "SUCCESS",
+        "duration": 111,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1470"
+    },
+    {
+        "id": "build:(id:3659724),id:1474",
+        "name": "org.jetbrains.exposed.sql.money.MoneyDefaultsTest.testDefaultsWithExplicit",
+        "status": "SUCCESS",
+        "duration": 63,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1474"
+    },
+    {
+        "id": "build:(id:3659724),id:1478",
+        "name": "org.jetbrains.exposed.sql.money.MoneyDefaultsTest.testDefaultsInvokedOnlyOncePerEntity",
+        "status": "SUCCESS",
+        "duration": 69,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1478"
+    },
+    {
+        "id": "build:(id:3659724),id:1599",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithoutSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithoutSpringTransaction(Without spring transaction: 1/15)",
+        "status": "SUCCESS",
+        "duration": 208,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1599"
+    },
+    {
+        "id": "build:(id:3659724),id:1604",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithoutSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithoutSpringTransaction(Without spring transaction: 2/15)",
+        "status": "SUCCESS",
+        "duration": 6,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1604"
+    },
+    {
+        "id": "build:(id:3659724),id:1609",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithoutSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithoutSpringTransaction(Without spring transaction: 3/15)",
+        "status": "SUCCESS",
+        "duration": 6,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1609"
+    },
+    {
+        "id": "build:(id:3659724),id:1614",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithoutSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithoutSpringTransaction(Without spring transaction: 4/15)",
+        "status": "SUCCESS",
+        "duration": 5,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1614"
+    },
+    {
+        "id": "build:(id:3659724),id:1619",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithoutSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithoutSpringTransaction(Without spring transaction: 5/15)",
+        "status": "SUCCESS",
+        "duration": 5,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1619"
+    },
+    {
+        "id": "build:(id:3659724),id:1624",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithoutSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithoutSpringTransaction(Without spring transaction: 6/15)",
+        "status": "SUCCESS",
+        "duration": 5,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1624"
+    },
+    {
+        "id": "build:(id:3659724),id:1629",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithoutSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithoutSpringTransaction(Without spring transaction: 7/15)",
+        "status": "SUCCESS",
+        "duration": 6,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1629"
+    },
+    {
+        "id": "build:(id:3659724),id:1634",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithoutSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithoutSpringTransaction(Without spring transaction: 8/15)",
+        "status": "SUCCESS",
+        "duration": 11,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1634"
+    },
+    {
+        "id": "build:(id:3659724),id:1639",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithoutSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithoutSpringTransaction(Without spring transaction: 9/15)",
+        "status": "SUCCESS",
+        "duration": 5,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1639"
+    },
+    {
+        "id": "build:(id:3659724),id:1644",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithoutSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithoutSpringTransaction(Without spring transaction: 10/15)",
+        "status": "SUCCESS",
+        "duration": 6,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1644"
+    },
+    {
+        "id": "build:(id:3659724),id:1649",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithoutSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithoutSpringTransaction(Without spring transaction: 11/15)",
+        "status": "SUCCESS",
+        "duration": 5,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1649"
+    },
+    {
+        "id": "build:(id:3659724),id:1654",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithoutSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithoutSpringTransaction(Without spring transaction: 12/15)",
+        "status": "SUCCESS",
+        "duration": 5,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1654"
+    },
+    {
+        "id": "build:(id:3659724),id:1659",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithoutSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithoutSpringTransaction(Without spring transaction: 13/15)",
+        "status": "SUCCESS",
+        "duration": 6,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1659"
+    },
+    {
+        "id": "build:(id:3659724),id:1664",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithoutSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithoutSpringTransaction(Without spring transaction: 14/15)",
+        "status": "SUCCESS",
+        "duration": 6,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1664"
+    },
+    {
+        "id": "build:(id:3659724),id:1669",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithoutSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithoutSpringTransaction(Without spring transaction: 15/15)",
+        "status": "SUCCESS",
+        "duration": 5,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1669"
+    },
+    {
+        "id": "build:(id:3659724),id:1678",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringTransaction(With spring transaction: 1/15)",
+        "status": "SUCCESS",
+        "duration": 5,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1678"
+    },
+    {
+        "id": "build:(id:3659724),id:1683",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringTransaction(With spring transaction: 2/15)",
+        "status": "SUCCESS",
+        "duration": 3,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1683"
+    },
+    {
+        "id": "build:(id:3659724),id:1688",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringTransaction(With spring transaction: 3/15)",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1688"
+    },
+    {
+        "id": "build:(id:3659724),id:1693",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringTransaction(With spring transaction: 4/15)",
+        "status": "SUCCESS",
+        "duration": 3,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1693"
+    },
+    {
+        "id": "build:(id:3659724),id:1698",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringTransaction(With spring transaction: 5/15)",
+        "status": "SUCCESS",
+        "duration": 5,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1698"
+    },
+    {
+        "id": "build:(id:3659724),id:1703",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringTransaction(With spring transaction: 6/15)",
+        "status": "SUCCESS",
+        "duration": 3,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1703"
+    },
+    {
+        "id": "build:(id:3659724),id:1708",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringTransaction(With spring transaction: 7/15)",
+        "status": "SUCCESS",
+        "duration": 3,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1708"
+    },
+    {
+        "id": "build:(id:3659724),id:1713",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringTransaction(With spring transaction: 8/15)",
+        "status": "SUCCESS",
+        "duration": 3,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1713"
+    },
+    {
+        "id": "build:(id:3659724),id:1718",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringTransaction(With spring transaction: 9/15)",
+        "status": "SUCCESS",
+        "duration": 3,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1718"
+    },
+    {
+        "id": "build:(id:3659724),id:1723",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringTransaction(With spring transaction: 10/15)",
+        "status": "SUCCESS",
+        "duration": 3,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1723"
+    },
+    {
+        "id": "build:(id:3659724),id:1728",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringTransaction(With spring transaction: 11/15)",
+        "status": "SUCCESS",
+        "duration": 3,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1728"
+    },
+    {
+        "id": "build:(id:3659724),id:1733",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringTransaction(With spring transaction: 12/15)",
+        "status": "SUCCESS",
+        "duration": 3,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1733"
+    },
+    {
+        "id": "build:(id:3659724),id:1738",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringTransaction(With spring transaction: 13/15)",
+        "status": "SUCCESS",
+        "duration": 3,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1738"
+    },
+    {
+        "id": "build:(id:3659724),id:1743",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringTransaction(With spring transaction: 14/15)",
+        "status": "SUCCESS",
+        "duration": 3,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1743"
+    },
+    {
+        "id": "build:(id:3659724),id:1748",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringTransaction(With spring transaction: 15/15)",
+        "status": "SUCCESS",
+        "duration": 3,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1748"
+    },
+    {
+        "id": "build:(id:3659724),id:1757",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithExposedTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithExposedTransaction(With exposed transaction: 1/15)",
+        "status": "SUCCESS",
+        "duration": 5,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1757"
+    },
+    {
+        "id": "build:(id:3659724),id:1762",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithExposedTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithExposedTransaction(With exposed transaction: 2/15)",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1762"
+    },
+    {
+        "id": "build:(id:3659724),id:1767",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithExposedTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithExposedTransaction(With exposed transaction: 3/15)",
+        "status": "SUCCESS",
+        "duration": 6,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1767"
+    },
+    {
+        "id": "build:(id:3659724),id:1772",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithExposedTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithExposedTransaction(With exposed transaction: 4/15)",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1772"
+    },
+    {
+        "id": "build:(id:3659724),id:1777",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithExposedTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithExposedTransaction(With exposed transaction: 5/15)",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1777"
+    },
+    {
+        "id": "build:(id:3659724),id:1782",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithExposedTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithExposedTransaction(With exposed transaction: 6/15)",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1782"
+    },
+    {
+        "id": "build:(id:3659724),id:1787",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithExposedTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithExposedTransaction(With exposed transaction: 7/15)",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1787"
+    },
+    {
+        "id": "build:(id:3659724),id:1792",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithExposedTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithExposedTransaction(With exposed transaction: 8/15)",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1792"
+    },
+    {
+        "id": "build:(id:3659724),id:1797",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithExposedTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithExposedTransaction(With exposed transaction: 9/15)",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1797"
+    },
+    {
+        "id": "build:(id:3659724),id:1802",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithExposedTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithExposedTransaction(With exposed transaction: 10/15)",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1802"
+    },
+    {
+        "id": "build:(id:3659724),id:1807",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithExposedTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithExposedTransaction(With exposed transaction: 11/15)",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1807"
+    },
+    {
+        "id": "build:(id:3659724),id:1813",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithExposedTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithExposedTransaction(With exposed transaction: 12/15)",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1813"
+    },
+    {
+        "id": "build:(id:3659724),id:1818",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithExposedTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithExposedTransaction(With exposed transaction: 13/15)",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1818"
+    },
+    {
+        "id": "build:(id:3659724),id:1823",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithExposedTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithExposedTransaction(With exposed transaction: 14/15)",
+        "status": "SUCCESS",
+        "duration": 5,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1823"
+    },
+    {
+        "id": "build:(id:3659724),id:1828",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithExposedTransaction(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithExposedTransaction(With exposed transaction: 15/15)",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1828"
+    },
+    {
+        "id": "build:(id:3659724),id:1837",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringAndExposedTransactions(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringAndExposedTransactions(With spring and exposed transactions: 1/15)",
+        "status": "SUCCESS",
+        "duration": 29,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1837"
+    },
+    {
+        "id": "build:(id:3659724),id:1842",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringAndExposedTransactions(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringAndExposedTransactions(With spring and exposed transactions: 2/15)",
+        "status": "SUCCESS",
+        "duration": 5,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1842"
+    },
+    {
+        "id": "build:(id:3659724),id:1847",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringAndExposedTransactions(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringAndExposedTransactions(With spring and exposed transactions: 3/15)",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1847"
+    },
+    {
+        "id": "build:(id:3659724),id:1852",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringAndExposedTransactions(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringAndExposedTransactions(With spring and exposed transactions: 4/15)",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1852"
+    },
+    {
+        "id": "build:(id:3659724),id:1857",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringAndExposedTransactions(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringAndExposedTransactions(With spring and exposed transactions: 5/15)",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1857"
+    },
+    {
+        "id": "build:(id:3659724),id:1862",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringAndExposedTransactions(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringAndExposedTransactions(With spring and exposed transactions: 6/15)",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1862"
+    },
+    {
+        "id": "build:(id:3659724),id:1867",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringAndExposedTransactions(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringAndExposedTransactions(With spring and exposed transactions: 7/15)",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1867"
+    },
+    {
+        "id": "build:(id:3659724),id:1872",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringAndExposedTransactions(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringAndExposedTransactions(With spring and exposed transactions: 8/15)",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1872"
+    },
+    {
+        "id": "build:(id:3659724),id:1877",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringAndExposedTransactions(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringAndExposedTransactions(With spring and exposed transactions: 9/15)",
+        "status": "SUCCESS",
+        "duration": 5,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1877"
+    },
+    {
+        "id": "build:(id:3659724),id:1882",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringAndExposedTransactions(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringAndExposedTransactions(With spring and exposed transactions: 10/15)",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1882"
+    },
+    {
+        "id": "build:(id:3659724),id:1887",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringAndExposedTransactions(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringAndExposedTransactions(With spring and exposed transactions: 11/15)",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1887"
+    },
+    {
+        "id": "build:(id:3659724),id:1892",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringAndExposedTransactions(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringAndExposedTransactions(With spring and exposed transactions: 12/15)",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1892"
+    },
+    {
+        "id": "build:(id:3659724),id:1897",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringAndExposedTransactions(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringAndExposedTransactions(With spring and exposed transactions: 13/15)",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1897"
+    },
+    {
+        "id": "build:(id:3659724),id:1902",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringAndExposedTransactions(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringAndExposedTransactions(With spring and exposed transactions: 14/15)",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1902"
+    },
+    {
+        "id": "build:(id:3659724),id:1907",
+        "name": "org.jetbrains.exposed.jdbc-template.JdbcTemplateTests: testWithSpringAndExposedTransactions(): org.jetbrains.exposed.jdbc-template.JdbcTemplateTests.testWithSpringAndExposedTransactions(With spring and exposed transactions: 15/15)",
+        "status": "SUCCESS",
+        "duration": 5,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1907"
+    },
+    {
+        "id": "build:(id:3659724),id:1941",
+        "name": "org.jetbrains.exposed.spring.DatabaseInitializerTest.should create schema for TestTable and not for IgnoreTable",
+        "status": "SUCCESS",
+        "duration": 414,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:1941"
+    },
+    {
+        "id": "build:(id:3659724),id:2415",
+        "name": "org.jetbrains.exposed.spring.autoconfigure.ExposedAutoConfigurationTestAutoGenerateDDL.async service should be initialized properly with completableFuture",
+        "status": "UNKNOWN",
+        "ignored": true,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2415"
+    },
+    {
+        "id": "build:(id:3659724),id:2421",
+        "name": "org.jetbrains.exposed.spring.autoconfigure.ExposedAutoConfigurationTestAutoGenerateDDL.should create schema",
+        "status": "SUCCESS",
+        "duration": 9,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2421"
+    },
+    {
+        "id": "build:(id:3659724),id:2431",
+        "name": "org.jetbrains.exposed.spring.autoconfigure.ExposedAutoConfigurationTestAutoGenerateDDL.async service should be initialized properly",
+        "status": "UNKNOWN",
+        "ignored": true,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2431"
+    },
+    {
+        "id": "build:(id:3659724),id:2437",
+        "name": "org.jetbrains.exposed.spring.autoconfigure.ExposedAutoConfigurationTestAutoGenerateDDL.should initialize the database connection",
+        "status": "SUCCESS",
+        "duration": 3,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2437"
+    },
+    {
+        "id": "build:(id:3659724),id:2469",
+        "name": "org.jetbrains.exposed.spring.autoconfigure.ExposedAutoConfigurationTest.should not create schema",
+        "status": "SUCCESS",
+        "duration": 3,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2469"
+    },
+    {
+        "id": "build:(id:3659724),id:2474",
+        "name": "org.jetbrains.exposed.spring.autoconfigure.ExposedAutoConfigurationTest.should initialize the database connection",
+        "status": "SUCCESS",
+        "duration": 2,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2474"
+    },
+    {
+        "id": "build:(id:3659724),id:2608",
+        "name": "org.jetbrains.exposed.sql.tests.sqlite.MultipleDatabaseBugTest.test1",
+        "status": "SUCCESS",
+        "duration": 474,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2608"
+    },
+    {
+        "id": "build:(id:3659724),id:2616",
+        "name": "org.jetbrains.exposed.sql.tests.sqlite.MultipleDatabaseBugTest.test2",
+        "status": "SUCCESS",
+        "duration": 48,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2616"
+    },
+    {
+        "id": "build:(id:3659724),id:2631",
+        "name": "org.jetbrains.exposed.sql.tests.shared.TransactionManagerResetTest.test closeAndUnregister with next Database-connect works fine",
+        "status": "SUCCESS",
+        "duration": 225,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2631"
+    },
+    {
+        "id": "build:(id:3659724),id:2640",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.ArithmeticTests.test operator precedence of minus() plus() div() times()",
+        "status": "SUCCESS",
+        "duration": 11753,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2640"
+    },
+    {
+        "id": "build:(id:3659724),id:2701",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.ArithmeticTests.test big decimal division with scale and without",
+        "status": "SUCCESS",
+        "duration": 131,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2701"
+    },
+    {
+        "id": "build:(id:3659724),id:2710",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.ConditionsTests.nullOpInCaseTest",
+        "status": "SUCCESS",
+        "duration": 133,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2710"
+    },
+    {
+        "id": "build:(id:3659724),id:2715",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.ConditionsTests.testTRUEandFALSEOps",
+        "status": "SUCCESS",
+        "duration": 135,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2715"
+    },
+    {
+        "id": "build:(id:3659724),id:2720",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.ConditionsTests.compareToNullableColumn",
+        "status": "SUCCESS",
+        "duration": 91,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2720"
+    },
+    {
+        "id": "build:(id:3659724),id:2725",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.ConditionsTests.sameColumnUsedInSliceMultipleTimes",
+        "status": "SUCCESS",
+        "duration": 118,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2725"
+    },
+    {
+        "id": "build:(id:3659724),id:2730",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.ConditionsTests.nullOpUpdateAndSelectTest",
+        "status": "SUCCESS",
+        "duration": 116,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2730"
+    },
+    {
+        "id": "build:(id:3659724),id:2735",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.ConditionsTests.nullOpUpdateFailsTest",
+        "status": "SUCCESS",
+        "duration": 141,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2735"
+    },
+    {
+        "id": "build:(id:3659724),id:2744",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.ReplaceTests.batchReplace using a sequence should work",
+        "status": "SUCCESS",
+        "duration": 144,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2744"
+    },
+    {
+        "id": "build:(id:3659724),id:2749",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.ReplaceTests.batchInserting using empty sequence should work",
+        "status": "SUCCESS",
+        "duration": 43,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2749"
+    },
+    {
+        "id": "build:(id:3659724),id:2754",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.ReplaceTests.testReplace01",
+        "status": "SUCCESS",
+        "duration": 58,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2754"
+    },
+    {
+        "id": "build:(id:3659724),id:2763",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.ReplaceTests.testBatchReplace01",
+        "status": "SUCCESS",
+        "duration": 115,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2763"
+    },
+    {
+        "id": "build:(id:3659724),id:2772",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.AdjustQueryTests.testQueryAndWhere",
+        "status": "SUCCESS",
+        "duration": 107,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2772"
+    },
+    {
+        "id": "build:(id:3659724),id:2777",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.AdjustQueryTests.testAdjustQuerySlice",
+        "status": "SUCCESS",
+        "duration": 107,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2777"
+    },
+    {
+        "id": "build:(id:3659724),id:2782",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.AdjustQueryTests.testAdjustQueryWhere",
+        "status": "SUCCESS",
+        "duration": 108,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2782"
+    },
+    {
+        "id": "build:(id:3659724),id:2787",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.AdjustQueryTests.testAdjustQueryColumnSet",
+        "status": "SUCCESS",
+        "duration": 91,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2787"
+    },
+    {
+        "id": "build:(id:3659724),id:2796",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.DeleteTests.testDeleteWithLimitAndOffset01",
+        "status": "SUCCESS",
+        "duration": 36,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2796"
+    },
+    {
+        "id": "build:(id:3659724),id:2801",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.DeleteTests.testDeleteWithLimit02",
+        "status": "SUCCESS",
+        "duration": 48,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2801"
+    },
+    {
+        "id": "build:(id:3659724),id:2806",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.DeleteTests.testDelete01",
+        "status": "SUCCESS",
+        "duration": 98,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2806"
+    },
+    {
+        "id": "build:(id:3659724),id:2815",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.GroupByTests.testGroupBy01",
+        "status": "SUCCESS",
+        "duration": 84,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2815"
+    },
+    {
+        "id": "build:(id:3659724),id:2820",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.GroupByTests.testGroupBy02",
+        "status": "SUCCESS",
+        "duration": 110,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2820"
+    },
+    {
+        "id": "build:(id:3659724),id:2825",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.GroupByTests.testGroupBy03",
+        "status": "SUCCESS",
+        "duration": 112,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2825"
+    },
+    {
+        "id": "build:(id:3659724),id:2830",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.GroupByTests.testGroupBy04",
+        "status": "SUCCESS",
+        "duration": 112,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2830"
+    },
+    {
+        "id": "build:(id:3659724),id:2835",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.GroupByTests.testGroupBy05",
+        "status": "SUCCESS",
+        "duration": 107,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2835"
+    },
+    {
+        "id": "build:(id:3659724),id:2840",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.GroupByTests.testGroupBy06",
+        "status": "SUCCESS",
+        "duration": 104,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2840"
+    },
+    {
+        "id": "build:(id:3659724),id:2845",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.GroupByTests.testGroupBy07",
+        "status": "SUCCESS",
+        "duration": 117,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2845"
+    },
+    {
+        "id": "build:(id:3659724),id:2850",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.GroupByTests.testGroupConcat",
+        "status": "SUCCESS",
+        "duration": 107,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2850"
+    },
+    {
+        "id": "build:(id:3659724),id:2859",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.UpdateTests.testUpdateWithJoin",
+        "status": "SUCCESS",
+        "duration": 123,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2859"
+    },
+    {
+        "id": "build:(id:3659724),id:2864",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.UpdateTests.test that column length checked in update ",
+        "status": "SUCCESS",
+        "duration": 7,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2864"
+    },
+    {
+        "id": "build:(id:3659724),id:2869",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.UpdateTests.test update fails with empty body",
+        "status": "SUCCESS",
+        "duration": 78,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2869"
+    },
+    {
+        "id": "build:(id:3659724),id:2874",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.UpdateTests.testUpdateWithLimit01",
+        "status": "SUCCESS",
+        "duration": 37,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2874"
+    },
+    {
+        "id": "build:(id:3659724),id:2879",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.UpdateTests.testUpdateWithLimit02",
+        "status": "SUCCESS",
+        "duration": 46,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2879"
+    },
+    {
+        "id": "build:(id:3659724),id:2884",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.UpdateTests.testUpdate01",
+        "status": "SUCCESS",
+        "duration": 89,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2884"
+    },
+    {
+        "id": "build:(id:3659724),id:2893",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.SelectBatchedTests.selectBatched should respect 'where' expression and the provided batch size",
+        "status": "SUCCESS",
+        "duration": 125,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2893"
+    },
+    {
+        "id": "build:(id:3659724),id:2898",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.SelectBatchedTests.when the table doesn't have an autoinc column, selectAllBatched should throw an exception",
+        "status": "SUCCESS",
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2898"
+    },
+    {
+        "id": "build:(id:3659724),id:2903",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.SelectBatchedTests.when batch size is greater than the amount of available items, selectAllBatched should return 1 batch",
+        "status": "SUCCESS",
+        "duration": 71,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2903"
+    },
+    {
+        "id": "build:(id:3659724),id:2908",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.SelectBatchedTests.when there are no items of the given condition, should return an empty iterable",
+        "status": "SUCCESS",
+        "duration": 69,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2908"
+    },
+    {
+        "id": "build:(id:3659724),id:2913",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.SelectBatchedTests.when batch size is 0 or less, should throw an exception",
+        "status": "SUCCESS",
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2913"
+    },
+    {
+        "id": "build:(id:3659724),id:2918",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.SelectBatchedTests.when there are no items, selectAllBatched should return an empty iterable",
+        "status": "SUCCESS",
+        "duration": 49,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2918"
+    },
+    {
+        "id": "build:(id:3659724),id:2927",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.InsertSelectTests.insert-select with same columns in a query",
+        "status": "SUCCESS",
+        "duration": 104,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2927"
+    },
+    {
+        "id": "build:(id:3659724),id:2932",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.InsertSelectTests.testInsertSelect01",
+        "status": "SUCCESS",
+        "duration": 83,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2932"
+    },
+    {
+        "id": "build:(id:3659724),id:2937",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.InsertSelectTests.testInsertSelect02",
+        "status": "SUCCESS",
+        "duration": 103,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2937"
+    },
+    {
+        "id": "build:(id:3659724),id:2942",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.InsertSelectTests.testInsertSelect03",
+        "status": "SUCCESS",
+        "duration": 106,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2942"
+    },
+    {
+        "id": "build:(id:3659724),id:2947",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.InsertSelectTests.testInsertSelect04",
+        "status": "SUCCESS",
+        "duration": 86,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2947"
+    },
+    {
+        "id": "build:(id:3659724),id:2956",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.JoinTests.testNoWarningsOnLeftJoinRegression",
+        "status": "SUCCESS",
+        "duration": 54,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2956"
+    },
+    {
+        "id": "build:(id:3659724),id:2961",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.JoinTests.testJoinWithAlias01",
+        "status": "SUCCESS",
+        "duration": 80,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2961"
+    },
+    {
+        "id": "build:(id:3659724),id:2966",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.JoinTests.testMultipleReferenceJoin01",
+        "status": "SUCCESS",
+        "duration": 87,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2966"
+    },
+    {
+        "id": "build:(id:3659724),id:2971",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.JoinTests.testMultipleReferenceJoin02",
+        "status": "SUCCESS",
+        "duration": 76,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2971"
+    },
+    {
+        "id": "build:(id:3659724),id:2976",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.JoinTests.testJoinWithJoin01",
+        "status": "SUCCESS",
+        "duration": 84,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2976"
+    },
+    {
+        "id": "build:(id:3659724),id:2981",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.JoinTests.testJoinWithAdditionalConstraint",
+        "status": "SUCCESS",
+        "duration": 92,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2981"
+    },
+    {
+        "id": "build:(id:3659724),id:2986",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.JoinTests.testJoin01",
+        "status": "SUCCESS",
+        "duration": 70,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2986"
+    },
+    {
+        "id": "build:(id:3659724),id:2991",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.JoinTests.testJoin02",
+        "status": "SUCCESS",
+        "duration": 66,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2991"
+    },
+    {
+        "id": "build:(id:3659724),id:2996",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.JoinTests.testJoin03",
+        "status": "SUCCESS",
+        "duration": 86,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:2996"
+    },
+    {
+        "id": "build:(id:3659724),id:3001",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.JoinTests.testJoin04",
+        "status": "SUCCESS",
+        "duration": 68,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3001"
+    },
+    {
+        "id": "build:(id:3659724),id:3006",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.JoinTests.testJoin05",
+        "status": "SUCCESS",
+        "duration": 79,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3006"
+    },
+    {
+        "id": "build:(id:3659724),id:3015",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.CountTests.test that count() returns right value for Query with group by",
+        "status": "SUCCESS",
+        "duration": 167,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3015"
+    },
+    {
+        "id": "build:(id:3659724),id:3020",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.CountTests.test that count() works with Query that contains distinct and columns with same name from different tables and already defined alias",
+        "status": "SUCCESS",
+        "duration": 77,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3020"
+    },
+    {
+        "id": "build:(id:3659724),id:3025",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.CountTests.test that count() works with Query that contains distinct and columns with same name from different tables",
+        "status": "SUCCESS",
+        "duration": 71,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3025"
+    },
+    {
+        "id": "build:(id:3659724),id:3034",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.SelectTests.test select on nullable reference column",
+        "status": "SUCCESS",
+        "duration": 73,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3034"
+    },
+    {
+        "id": "build:(id:3659724),id:3039",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.SelectTests.testNotInSubQuery",
+        "status": "SUCCESS",
+        "duration": 111,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3039"
+    },
+    {
+        "id": "build:(id:3659724),id:3044",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.SelectTests.test that column length check is not affects select queries",
+        "status": "SUCCESS",
+        "duration": 40,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3044"
+    },
+    {
+        "id": "build:(id:3659724),id:3049",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.SelectTests.testInSubQuery01",
+        "status": "SUCCESS",
+        "duration": 74,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3049"
+    },
+    {
+        "id": "build:(id:3659724),id:3054",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.SelectTests.testCompoundOp",
+        "status": "SUCCESS",
+        "duration": 75,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3054"
+    },
+    {
+        "id": "build:(id:3659724),id:3059",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.SelectTests.testSelectAnd",
+        "status": "SUCCESS",
+        "duration": 61,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3059"
+    },
+    {
+        "id": "build:(id:3659724),id:3064",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.SelectTests.testSelectNot",
+        "status": "SUCCESS",
+        "duration": 78,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3064"
+    },
+    {
+        "id": "build:(id:3659724),id:3069",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.SelectTests.testNotInSubQueryNoData",
+        "status": "SUCCESS",
+        "duration": 74,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3069"
+    },
+    {
+        "id": "build:(id:3659724),id:3074",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.SelectTests.testSelectDistinct",
+        "status": "SUCCESS",
+        "duration": 51,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3074"
+    },
+    {
+        "id": "build:(id:3659724),id:3079",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.SelectTests.testInList01",
+        "status": "SUCCESS",
+        "duration": 77,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3079"
+    },
+    {
+        "id": "build:(id:3659724),id:3084",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.SelectTests.testInList02",
+        "status": "SUCCESS",
+        "duration": 71,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3084"
+    },
+    {
+        "id": "build:(id:3659724),id:3089",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.SelectTests.testInList03",
+        "status": "SUCCESS",
+        "duration": 76,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3089"
+    },
+    {
+        "id": "build:(id:3659724),id:3094",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.SelectTests.testInList04",
+        "status": "SUCCESS",
+        "duration": 70,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3094"
+    },
+    {
+        "id": "build:(id:3659724),id:3099",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.SelectTests.testInList05",
+        "status": "SUCCESS",
+        "duration": 68,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3099"
+    },
+    {
+        "id": "build:(id:3659724),id:3104",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.SelectTests.testInList06",
+        "status": "SUCCESS",
+        "duration": 61,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3104"
+    },
+    {
+        "id": "build:(id:3659724),id:3109",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.SelectTests.testInList07",
+        "status": "SUCCESS",
+        "duration": 66,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3109"
+    },
+    {
+        "id": "build:(id:3659724),id:3114",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.SelectTests.testSizedIterable",
+        "status": "SUCCESS",
+        "duration": 76,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3114"
+    },
+    {
+        "id": "build:(id:3659724),id:3119",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.SelectTests.testSelect",
+        "status": "SUCCESS",
+        "duration": 83,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3119"
+    },
+    {
+        "id": "build:(id:3659724),id:3124",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.SelectTests.testSelectOr",
+        "status": "SUCCESS",
+        "duration": 80,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3124"
+    },
+    {
+        "id": "build:(id:3659724),id:3133",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.OrderByTests.testOrderByNullsFirst",
+        "status": "SUCCESS",
+        "duration": 82,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3133"
+    },
+    {
+        "id": "build:(id:3659724),id:3138",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.OrderByTests.orderBy01",
+        "status": "SUCCESS",
+        "duration": 69,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3138"
+    },
+    {
+        "id": "build:(id:3659724),id:3143",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.OrderByTests.orderBy02",
+        "status": "SUCCESS",
+        "duration": 87,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3143"
+    },
+    {
+        "id": "build:(id:3659724),id:3148",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.OrderByTests.orderBy03",
+        "status": "SUCCESS",
+        "duration": 72,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3148"
+    },
+    {
+        "id": "build:(id:3659724),id:3153",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.OrderByTests.orderBy05",
+        "status": "SUCCESS",
+        "duration": 75,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3153"
+    },
+    {
+        "id": "build:(id:3659724),id:3158",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.OrderByTests.orderBy06",
+        "status": "SUCCESS",
+        "duration": 92,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3158"
+    },
+    {
+        "id": "build:(id:3659724),id:3163",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.OrderByTests.testOrderBy04",
+        "status": "SUCCESS",
+        "duration": 90,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3163"
+    },
+    {
+        "id": "build:(id:3659724),id:3168",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.OrderByTests.testOrderByExpressions",
+        "status": "SUCCESS",
+        "duration": 92,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3168"
+    },
+    {
+        "id": "build:(id:3659724),id:3185",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.InsertTests.testInsertIgnoreAndGetId01",
+        "status": "SUCCESS",
+        "duration": 45,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3185"
+    },
+    {
+        "id": "build:(id:3659724),id:3190",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.InsertTests.testInsertWithColumnExpression",
+        "status": "SUCCESS",
+        "duration": 56,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3190"
+    },
+    {
+        "id": "build:(id:3659724),id:3195",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.InsertTests.testInsertIgnoreAndGetIdWithPredefinedId",
+        "status": "SUCCESS",
+        "duration": 39,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3195"
+    },
+    {
+        "id": "build:(id:3659724),id:3200",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.InsertTests.testInsertWithColumnNamedWithKeyword",
+        "status": "SUCCESS",
+        "duration": 48,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3200"
+    },
+    {
+        "id": "build:(id:3659724),id:3205",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.InsertTests.batchInserting using empty sequence should work",
+        "status": "SUCCESS",
+        "duration": 41,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3205"
+    },
+    {
+        "id": "build:(id:3659724),id:3210",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.InsertTests.testInsertEmojisWithInvalidLength",
+        "status": "SUCCESS",
+        "duration": 19,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3210"
+    },
+    {
+        "id": "build:(id:3659724),id:3215",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.InsertTests.testInsertWithExpression",
+        "status": "SUCCESS",
+        "duration": 76,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3215"
+    },
+    {
+        "id": "build:(id:3659724),id:3220",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.InsertTests.test id and column have different names and get value by original column",
+        "status": "SUCCESS",
+        "duration": 37,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3220"
+    },
+    {
+        "id": "build:(id:3659724),id:3225",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.InsertTests.testBatchInsert01",
+        "status": "SUCCESS",
+        "duration": 126,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3225"
+    },
+    {
+        "id": "build:(id:3659724),id:3230",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.InsertTests.testInsertAndGetId01",
+        "status": "SUCCESS",
+        "duration": 65,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3230"
+    },
+    {
+        "id": "build:(id:3659724),id:3235",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.InsertTests.test that column length checked on insert",
+        "status": "SUCCESS",
+        "duration": 3,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3235"
+    },
+    {
+        "id": "build:(id:3659724),id:3240",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.InsertTests.test insert and get id when column has different name and get value by id column",
+        "status": "SUCCESS",
+        "duration": 41,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3240"
+    },
+    {
+        "id": "build:(id:3659724),id:3245",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.InsertTests.testInsertEmojis",
+        "status": "SUCCESS",
+        "duration": 39,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3245"
+    },
+    {
+        "id": "build:(id:3659724),id:3250",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.InsertTests.testGeneratedKey01",
+        "status": "SUCCESS",
+        "duration": 34,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3250"
+    },
+    {
+        "id": "build:(id:3659724),id:3255",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.InsertTests.testGeneratedKey02",
+        "status": "SUCCESS",
+        "duration": 38,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3255"
+    },
+    {
+        "id": "build:(id:3659724),id:3260",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.InsertTests.testGeneratedKey03",
+        "status": "SUCCESS",
+        "duration": 39,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3260"
+    },
+    {
+        "id": "build:(id:3659724),id:3265",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.InsertTests.testInsertWithPredefinedId",
+        "status": "SUCCESS",
+        "duration": 49,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3265"
+    },
+    {
+        "id": "build:(id:3659724),id:3270",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.InsertTests.batchInserting using a sequence should work",
+        "status": "SUCCESS",
+        "duration": 49,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3270"
+    },
+    {
+        "id": "build:(id:3659724),id:3275",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.InsertTests.test subquery in an insert or update statement",
+        "status": "SUCCESS",
+        "duration": 45,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3275"
+    },
+    {
+        "id": "build:(id:3659724),id:3284",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.DualTableTest.testDualTable",
+        "status": "SUCCESS",
+        "duration": 13,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3284"
+    },
+    {
+        "id": "build:(id:3659724),id:3293",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.ExistsTests.testExists01",
+        "status": "SUCCESS",
+        "duration": 64,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3293"
+    },
+    {
+        "id": "build:(id:3659724),id:3298",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.ExistsTests.testExists02",
+        "status": "SUCCESS",
+        "duration": 70,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3298"
+    },
+    {
+        "id": "build:(id:3659724),id:3303",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.ExistsTests.testExists03",
+        "status": "SUCCESS",
+        "duration": 75,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3303"
+    },
+    {
+        "id": "build:(id:3659724),id:3308",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.ExistsTests.testExistsInASlice",
+        "status": "SUCCESS",
+        "duration": 68,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3308"
+    },
+    {
+        "id": "build:(id:3659724),id:3317",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.UnionTests.test union of sorted queries",
+        "status": "SUCCESS",
+        "duration": 74,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3317"
+    },
+    {
+        "id": "build:(id:3659724),id:3322",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.UnionTests.test union of two queries",
+        "status": "SUCCESS",
+        "duration": 69,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3322"
+    },
+    {
+        "id": "build:(id:3659724),id:3327",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.UnionTests.test except of two excepts queries",
+        "status": "SUCCESS",
+        "duration": 52,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3327"
+    },
+    {
+        "id": "build:(id:3659724),id:3332",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.UnionTests.test union with distinct results",
+        "status": "SUCCESS",
+        "duration": 81,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3332"
+    },
+    {
+        "id": "build:(id:3659724),id:3337",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.UnionTests.test orderBy",
+        "status": "SUCCESS",
+        "duration": 79,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3337"
+    },
+    {
+        "id": "build:(id:3659724),id:3342",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.UnionTests.test union with all results of three queries",
+        "status": "SUCCESS",
+        "duration": 67,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3342"
+    },
+    {
+        "id": "build:(id:3659724),id:3347",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.UnionTests.test except of three queries",
+        "status": "SUCCESS",
+        "duration": 53,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3347"
+    },
+    {
+        "id": "build:(id:3659724),id:3352",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.UnionTests.test count",
+        "status": "SUCCESS",
+        "duration": 77,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3352"
+    },
+    {
+        "id": "build:(id:3659724),id:3357",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.UnionTests.test limit",
+        "status": "SUCCESS",
+        "duration": 71,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3357"
+    },
+    {
+        "id": "build:(id:3659724),id:3362",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.UnionTests.test union of sorted and limited queries",
+        "status": "SUCCESS",
+        "duration": 68,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3362"
+    },
+    {
+        "id": "build:(id:3659724),id:3367",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.UnionTests.test union with all results",
+        "status": "SUCCESS",
+        "duration": 68,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3367"
+    },
+    {
+        "id": "build:(id:3659724),id:3372",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.UnionTests.test intersection of three queries",
+        "status": "SUCCESS",
+        "duration": 52,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3372"
+    },
+    {
+        "id": "build:(id:3659724),id:3377",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.UnionTests.test except of two queries",
+        "status": "SUCCESS",
+        "duration": 53,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3377"
+    },
+    {
+        "id": "build:(id:3659724),id:3382",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.UnionTests.test limit with offset",
+        "status": "SUCCESS",
+        "duration": 70,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3382"
+    },
+    {
+        "id": "build:(id:3659724),id:3387",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.UnionTests.test union of more than two queries",
+        "status": "SUCCESS",
+        "duration": 77,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3387"
+    },
+    {
+        "id": "build:(id:3659724),id:3392",
+        "name": "org.jetbrains.exposed.sql.tests.shared.dml.UnionTests.test union of limited queries",
+        "status": "SUCCESS",
+        "duration": 66,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3392"
+    },
+    {
+        "id": "build:(id:3659724),id:3401",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ConnectionExceptions.transaction repetition works when commit and close throws exception",
+        "status": "SUCCESS",
+        "duration": 26,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3401"
+    },
+    {
+        "id": "build:(id:3659724),id:3658",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ConnectionExceptions.transaction repetition works when commit throws exception",
+        "status": "SUCCESS",
+        "duration": 47,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3658"
+    },
+    {
+        "id": "build:(id:3659724),id:3770",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ConnectionExceptions.transaction throws exception if all commits and close throws exception",
+        "status": "SUCCESS",
+        "duration": 47,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:3770"
+    },
+    {
+        "id": "build:(id:3659724),id:4293",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ConnectionExceptions.transaction throws exception if all commits throws exception",
+        "status": "SUCCESS",
+        "duration": 35,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:4293"
+    },
+    {
+        "id": "build:(id:3659724),id:4441",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ConnectionExceptions.transaction repetition works even if rollback throws exception",
+        "status": "SUCCESS",
+        "duration": 82,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:4441"
+    },
+    {
+        "id": "build:(id:3659724),id:5546",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ConnectionExceptions.transaction repetition works even if rollback and close throws exception",
+        "status": "SUCCESS",
+        "duration": 73,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:5546"
+    },
+    {
+        "id": "build:(id:3659724),id:6889",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.testEscapeStringColumnType",
+        "status": "SUCCESS",
+        "duration": 3,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:6889"
+    },
+    {
+        "id": "build:(id:3659724),id:6894",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.testUintColumnType",
+        "status": "SUCCESS",
+        "duration": 119,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:6894"
+    },
+    {
+        "id": "build:(id:3659724),id:6899",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.testMultiColumnIndex",
+        "status": "SUCCESS",
+        "duration": 64,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:6899"
+    },
+    {
+        "id": "build:(id:3659724),id:6904",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.testUniqueIndicesCustomName",
+        "status": "SUCCESS",
+        "duration": 57,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:6904"
+    },
+    {
+        "id": "build:(id:3659724),id:6909",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.testBlob",
+        "status": "SUCCESS",
+        "duration": 67,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:6909"
+    },
+    {
+        "id": "build:(id:3659724),id:6914",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.complexTest01",
+        "status": "SUCCESS",
+        "duration": 101,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:6914"
+    },
+    {
+        "id": "build:(id:3659724),id:6919",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.testInnerJoinWithMultipleForeignKeys",
+        "status": "SUCCESS",
+        "duration": 76,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:6919"
+    },
+    {
+        "id": "build:(id:3659724),id:6924",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.namedEmptyTableWithoutQuotesSQL",
+        "status": "SUCCESS",
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:6924"
+    },
+    {
+        "id": "build:(id:3659724),id:6929",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.testUUIDColumnType",
+        "status": "SUCCESS",
+        "duration": 74,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:6929"
+    },
+    {
+        "id": "build:(id:3659724),id:6934",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.testUlongColumnType",
+        "status": "SUCCESS",
+        "duration": 55,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:6934"
+    },
+    {
+        "id": "build:(id:3659724),id:6939",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.tableWithDifferentColumnTypesSQL01",
+        "status": "SUCCESS",
+        "duration": 54,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:6939"
+    },
+    {
+        "id": "build:(id:3659724),id:6944",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.tableWithDifferentColumnTypesSQL02",
+        "status": "SUCCESS",
+        "duration": 39,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:6944"
+    },
+    {
+        "id": "build:(id:3659724),id:6949",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.tableWithDifferentColumnTypesInSQLite",
+        "status": "SUCCESS",
+        "duration": 1,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:6949"
+    },
+    {
+        "id": "build:(id:3659724),id:6954",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.createTableWithForeignKeyToAnotherSchema",
+        "status": "SUCCESS",
+        "duration": 103,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:6954"
+    },
+    {
+        "id": "build:(id:3659724),id:6959",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.testIndices01",
+        "status": "SUCCESS",
+        "duration": 47,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:6959"
+    },
+    {
+        "id": "build:(id:3659724),id:6964",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.testIndices02",
+        "status": "SUCCESS",
+        "duration": 60,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:6964"
+    },
+    {
+        "id": "build:(id:3659724),id:6969",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.testDropTableFlushesCache",
+        "status": "SUCCESS",
+        "duration": 67,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:6969"
+    },
+    {
+        "id": "build:(id:3659724),id:6974",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.testUniqueIndices01",
+        "status": "SUCCESS",
+        "duration": 49,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:6974"
+    },
+    {
+        "id": "build:(id:3659724),id:6979",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.testDeleteMissingTable",
+        "status": "SUCCESS",
+        "duration": 21,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:6979"
+    },
+    {
+        "id": "build:(id:3659724),id:6984",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.testBinaryWithoutLength",
+        "status": "SUCCESS",
+        "duration": 24,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:6984"
+    },
+    {
+        "id": "build:(id:3659724),id:6989",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.tableExists01",
+        "status": "SUCCESS",
+        "duration": 29,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:6989"
+    },
+    {
+        "id": "build:(id:3659724),id:6994",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.tableExists02",
+        "status": "SUCCESS",
+        "duration": 37,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:6994"
+    },
+    {
+        "id": "build:(id:3659724),id:6999",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.unnamedTableWithQuotesSQL",
+        "status": "SUCCESS",
+        "duration": 32,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:6999"
+    },
+    {
+        "id": "build:(id:3659724),id:7004",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.unnamedTableWithQuotesSQLInSQLite",
+        "status": "SUCCESS",
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:7004"
+    },
+    {
+        "id": "build:(id:3659724),id:7009",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.testUByteColumnType",
+        "status": "SUCCESS",
+        "duration": 39,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:7009"
+    },
+    {
+        "id": "build:(id:3659724),id:7014",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.testMultiColumnIndexCustomName",
+        "status": "SUCCESS",
+        "duration": 42,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:7014"
+    },
+    {
+        "id": "build:(id:3659724),id:7019",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.testCheckConstraint01",
+        "status": "SUCCESS",
+        "duration": 33,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:7019"
+    },
+    {
+        "id": "build:(id:3659724),id:7024",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.testCheckConstraint02",
+        "status": "SUCCESS",
+        "duration": 39,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:7024"
+    },
+    {
+        "id": "build:(id:3659724),id:7029",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.tableWithMultiPKandAutoIncrement",
+        "status": "SUCCESS",
+        "duration": 44,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:7029"
+    },
+    {
+        "id": "build:(id:3659724),id:7034",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.testUshortColumnType",
+        "status": "SUCCESS",
+        "duration": 44,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:7034"
+    },
+    {
+        "id": "build:(id:3659724),id:7039",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.testBinary",
+        "status": "SUCCESS",
+        "duration": 57,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:7039"
+    },
+    {
+        "id": "build:(id:3659724),id:7050",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.testBooleanColumnType",
+        "status": "SUCCESS",
+        "duration": 46,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:7050"
+    },
+    {
+        "id": "build:(id:3659724),id:7055",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.tableExistsWithKeyword",
+        "status": "SUCCESS",
+        "duration": 53,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:7055"
+    },
+    {
+        "id": "build:(id:3659724),id:7060",
+        "name": "org.jetbrains.exposed.sql.tests.shared.DDLTests.testCrossReference",
+        "status": "SUCCESS",
+        "duration": 93,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:7060"
+    },
+    {
+        "id": "build:(id:3659724),id:7069",
+        "name": "org.jetbrains.exposed.sql.tests.shared.types.CharColumnType.test char column read and write",
+        "status": "SUCCESS",
+        "duration": 55,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:7069"
+    },
+    {
+        "id": "build:(id:3659724),id:7078",
+        "name": "org.jetbrains.exposed.sql.tests.shared.NestedTransactionsTest.testNestedTransactions",
+        "status": "SUCCESS",
+        "duration": 71,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:7078"
+    },
+    {
+        "id": "build:(id:3659724),id:7083",
+        "name": "org.jetbrains.exposed.sql.tests.shared.NestedTransactionsTest.test outer transaction restored after nested transaction failed",
+        "status": "SUCCESS",
+        "duration": 205,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:7083"
+    },
+    {
+        "id": "build:(id:3659724),id:7092",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ConnectionTimeoutTest.connect fail causes repeated connect attempts",
+        "status": "SUCCESS",
+        "duration": 117,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:7092"
+    },
+    {
+        "id": "build:(id:3659724),id:10412",
+        "name": "org.jetbrains.exposed.sql.tests.shared.CoroutineTests.nestedSuspendAsyncTxTest",
+        "status": "SUCCESS",
+        "duration": 778,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10412"
+    },
+    {
+        "id": "build:(id:3659724),id:10417",
+        "name": "org.jetbrains.exposed.sql.tests.shared.CoroutineTests.suspendedAndNormalTransactions",
+        "status": "SUCCESS",
+        "duration": 247,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10417"
+    },
+    {
+        "id": "build:(id:3659724),id:10422",
+        "name": "org.jetbrains.exposed.sql.tests.shared.CoroutineTests.awaitAllTest",
+        "status": "SUCCESS",
+        "duration": 550,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10422"
+    },
+    {
+        "id": "build:(id:3659724),id:10427",
+        "name": "org.jetbrains.exposed.sql.tests.shared.CoroutineTests.suspendTxAsync",
+        "status": "SUCCESS",
+        "duration": 719,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10427"
+    },
+    {
+        "id": "build:(id:3659724),id:10432",
+        "name": "org.jetbrains.exposed.sql.tests.shared.CoroutineTests.testCoroutinesWithExceptionWithin",
+        "status": "SUCCESS",
+        "duration": 570,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10432"
+    },
+    {
+        "id": "build:(id:3659724),id:10725",
+        "name": "org.jetbrains.exposed.sql.tests.shared.CoroutineTests.nestedSuspendTxTest",
+        "status": "SUCCESS",
+        "duration": 633,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10725"
+    },
+    {
+        "id": "build:(id:3659724),id:10730",
+        "name": "org.jetbrains.exposed.sql.tests.shared.CoroutineTests.suspendedTx",
+        "status": "SUCCESS",
+        "duration": 706,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10730"
+    },
+    {
+        "id": "build:(id:3659724),id:10739",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ParameterizationTests.testInsertWithQuotesAndGetItBack",
+        "status": "SUCCESS",
+        "duration": 81,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10739"
+    },
+    {
+        "id": "build:(id:3659724),id:10748",
+        "name": "org.jetbrains.exposed.sql.tests.shared.TransactionIsolationTest.test what transaction isolation was applied",
+        "status": "SUCCESS",
+        "duration": 23,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10748"
+    },
+    {
+        "id": "build:(id:3659724),id:10757",
+        "name": "org.jetbrains.exposed.sql.tests.shared.RollbackTransactionTest.testRollbackWithSavepoints",
+        "status": "SUCCESS",
+        "duration": 120,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10757"
+    },
+    {
+        "id": "build:(id:3659724),id:10762",
+        "name": "org.jetbrains.exposed.sql.tests.shared.RollbackTransactionTest.testRollbackWithoutSavepoints",
+        "status": "SUCCESS",
+        "duration": 103,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10762"
+    },
+    {
+        "id": "build:(id:3659724),id:10771",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ThreadLocalManagerTest.testReconnection",
+        "status": "SUCCESS",
+        "duration": 13,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10771"
+    },
+    {
+        "id": "build:(id:3659724),id:10780",
+        "name": "org.jetbrains.exposed.sql.tests.shared.AliasesTests.test_github_issue_379_count_alias_ClassCastException",
+        "status": "SUCCESS",
+        "duration": 101,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10780"
+    },
+    {
+        "id": "build:(id:3659724),id:10785",
+        "name": "org.jetbrains.exposed.sql.tests.shared.AliasesTests.testJoinSubQuery01",
+        "status": "SUCCESS",
+        "duration": 112,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10785"
+    },
+    {
+        "id": "build:(id:3659724),id:10790",
+        "name": "org.jetbrains.exposed.sql.tests.shared.AliasesTests.testJoinSubQuery02",
+        "status": "SUCCESS",
+        "duration": 136,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10790"
+    },
+    {
+        "id": "build:(id:3659724),id:10795",
+        "name": "org.jetbrains.exposed.sql.tests.shared.AliasesTests.test alias for same table with join",
+        "status": "SUCCESS",
+        "duration": 71,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10795"
+    },
+    {
+        "id": "build:(id:3659724),id:10800",
+        "name": "org.jetbrains.exposed.sql.tests.shared.AliasesTests.test wrap row with Aliased query",
+        "status": "SUCCESS",
+        "duration": 68,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10800"
+    },
+    {
+        "id": "build:(id:3659724),id:10805",
+        "name": "org.jetbrains.exposed.sql.tests.shared.AliasesTests.test wrap row with Aliased table",
+        "status": "SUCCESS",
+        "duration": 65,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10805"
+    },
+    {
+        "id": "build:(id:3659724),id:10810",
+        "name": "org.jetbrains.exposed.sql.tests.shared.AliasesTests.test aliased expression with aliased query",
+        "status": "SUCCESS",
+        "duration": 81,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10810"
+    },
+    {
+        "id": "build:(id:3659724),id:10819",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateTableTests.primaryKeyCreateTableTest",
+        "status": "SUCCESS",
+        "duration": 2,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10819"
+    },
+    {
+        "id": "build:(id:3659724),id:10824",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateTableTests.createTableWithDuplicateColumn",
+        "status": "SUCCESS",
+        "duration": 3,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10824"
+    },
+    {
+        "id": "build:(id:3659724),id:10829",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateTableTests.primaryKeyWithConstraintNameCreateTableTest",
+        "status": "SUCCESS",
+        "duration": 2,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10829"
+    },
+    {
+        "id": "build:(id:3659724),id:10834",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateTableTests.addCompositePrimaryKeyToTableH2Test",
+        "status": "SUCCESS",
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10834"
+    },
+    {
+        "id": "build:(id:3659724),id:10839",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateTableTests.addCompositePrimaryKeyToTableNotH2Test",
+        "status": "SUCCESS",
+        "duration": 43,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10839"
+    },
+    {
+        "id": "build:(id:3659724),id:10844",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateTableTests.createTableWithExplicitForeignKeyName1",
+        "status": "SUCCESS",
+        "duration": 68,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10844"
+    },
+    {
+        "id": "build:(id:3659724),id:10849",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateTableTests.createTableWithExplicitForeignKeyName2",
+        "status": "SUCCESS",
+        "duration": 67,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10849"
+    },
+    {
+        "id": "build:(id:3659724),id:10854",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateTableTests.createTableWithExplicitForeignKeyName3",
+        "status": "SUCCESS",
+        "duration": 56,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10854"
+    },
+    {
+        "id": "build:(id:3659724),id:10859",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateTableTests.createTableWithExplicitForeignKeyName4",
+        "status": "SUCCESS",
+        "duration": 62,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10859"
+    },
+    {
+        "id": "build:(id:3659724),id:10864",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateTableTests.addOneColumnPrimaryKeyToTableNotH2Test",
+        "status": "SUCCESS",
+        "duration": 40,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10864"
+    },
+    {
+        "id": "build:(id:3659724),id:10869",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateTableTests.test create table with same name in different schemas",
+        "status": "SUCCESS",
+        "duration": 97,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10869"
+    },
+    {
+        "id": "build:(id:3659724),id:10885",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.ReplaceColumnTests.replaceColumnToDuplicateColumn",
+        "status": "SUCCESS",
+        "duration": 48,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10885"
+    },
+    {
+        "id": "build:(id:3659724),id:10894",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateMissingTablesAndColumnsTests.testCreateMissingTablesAndColumnsChangeCascadeType",
+        "status": "SUCCESS",
+        "duration": 200,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10894"
+    },
+    {
+        "id": "build:(id:3659724),id:10946",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateMissingTablesAndColumnsTests.testCreateMissingTablesAndColumnsChangeNullability",
+        "status": "SUCCESS",
+        "duration": 391,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:10946"
+    },
+    {
+        "id": "build:(id:3659724),id:11084",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateMissingTablesAndColumnsTests.testAddMissingColumnsStatementsChangeDefault",
+        "status": "SUCCESS",
+        "duration": 335,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:11084"
+    },
+    {
+        "id": "build:(id:3659724),id:11181",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateMissingTablesAndColumnsTests.createTableWithMultipleIndexes",
+        "status": "SUCCESS",
+        "duration": 145,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:11181"
+    },
+    {
+        "id": "build:(id:3659724),id:11235",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateMissingTablesAndColumnsTests.test create table with name from system scheme",
+        "status": "SUCCESS",
+        "duration": 149,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:11235"
+    },
+    {
+        "id": "build:(id:3659724),id:11283",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateMissingTablesAndColumnsTests.testCreateMissingTablesAndColumnsChangeAutoincrement",
+        "status": "SUCCESS",
+        "duration": 19,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:11283"
+    },
+    {
+        "id": "build:(id:3659724),id:11304",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateMissingTablesAndColumnsTests.testCreateTableWithReferenceMutipleTimes",
+        "status": "SUCCESS",
+        "duration": 276,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:11304"
+    },
+    {
+        "id": "build:(id:3659724),id:11407",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateMissingTablesAndColumnsTests.testCreateMissingTablesAndColumns01",
+        "status": "SUCCESS",
+        "duration": 124,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:11407"
+    },
+    {
+        "id": "build:(id:3659724),id:11450",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateMissingTablesAndColumnsTests.testCreateMissingTablesAndColumns02",
+        "status": "SUCCESS",
+        "duration": 177,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:11450"
+    },
+    {
+        "id": "build:(id:3659724),id:11545",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateMissingTablesAndColumnsTests.testForeignKeyCreation",
+        "status": "SUCCESS",
+        "duration": 181,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:11545"
+    },
+    {
+        "id": "build:(id:3659724),id:11597",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateMissingTablesAndColumnsTests.addAutoPrimaryKey",
+        "status": "SUCCESS",
+        "duration": 149,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:11597"
+    },
+    {
+        "id": "build:(id:3659724),id:11645",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateMissingTablesAndColumnsTests.explicitFkNameIsExplicit",
+        "status": "SUCCESS",
+        "duration": 57,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:11645"
+    },
+    {
+        "id": "build:(id:3659724),id:11650",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateMissingTablesAndColumnsTests.createTableWithReservedIdentifierInColumnName",
+        "status": "SUCCESS",
+        "duration": 32,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:11650"
+    },
+    {
+        "id": "build:(id:3659724),id:11675",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.SequencesTests.test insert int IdTable with sequences",
+        "status": "SUCCESS",
+        "duration": 40,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:11675"
+    },
+    {
+        "id": "build:(id:3659724),id:11680",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.SequencesTests.test insert with sequences",
+        "status": "SUCCESS",
+        "duration": 67,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:11680"
+    },
+    {
+        "id": "build:(id:3659724),id:11685",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.SequencesTests.createSequenceStatementTest",
+        "status": "SUCCESS",
+        "duration": 1,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:11685"
+    },
+    {
+        "id": "build:(id:3659724),id:11690",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.SequencesTests.test select with nextVal",
+        "status": "SUCCESS",
+        "duration": 54,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:11690"
+    },
+    {
+        "id": "build:(id:3659724),id:11695",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.SequencesTests.test insert LongIdTable with auth-increment with sequence",
+        "status": "SUCCESS",
+        "duration": 57,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:11695"
+    },
+    {
+        "id": "build:(id:3659724),id:11730",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.WhereConditionsTests.whereLikeExpressionTest",
+        "status": "SUCCESS",
+        "duration": 49,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:11730"
+    },
+    {
+        "id": "build:(id:3659724),id:11735",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.WhereConditionsTests.whereNotLikeExpressionTest",
+        "status": "SUCCESS",
+        "duration": 35,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:11735"
+    },
+    {
+        "id": "build:(id:3659724),id:11744",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.EnumerationTests.testCustomEnumerationWithDefaultValue",
+        "status": "SUCCESS",
+        "duration": 57,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:11744"
+    },
+    {
+        "id": "build:(id:3659724),id:11749",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.EnumerationTests.testCustomEnumeration01",
+        "status": "SUCCESS",
+        "duration": 91,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:11749"
+    },
+    {
+        "id": "build:(id:3659724),id:11764",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateDatabaseTest.create database test",
+        "status": "SUCCESS",
+        "duration": 7,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:11764"
+    },
+    {
+        "id": "build:(id:3659724),id:11769",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateDatabaseTest.create database test in postgreSQL",
+        "status": "SUCCESS",
+        "duration": 654,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:11769"
+    },
+    {
+        "id": "build:(id:3659724),id:11778",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateIndexTests.createNonClusteredSQLServerIndex",
+        "status": "SUCCESS",
+        "duration": 3,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:11778"
+    },
+    {
+        "id": "build:(id:3659724),id:11783",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateIndexTests.createHashIndex",
+        "status": "SUCCESS",
+        "duration": 128,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:11783"
+    },
+    {
+        "id": "build:(id:3659724),id:11881",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateIndexTests.test possibility to create indexes when table exists in different schemas",
+        "status": "SUCCESS",
+        "duration": 215,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:11881"
+    },
+    {
+        "id": "build:(id:3659724),id:11966",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ddl.CreateIndexTests.createStandardIndex",
+        "status": "SUCCESS",
+        "duration": 119,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:11966"
+    },
+    {
+        "id": "build:(id:3659724),id:12012",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ConnectionTests.testTableConstraints",
+        "status": "SUCCESS",
+        "duration": 110,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12012"
+    },
+    {
+        "id": "build:(id:3659724),id:12017",
+        "name": "org.jetbrains.exposed.sql.tests.shared.ConnectionTests.testGettingColumnMetadata",
+        "status": "SUCCESS",
+        "duration": 7,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12017"
+    },
+    {
+        "id": "build:(id:3659724),id:12026",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.TrigonometricalFunctionTests.testATanFunction",
+        "status": "SUCCESS",
+        "duration": 61,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12026"
+    },
+    {
+        "id": "build:(id:3659724),id:12031",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.TrigonometricalFunctionTests.testDegreesFunction",
+        "status": "SUCCESS",
+        "duration": 53,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12031"
+    },
+    {
+        "id": "build:(id:3659724),id:12036",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.TrigonometricalFunctionTests.testASinFunction",
+        "status": "SUCCESS",
+        "duration": 59,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12036"
+    },
+    {
+        "id": "build:(id:3659724),id:12041",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.TrigonometricalFunctionTests.testPiFunction",
+        "status": "SUCCESS",
+        "duration": 64,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12041"
+    },
+    {
+        "id": "build:(id:3659724),id:12046",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.TrigonometricalFunctionTests.testCotFunction",
+        "status": "SUCCESS",
+        "duration": 63,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12046"
+    },
+    {
+        "id": "build:(id:3659724),id:12051",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.TrigonometricalFunctionTests.testTanFunction",
+        "status": "SUCCESS",
+        "duration": 47,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12051"
+    },
+    {
+        "id": "build:(id:3659724),id:12056",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.TrigonometricalFunctionTests.testSinFunction",
+        "status": "SUCCESS",
+        "duration": 46,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12056"
+    },
+    {
+        "id": "build:(id:3659724),id:12061",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.TrigonometricalFunctionTests.testACosFunction",
+        "status": "SUCCESS",
+        "duration": 47,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12061"
+    },
+    {
+        "id": "build:(id:3659724),id:12066",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.TrigonometricalFunctionTests.testRadiansFunction",
+        "status": "SUCCESS",
+        "duration": 56,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12066"
+    },
+    {
+        "id": "build:(id:3659724),id:12071",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.TrigonometricalFunctionTests.testCosFunction",
+        "status": "SUCCESS",
+        "duration": 48,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12071"
+    },
+    {
+        "id": "build:(id:3659724),id:12080",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testBitwiseOr1",
+        "status": "SUCCESS",
+        "duration": 68,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12080"
+    },
+    {
+        "id": "build:(id:3659724),id:12085",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testBitwiseOr2",
+        "status": "SUCCESS",
+        "duration": 85,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12085"
+    },
+    {
+        "id": "build:(id:3659724),id:12090",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testSubstring01",
+        "status": "SUCCESS",
+        "duration": 97,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12090"
+    },
+    {
+        "id": "build:(id:3659724),id:12095",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testSelectCase01",
+        "status": "SUCCESS",
+        "duration": 76,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12095"
+    },
+    {
+        "id": "build:(id:3659724),id:12100",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testRandomFunction01",
+        "status": "SUCCESS",
+        "duration": 37,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12100"
+    },
+    {
+        "id": "build:(id:3659724),id:12105",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testStringFunctions",
+        "status": "SUCCESS",
+        "duration": 79,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12105"
+    },
+    {
+        "id": "build:(id:3659724),id:12110",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testAndOperatorDoesntMutate",
+        "status": "SUCCESS",
+        "duration": 2,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12110"
+    },
+    {
+        "id": "build:(id:3659724),id:12115",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testBitwiseXor01",
+        "status": "SUCCESS",
+        "duration": 79,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12115"
+    },
+    {
+        "id": "build:(id:3659724),id:12120",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testBitwiseXor02",
+        "status": "SUCCESS",
+        "duration": 81,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12120"
+    },
+    {
+        "id": "build:(id:3659724),id:12125",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testOrOperatorDoesntMutate",
+        "status": "SUCCESS",
+        "duration": 2,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12125"
+    },
+    {
+        "id": "build:(id:3659724),id:12130",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testCustomOperator",
+        "status": "SUCCESS",
+        "duration": 81,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12130"
+    },
+    {
+        "id": "build:(id:3659724),id:12135",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testLengthWithCount01",
+        "status": "SUCCESS",
+        "duration": 84,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12135"
+    },
+    {
+        "id": "build:(id:3659724),id:12140",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testBitwiseAnd1",
+        "status": "SUCCESS",
+        "duration": 79,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12140"
+    },
+    {
+        "id": "build:(id:3659724),id:12145",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testBitwiseAnd2",
+        "status": "SUCCESS",
+        "duration": 82,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12145"
+    },
+    {
+        "id": "build:(id:3659724),id:12150",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testRegexp01",
+        "status": "SUCCESS",
+        "duration": 119,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12150"
+    },
+    {
+        "id": "build:(id:3659724),id:12155",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testRegexp02",
+        "status": "SUCCESS",
+        "duration": 82,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12155"
+    },
+    {
+        "id": "build:(id:3659724),id:12160",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testConcat01",
+        "status": "SUCCESS",
+        "duration": 108,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12160"
+    },
+    {
+        "id": "build:(id:3659724),id:12165",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testConcat02",
+        "status": "SUCCESS",
+        "duration": 104,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12165"
+    },
+    {
+        "id": "build:(id:3659724),id:12170",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testCustomIntegerFunctions01",
+        "status": "SUCCESS",
+        "duration": 86,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12170"
+    },
+    {
+        "id": "build:(id:3659724),id:12175",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testCustomIntegerFunctions02",
+        "status": "SUCCESS",
+        "duration": 82,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12175"
+    },
+    {
+        "id": "build:(id:3659724),id:12180",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testCustomStringFunctions01",
+        "status": "SUCCESS",
+        "duration": 90,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12180"
+    },
+    {
+        "id": "build:(id:3659724),id:12185",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testCustomStringFunctions02",
+        "status": "SUCCESS",
+        "duration": 90,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12185"
+    },
+    {
+        "id": "build:(id:3659724),id:12190",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testCalc01",
+        "status": "SUCCESS",
+        "duration": 79,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12190"
+    },
+    {
+        "id": "build:(id:3659724),id:12195",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testCalc02",
+        "status": "SUCCESS",
+        "duration": 90,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12195"
+    },
+    {
+        "id": "build:(id:3659724),id:12200",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testCalc03",
+        "status": "SUCCESS",
+        "duration": 76,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12200"
+    },
+    {
+        "id": "build:(id:3659724),id:12205",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testFlag01",
+        "status": "SUCCESS",
+        "duration": 86,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12205"
+    },
+    {
+        "id": "build:(id:3659724),id:12210",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testAndOrCombinations",
+        "status": "SUCCESS",
+        "duration": 3,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12210"
+    },
+    {
+        "id": "build:(id:3659724),id:12215",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testCoalesceFunction",
+        "status": "SUCCESS",
+        "duration": 90,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12215"
+    },
+    {
+        "id": "build:(id:3659724),id:12220",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.FunctionsTests.testConcatWithNumbers",
+        "status": "SUCCESS",
+        "duration": 74,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12220"
+    },
+    {
+        "id": "build:(id:3659724),id:12229",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.MathFunctionTests.testFloorFunction",
+        "status": "SUCCESS",
+        "duration": 62,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12229"
+    },
+    {
+        "id": "build:(id:3659724),id:12234",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.MathFunctionTests.testAbsFunction",
+        "status": "SUCCESS",
+        "duration": 45,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12234"
+    },
+    {
+        "id": "build:(id:3659724),id:12239",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.MathFunctionTests.testSqrtFunction",
+        "status": "SUCCESS",
+        "duration": 48,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12239"
+    },
+    {
+        "id": "build:(id:3659724),id:12244",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.MathFunctionTests.testCeilFunction",
+        "status": "SUCCESS",
+        "duration": 47,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12244"
+    },
+    {
+        "id": "build:(id:3659724),id:12249",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.MathFunctionTests.testPowerFunction",
+        "status": "SUCCESS",
+        "duration": 52,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12249"
+    },
+    {
+        "id": "build:(id:3659724),id:12254",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.MathFunctionTests.testSignFunction",
+        "status": "SUCCESS",
+        "duration": 39,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12254"
+    },
+    {
+        "id": "build:(id:3659724),id:12259",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.MathFunctionTests.testRoundFunction",
+        "status": "SUCCESS",
+        "duration": 38,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12259"
+    },
+    {
+        "id": "build:(id:3659724),id:12264",
+        "name": "org.jetbrains.exposed.sql.tests.shared.functions.MathFunctionTests.testExpFunction",
+        "status": "SUCCESS",
+        "duration": 34,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12264"
+    },
+    {
+        "id": "build:(id:3659724),id:12273",
+        "name": "org.jetbrains.exposed.sql.tests.shared.SchemaTests.create and set schema in mysql",
+        "status": "SUCCESS",
+        "duration": 6,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12273"
+    },
+    {
+        "id": "build:(id:3659724),id:12278",
+        "name": "org.jetbrains.exposed.sql.tests.shared.SchemaTests.create and set schema tests",
+        "status": "SUCCESS",
+        "duration": 19,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12278"
+    },
+    {
+        "id": "build:(id:3659724),id:12283",
+        "name": "org.jetbrains.exposed.sql.tests.shared.SchemaTests.create existing schema and drop nonexistent schemas",
+        "status": "SUCCESS",
+        "duration": 28,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12283"
+    },
+    {
+        "id": "build:(id:3659724),id:12288",
+        "name": "org.jetbrains.exposed.sql.tests.shared.SchemaTests.schemas exists tests",
+        "status": "SUCCESS",
+        "duration": 28,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12288"
+    },
+    {
+        "id": "build:(id:3659724),id:12293",
+        "name": "org.jetbrains.exposed.sql.tests.shared.SchemaTests.table references table with same name in other database in mysql",
+        "status": "SUCCESS",
+        "duration": 10,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12293"
+    },
+    {
+        "id": "build:(id:3659724),id:12302",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.ImmutableEntityTest.immutableEntityCacheInvalidation",
+        "status": "SUCCESS",
+        "duration": 73,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12302"
+    },
+    {
+        "id": "build:(id:3659724),id:12307",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.ImmutableEntityTest.immutableEntityReadAfterUpdate",
+        "status": "SUCCESS",
+        "duration": 60,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12307"
+    },
+    {
+        "id": "build:(id:3659724),id:12316",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityCacheTests.testGlobalEntityCacheLimitZero",
+        "status": "SUCCESS",
+        "duration": 14,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12316"
+    },
+    {
+        "id": "build:(id:3659724),id:12321",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityCacheTests.change EntityCache maxEntitiesToStore in the middle of transaction",
+        "status": "SUCCESS",
+        "duration": 70,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12321"
+    },
+    {
+        "id": "build:(id:3659724),id:12326",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityCacheTests.testGlobalEntityCacheLimit",
+        "status": "SUCCESS",
+        "duration": 3,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12326"
+    },
+    {
+        "id": "build:(id:3659724),id:12331",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityCacheTests.testPerTransactionEntityCacheLimit",
+        "status": "SUCCESS",
+        "duration": 61,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12331"
+    },
+    {
+        "id": "build:(id:3659724),id:12340",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.SortByReferenceTest.simpleTest",
+        "status": "SUCCESS",
+        "duration": 1,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12340"
+    },
+    {
+        "id": "build:(id:3659724),id:12345",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.SortByReferenceTest.testHasCycle",
+        "status": "SUCCESS",
+        "duration": 3,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12345"
+    },
+    {
+        "id": "build:(id:3659724),id:12350",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.SortByReferenceTest.cycleReferencesCheckTest",
+        "status": "SUCCESS",
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12350"
+    },
+    {
+        "id": "build:(id:3659724),id:12359",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.LongIdTableEntityTest.create tables",
+        "status": "SUCCESS",
+        "duration": 61,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12359"
+    },
+    {
+        "id": "build:(id:3659724),id:12364",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.LongIdTableEntityTest.update and delete records",
+        "status": "SUCCESS",
+        "duration": 71,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12364"
+    },
+    {
+        "id": "build:(id:3659724),id:12369",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.LongIdTableEntityTest.create records",
+        "status": "SUCCESS",
+        "duration": 53,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12369"
+    },
+    {
+        "id": "build:(id:3659724),id:12378",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.ViaTests.testConnection01",
+        "status": "SUCCESS",
+        "duration": 112,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12378"
+    },
+    {
+        "id": "build:(id:3659724),id:12383",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.ViaTests.testConnection02",
+        "status": "SUCCESS",
+        "duration": 115,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12383"
+    },
+    {
+        "id": "build:(id:3659724),id:12388",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.ViaTests.testConnection03",
+        "status": "SUCCESS",
+        "duration": 147,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12388"
+    },
+    {
+        "id": "build:(id:3659724),id:12393",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.ViaTests.testConnection04",
+        "status": "SUCCESS",
+        "duration": 135,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12393"
+    },
+    {
+        "id": "build:(id:3659724),id:12398",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.ViaTests.testRefresh",
+        "status": "SUCCESS",
+        "duration": 70,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12398"
+    },
+    {
+        "id": "build:(id:3659724),id:12403",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.ViaTests.testHierarchicalReferences",
+        "status": "SUCCESS",
+        "duration": 73,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12403"
+    },
+    {
+        "id": "build:(id:3659724),id:12412",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.testOptionalReferrersWithDifferentKeys",
+        "status": "SUCCESS",
+        "duration": 113,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12412"
+    },
+    {
+        "id": "build:(id:3659724),id:12417",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.preloadReferencesOnASizedIterable",
+        "status": "SUCCESS",
+        "duration": 164,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12417"
+    },
+    {
+        "id": "build:(id:3659724),id:12422",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.testOneFieldEntity",
+        "status": "SUCCESS",
+        "duration": 42,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12422"
+    },
+    {
+        "id": "build:(id:3659724),id:12427",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.testInsertChildWithoutFlush",
+        "status": "SUCCESS",
+        "duration": 83,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12427"
+    },
+    {
+        "id": "build:(id:3659724),id:12432",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.testSelfReferences",
+        "status": "SUCCESS",
+        "duration": 49,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12432"
+    },
+    {
+        "id": "build:(id:3659724),id:12437",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.testNonEntityIdReference",
+        "status": "SUCCESS",
+        "duration": 95,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12437"
+    },
+    {
+        "id": "build:(id:3659724),id:12442",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.testThatQueriesWithinOtherQueryIteratorWorksFine",
+        "status": "SUCCESS",
+        "duration": 98,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12442"
+    },
+    {
+        "id": "build:(id:3659724),id:12447",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.preloadReferencesOnAnEntity",
+        "status": "SUCCESS",
+        "duration": 76,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12447"
+    },
+    {
+        "id": "build:(id:3659724),id:12452",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.test what update of inserted entities goes before an insert",
+        "status": "SUCCESS",
+        "duration": 95,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12452"
+    },
+    {
+        "id": "build:(id:3659724),id:12457",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.preloadInnerTableLinkOnAnEntity",
+        "status": "SUCCESS",
+        "duration": 84,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12457"
+    },
+    {
+        "id": "build:(id:3659724),id:12462",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.preloadRelationAtDepth",
+        "status": "SUCCESS",
+        "duration": 159,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12462"
+    },
+    {
+        "id": "build:(id:3659724),id:12467",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.testBackReference01",
+        "status": "SUCCESS",
+        "duration": 53,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12467"
+    },
+    {
+        "id": "build:(id:3659724),id:12472",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.testBackReference02",
+        "status": "SUCCESS",
+        "duration": 48,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12472"
+    },
+    {
+        "id": "build:(id:3659724),id:12477",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.preloadInnerTableLinkOnASizedIterable",
+        "status": "SUCCESS",
+        "duration": 145,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12477"
+    },
+    {
+        "id": "build:(id:3659724),id:12482",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.preloadBackReferrenceOnAnEntity",
+        "status": "SUCCESS",
+        "duration": 112,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12482"
+    },
+    {
+        "id": "build:(id:3659724),id:12487",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.preloadOptionalReferencesOnASizedIterable",
+        "status": "SUCCESS",
+        "duration": 78,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12487"
+    },
+    {
+        "id": "build:(id:3659724),id:12492",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.newly created entity flushed successfully",
+        "status": "SUCCESS",
+        "duration": 41,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12492"
+    },
+    {
+        "id": "build:(id:3659724),id:12497",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.sharingEntityBetweenTransactions",
+        "status": "SUCCESS",
+        "duration": 96,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12497"
+    },
+    {
+        "id": "build:(id:3659724),id:12502",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.preloadOptionalReferencesOnAnEntity",
+        "status": "SUCCESS",
+        "duration": 82,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12502"
+    },
+    {
+        "id": "build:(id:3659724),id:12507",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.testDefaults01",
+        "status": "SUCCESS",
+        "duration": 44,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12507"
+    },
+    {
+        "id": "build:(id:3659724),id:12512",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.testDefaults02",
+        "status": "SUCCESS",
+        "duration": 47,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12512"
+    },
+    {
+        "id": "build:(id:3659724),id:12517",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.test new(id) with get",
+        "status": "SUCCESS",
+        "duration": 47,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12517"
+    },
+    {
+        "id": "build:(id:3659724),id:12522",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.callLimitOnRelationDoesntMutateTheCachedValue",
+        "status": "SUCCESS",
+        "duration": 91,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12522"
+    },
+    {
+        "id": "build:(id:3659724),id:12527",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.testInsertNonChildWithoutFlush",
+        "status": "SUCCESS",
+        "duration": 73,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12527"
+    },
+    {
+        "id": "build:(id:3659724),id:12532",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.testErrorOnSetToDeletedEntity",
+        "status": "SUCCESS",
+        "duration": 42,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12532"
+    },
+    {
+        "id": "build:(id:3659724),id:12537",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.testNewWithIdAndRefresh",
+        "status": "SUCCESS",
+        "duration": 36,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12537"
+    },
+    {
+        "id": "build:(id:3659724),id:12542",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.preloadBackReferrenceOnASizedIterable",
+        "status": "SUCCESS",
+        "duration": 123,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12542"
+    },
+    {
+        "id": "build:(id:3659724),id:12547",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.preloadReferrersOnASizedIterable",
+        "status": "SUCCESS",
+        "duration": 104,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12547"
+    },
+    {
+        "id": "build:(id:3659724),id:12552",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.testCacheInvalidatedOnDSLDelete",
+        "status": "SUCCESS",
+        "duration": 43,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12552"
+    },
+    {
+        "id": "build:(id:3659724),id:12557",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.testTextFieldOutsideTheTransaction",
+        "status": "SUCCESS",
+        "duration": 34,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12557"
+    },
+    {
+        "id": "build:(id:3659724),id:12562",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.preloadReferrersOnAnEntity",
+        "status": "SUCCESS",
+        "duration": 82,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12562"
+    },
+    {
+        "id": "build:(id:3659724),id:12567",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.testCacheInvalidatedOnDSLUpdate",
+        "status": "SUCCESS",
+        "duration": 55,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12567"
+    },
+    {
+        "id": "build:(id:3659724),id:12572",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.preloadOptionalReferrersOnASizedIterable",
+        "status": "SUCCESS",
+        "duration": 111,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12572"
+    },
+    {
+        "id": "build:(id:3659724),id:12577",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.testOrderByOnEntities",
+        "status": "SUCCESS",
+        "duration": 45,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12577"
+    },
+    {
+        "id": "build:(id:3659724),id:12582",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.tableSelfReferenceTest",
+        "status": "SUCCESS",
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12582"
+    },
+    {
+        "id": "build:(id:3659724),id:12587",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.testOneToOneReference",
+        "status": "SUCCESS",
+        "duration": 53,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12587"
+    },
+    {
+        "id": "build:(id:3659724),id:12592",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.testBlobField",
+        "status": "SUCCESS",
+        "duration": 40,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12592"
+    },
+    {
+        "id": "build:(id:3659724),id:12597",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.test reference cache doesn't fully invalidated on set entity reference",
+        "status": "SUCCESS",
+        "duration": 90,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12597"
+    },
+    {
+        "id": "build:(id:3659724),id:12602",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.testInsertChildWithChild",
+        "status": "SUCCESS",
+        "duration": 93,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12602"
+    },
+    {
+        "id": "build:(id:3659724),id:12607",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityTests.testInsertChildWithFlush",
+        "status": "SUCCESS",
+        "duration": 85,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12607"
+    },
+    {
+        "id": "build:(id:3659724),id:12616",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityHookTest.testDeleted01",
+        "status": "SUCCESS",
+        "duration": 81,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12616"
+    },
+    {
+        "id": "build:(id:3659724),id:12621",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityHookTest.single entity flush should trigger events",
+        "status": "SUCCESS",
+        "duration": 45,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12621"
+    },
+    {
+        "id": "build:(id:3659724),id:12626",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityHookTest.testModifiedInnerTable01",
+        "status": "SUCCESS",
+        "duration": 86,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12626"
+    },
+    {
+        "id": "build:(id:3659724),id:12631",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityHookTest.testModifiedInnerTable02",
+        "status": "SUCCESS",
+        "duration": 106,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12631"
+    },
+    {
+        "id": "build:(id:3659724),id:12636",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityHookTest.testModifiedInnerTable03",
+        "status": "SUCCESS",
+        "duration": 117,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12636"
+    },
+    {
+        "id": "build:(id:3659724),id:12641",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityHookTest.testCreated01",
+        "status": "SUCCESS",
+        "duration": 82,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12641"
+    },
+    {
+        "id": "build:(id:3659724),id:12646",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityHookTest.testModifiedSimple01",
+        "status": "SUCCESS",
+        "duration": 96,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12646"
+    },
+    {
+        "id": "build:(id:3659724),id:12651",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.EntityHookTest.calling flush notifies EntityHook subscribers",
+        "status": "SUCCESS",
+        "duration": 56,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12651"
+    },
+    {
+        "id": "build:(id:3659724),id:12660",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.Table id not in Record Test issue 1341: org.jetbrains.exposed.sql.tests.shared.entities.Table id not in Record Test issue 1341.testRegression",
+        "status": "SUCCESS",
+        "duration": 63,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12660"
+    },
+    {
+        "id": "build:(id:3659724),id:12669",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.NonAutoIncEntities.testNotAutoIncTable",
+        "status": "SUCCESS",
+        "duration": 48,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12669"
+    },
+    {
+        "id": "build:(id:3659724),id:12674",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.NonAutoIncEntities.testDefaultsWithOverrideNew",
+        "status": "SUCCESS",
+        "duration": 40,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12674"
+    },
+    {
+        "id": "build:(id:3659724),id:12679",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.NonAutoIncEntities.testFlushNonAutoincEntityWithoutDefaultValue",
+        "status": "SUCCESS",
+        "duration": 38,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12679"
+    },
+    {
+        "id": "build:(id:3659724),id:12688",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.UUIDTableEntityTest.create tables",
+        "status": "SUCCESS",
+        "duration": 42,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12688"
+    },
+    {
+        "id": "build:(id:3659724),id:12693",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.UUIDTableEntityTest.update and delete records",
+        "status": "SUCCESS",
+        "duration": 74,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12693"
+    },
+    {
+        "id": "build:(id:3659724),id:12698",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.UUIDTableEntityTest.create records",
+        "status": "SUCCESS",
+        "duration": 55,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12698"
+    },
+    {
+        "id": "build:(id:3659724),id:12703",
+        "name": "org.jetbrains.exposed.sql.tests.shared.entities.UUIDTableEntityTest.insert with inner table",
+        "status": "SUCCESS",
+        "duration": 64,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12703"
+    },
+    {
+        "id": "build:(id:3659724),id:12712",
+        "name": "org.jetbrains.exposed.sql.tests.h2.MultiDatabaseEntityTest.testEmbeddedInsertsInDifferentDatabaseDepth2",
+        "status": "SUCCESS",
+        "duration": 13,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12712"
+    },
+    {
+        "id": "build:(id:3659724),id:12717",
+        "name": "org.jetbrains.exposed.sql.tests.h2.MultiDatabaseEntityTest.testEmbeddedInsertsInDifferentDatabase",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12717"
+    },
+    {
+        "id": "build:(id:3659724),id:12722",
+        "name": "org.jetbrains.exposed.sql.tests.h2.MultiDatabaseEntityTest.testSimpleCreateEntitiesInDifferentDatabase",
+        "status": "SUCCESS",
+        "duration": 5,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12722"
+    },
+    {
+        "id": "build:(id:3659724),id:12727",
+        "name": "org.jetbrains.exposed.sql.tests.h2.MultiDatabaseEntityTest.crossReferencesProhibitedForEntitiesFromDifferentDB",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12727"
+    },
+    {
+        "id": "build:(id:3659724),id:12732",
+        "name": "org.jetbrains.exposed.sql.tests.h2.MultiDatabaseEntityTest.crossReferencesAllowedForEntitiesFromSameDatabase",
+        "status": "SUCCESS",
+        "duration": 8,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12732"
+    },
+    {
+        "id": "build:(id:3659724),id:12741",
+        "name": "org.jetbrains.exposed.sql.tests.h2.H2Tests.replaceAsInsertInH2",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12741"
+    },
+    {
+        "id": "build:(id:3659724),id:12746",
+        "name": "org.jetbrains.exposed.sql.tests.h2.H2Tests.insertInH2",
+        "status": "SUCCESS",
+        "duration": 2,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12746"
+    },
+    {
+        "id": "build:(id:3659724),id:12751",
+        "name": "org.jetbrains.exposed.sql.tests.h2.H2Tests.emptyReplace",
+        "status": "SUCCESS",
+        "duration": 3,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12751"
+    },
+    {
+        "id": "build:(id:3659724),id:12756",
+        "name": "org.jetbrains.exposed.sql.tests.h2.H2Tests.replaceAsUpdateInH2",
+        "status": "SUCCESS",
+        "duration": 3,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12756"
+    },
+    {
+        "id": "build:(id:3659724),id:12765",
+        "name": "org.jetbrains.exposed.sql.tests.h2.MultiDatabaseTest.testEmbeddedInsertsInDifferentDatabaseDepth2",
+        "status": "SUCCESS",
+        "duration": 5,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12765"
+    },
+    {
+        "id": "build:(id:3659724),id:12770",
+        "name": "org.jetbrains.exposed.sql.tests.h2.MultiDatabaseTest.when the default database is changed, threads should respect that",
+        "status": "SUCCESS",
+        "duration": 7,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12770"
+    },
+    {
+        "id": "build:(id:3659724),id:12775",
+        "name": "org.jetbrains.exposed.sql.tests.h2.MultiDatabaseTest.when set default database is removed - should return the latest connection",
+        "status": "SUCCESS",
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12775"
+    },
+    {
+        "id": "build:(id:3659724),id:12780",
+        "name": "org.jetbrains.exposed.sql.tests.h2.MultiDatabaseTest.testCoroutinesWithMultiDb",
+        "status": "SUCCESS",
+        "duration": 8,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12780"
+    },
+    {
+        "id": "build:(id:3659724),id:12785",
+        "name": "org.jetbrains.exposed.sql.tests.h2.MultiDatabaseTest.when the default database is changed, coroutines should respect that",
+        "status": "SUCCESS",
+        "duration": 6,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12785"
+    },
+    {
+        "id": "build:(id:3659724),id:12790",
+        "name": "org.jetbrains.exposed.sql.tests.h2.MultiDatabaseTest.when default database is not explicitly set - should return the latest connection",
+        "status": "SUCCESS",
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12790"
+    },
+    {
+        "id": "build:(id:3659724),id:12795",
+        "name": "org.jetbrains.exposed.sql.tests.h2.MultiDatabaseTest.testEmbeddedInsertsInDifferentDatabase",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12795"
+    },
+    {
+        "id": "build:(id:3659724),id:12800",
+        "name": "org.jetbrains.exposed.sql.tests.h2.MultiDatabaseTest.testSimpleInsertsInDifferentDatabase",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12800"
+    },
+    {
+        "id": "build:(id:3659724),id:12805",
+        "name": "org.jetbrains.exposed.sql.tests.h2.MultiDatabaseTest.when default database is explicitly set - should return the set connection",
+        "status": "SUCCESS",
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12805"
+    },
+    {
+        "id": "build:(id:3659724),id:12810",
+        "name": "org.jetbrains.exposed.sql.tests.h2.MultiDatabaseTest.testTransactionWithDatabase",
+        "status": "SUCCESS",
+        "duration": 3,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12810"
+    },
+    {
+        "id": "build:(id:3659724),id:12819",
+        "name": "org.jetbrains.exposed.sql.tests.h2.EntityReferenceCacheTest.test referrersOn works out of transaction via warmup",
+        "status": "SUCCESS",
+        "duration": 13,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12819"
+    },
+    {
+        "id": "build:(id:3659724),id:12824",
+        "name": "org.jetbrains.exposed.sql.tests.h2.EntityReferenceCacheTest.test referenceOn works out of transaction",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12824"
+    },
+    {
+        "id": "build:(id:3659724),id:12829",
+        "name": "org.jetbrains.exposed.sql.tests.h2.EntityReferenceCacheTest.test via reference load out of transaction",
+        "status": "SUCCESS",
+        "duration": 17,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12829"
+    },
+    {
+        "id": "build:(id:3659724),id:12834",
+        "name": "org.jetbrains.exposed.sql.tests.h2.EntityReferenceCacheTest.test via reference out of transaction",
+        "status": "SUCCESS",
+        "duration": 5,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12834"
+    },
+    {
+        "id": "build:(id:3659724),id:12839",
+        "name": "org.jetbrains.exposed.sql.tests.h2.EntityReferenceCacheTest.test referrersOn works out of transaction",
+        "status": "SUCCESS",
+        "duration": 6,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12839"
+    },
+    {
+        "id": "build:(id:3659724),id:12844",
+        "name": "org.jetbrains.exposed.sql.tests.h2.EntityReferenceCacheTest.test referenceOn works out of transaction via with",
+        "status": "SUCCESS",
+        "duration": 12,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12844"
+    },
+    {
+        "id": "build:(id:3659724),id:12853",
+        "name": "org.jetbrains.exposed.sql.tests.demo.dao.SamplesDao.ensureSamplesDoesntCrash",
+        "status": "SUCCESS",
+        "duration": 13,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12853"
+    },
+    {
+        "id": "build:(id:3659724),id:12879",
+        "name": "org.jetbrains.exposed.sql.tests.demo.sql.SamplesSQL.ensureSamplesDoesntCrash",
+        "status": "SUCCESS",
+        "duration": 11,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12879"
+    },
+    {
+        "id": "build:(id:3659724),id:12921",
+        "name": "org.jetbrains.exposed.sql.tests.mysql.MysqlTests.testEmbeddedConnection",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12921"
+    },
+    {
+        "id": "build:(id:3659724),id:12972",
+        "name": "org.jetbrains.exposed.spring.ExposedTransactionManagerTest.testConnection",
+        "status": "SUCCESS",
+        "duration": 146,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12972"
+    },
+    {
+        "id": "build:(id:3659724),id:12994",
+        "name": "org.jetbrains.exposed.spring.ExposedTransactionManagerTest.testConnectionWithoutAnnotation",
+        "status": "SUCCESS",
+        "duration": 43,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:12994"
+    },
+    {
+        "id": "build:(id:3659724),id:13006",
+        "name": "org.jetbrains.exposed.spring.ExposedTransactionManagerTest.testConnection2",
+        "status": "SUCCESS",
+        "duration": 33,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:13006"
+    },
+    {
+        "id": "build:(id:3659724),id:13035",
+        "name": "org.jetbrains.exposed.spring.EntityUpdateTest.test1",
+        "status": "SUCCESS",
+        "duration": 162,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:13035"
+    },
+    {
+        "id": "build:(id:3659724),id:13044",
+        "name": "org.jetbrains.exposed.spring.EntityUpdateTest.test2",
+        "status": "SUCCESS",
+        "duration": 55,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:13044"
+    },
+    {
+        "id": "build:(id:3659724),id:13053",
+        "name": "org.jetbrains.exposed.spring.EntityUpdateTest.test3",
+        "status": "SUCCESS",
+        "duration": 6,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:13053"
+    },
+    {
+        "id": "build:(id:3659724),id:13069",
+        "name": "org.jetbrains.exposed.spring.SpringCoroutineTest.testNestedCoroutineTransaction",
+        "status": "SUCCESS",
+        "duration": 215,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:13069"
+    },
+    {
+        "id": "build:(id:3659724),id:13085",
+        "name": "org.jetbrains.exposed.spring.SpringTransactionEntityTest.test01",
+        "status": "SUCCESS",
+        "duration": 88,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:13085"
+    },
+    {
+        "id": "build:(id:3659724),id:13090",
+        "name": "org.jetbrains.exposed.spring.SpringTransactionEntityTest.test02",
+        "status": "SUCCESS",
+        "duration": 9,
+        "href": "/app/rest/testOccurrences/build:(id:3659724),id:13090"
+    }
+]

@@ -1,0 +1,67 @@
+{
+    "id": 2232286,
+    "buildTypeId": "Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+    "number": "57",
+    "status": "SUCCESS",
+    "state": "finished",
+    "href": "/app/rest/builds/id:2232286",
+    "webUrl": "https://teamcity.jetbrains.com/viewLog.html?buildId=2232286&buildTypeId=Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+    "statusText": "Tests passed: 168",
+    "buildType": {
+        "id": "Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+        "name": "Build",
+        "projectName": "Kotlin / Kotlin Tools and Libraries / TypeScript Declaration to Kotlin Converter",
+        "projectId": "Kotlin_TypeScriptDeclarationToKotlinConverter",
+        "href": "/app/rest/buildTypes/id:Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+        "webUrl": "https://teamcity.jetbrains.com/viewType.html?buildTypeId=Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild"
+    },
+    "queuedDate": "20190429T125453+0000",
+    "startDate": "20190429T125458+0000",
+    "finishDate": "20190429T125737+0000",
+    "triggered": {
+        "type": "vcs",
+        "details": "jetbrains.git",
+        "date": "20190429T125453+0000"
+    },
+    "changes": {
+        "href": "/app/rest/changes?locator=build:(id:2232286)",
+        "count": 0
+    },
+    "revisions": {
+        "count": 1,
+        "revision": [
+            {
+                "version": "af67700693fbb49c1ca0c352081935d6fb74a4d2",
+                "vcsBranchName": "refs/heads/master",
+                "vcs-root-instance": {
+                    "id": "9833",
+                    "vcs-root-id": "Kotlin_TypeScriptDeclarationToKotlinConverter_HttpsGithubComKotlinDukatRefsHeads",
+                    "name": "https://github.com/Kotlin/dukat#refs/heads/master",
+                    "href": "/app/rest/vcs-root-instances/id:9833"
+                }
+            }
+        ]
+    },
+    "agent": {
+        "name": "ubuntu-16.04-v213-i3-i-054e30bdc01c190d9",
+        "typeId": 2494
+    },
+    "testOccurrences": {
+        "count": 168,
+        "href": "/app/rest/testOccurrences?locator=build:(id:2232286)",
+        "passed": 168
+    },
+    "artifacts": {
+        "count": 0,
+        "href": "/app/rest/builds/id:2232286/artifacts/children/"
+    },
+    "relatedIssues": {
+        "href": "/app/rest/builds/id:2232286/relatedIssues"
+    },
+    "statistics": {
+        "href": "/app/rest/builds/id:2232286/statistics"
+    },
+    "vcsLabels": [],
+    "finishOnAgentDate": "20190429T125737+0000",
+    "customization": {}
+}

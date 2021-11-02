@@ -1,0 +1,1106 @@
+[
+    {
+        "id": "build:(id:1818679),id:140",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SemverTest.testEmpty",
+        "status": "SUCCESS",
+        "duration": 53,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:140"
+    },
+    {
+        "id": "build:(id:1818679),id:144",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SemverTest.testKeepOriginalSeparatorsWhenPossible",
+        "status": "SUCCESS",
+        "duration": 41,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:144"
+    },
+    {
+        "id": "build:(id:1818679),id:148",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SemverTest.testLeadingZeroes",
+        "status": "SUCCESS",
+        "duration": 2,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:148"
+    },
+    {
+        "id": "build:(id:1818679),id:152",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SemverTest.testMissingVersionComponents",
+        "status": "SUCCESS",
+        "duration": 2,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:152"
+    },
+    {
+        "id": "build:(id:1818679),id:160",
+        "name": "org.jetbrains.kotlin.gradle.frontend.MergeMapsTest.testMergeLists",
+        "status": "SUCCESS",
+        "duration": 23,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:160"
+    },
+    {
+        "id": "build:(id:1818679),id:164",
+        "name": "org.jetbrains.kotlin.gradle.frontend.MergeMapsTest.testMergeListAndElement",
+        "status": "SUCCESS",
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:164"
+    },
+    {
+        "id": "build:(id:1818679),id:168",
+        "name": "org.jetbrains.kotlin.gradle.frontend.MergeMapsTest.testMergeListAndElement2",
+        "status": "SUCCESS",
+        "duration": 1,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:168"
+    },
+    {
+        "id": "build:(id:1818679),id:172",
+        "name": "org.jetbrains.kotlin.gradle.frontend.MergeMapsTest.testMergeReplace",
+        "status": "SUCCESS",
+        "duration": 3,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:172"
+    },
+    {
+        "id": "build:(id:1818679),id:176",
+        "name": "org.jetbrains.kotlin.gradle.frontend.MergeMapsTest.testMergeNonExisting",
+        "status": "SUCCESS",
+        "duration": 1,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:176"
+    },
+    {
+        "id": "build:(id:1818679),id:184",
+        "name": "org.jetbrains.kotlin.gradle.frontend.OutputStreamBufferTest.testSingleByteWrite",
+        "status": "SUCCESS",
+        "duration": 4,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:184"
+    },
+    {
+        "id": "build:(id:1818679),id:188",
+        "name": "org.jetbrains.kotlin.gradle.frontend.OutputStreamBufferTest.testBlockBytesWrite",
+        "status": "SUCCESS",
+        "duration": 11,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:188"
+    },
+    {
+        "id": "build:(id:1818679),id:196",
+        "name": "org.jetbrains.kotlin.gradle.frontend.NewMppTest.testSimple",
+        "status": "SUCCESS",
+        "duration": 60541,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:196"
+    },
+    {
+        "id": "build:(id:1818679),id:205",
+        "name": "org.jetbrains.kotlin.gradle.frontend.TestCustomNodePath.main",
+        "status": "SUCCESS",
+        "duration": 6,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:205"
+    },
+    {
+        "id": "build:(id:1818679),id:213",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testWebPackRunAmendConfigAndReRun[gradle 3.5, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 63328,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:213"
+    },
+    {
+        "id": "build:(id:1818679),id:218",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testMultiModule[gradle 3.5, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 29162,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:218"
+    },
+    {
+        "id": "build:(id:1818679),id:222",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundleFail[gradle 3.5, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 22708,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:222"
+    },
+    {
+        "id": "build:(id:1818679),id:226",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testBundleWithParts[gradle 3.5, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 24749,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:226"
+    },
+    {
+        "id": "build:(id:1818679),id:230",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundleWithDce[gradle 3.5, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 29373,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:230"
+    },
+    {
+        "id": "build:(id:1818679),id:234",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundle[gradle 3.5, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 22906,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:234"
+    },
+    {
+        "id": "build:(id:1818679),id:238",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectNoBundles[gradle 3.5, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 15197,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:238"
+    },
+    {
+        "id": "build:(id:1818679),id:242",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testEmptyProject[gradle 3.5, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 19756,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:242"
+    },
+    {
+        "id": "build:(id:1818679),id:246",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testWebPackRunAndStop[gradle 3.5, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 26205,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:246"
+    },
+    {
+        "id": "build:(id:1818679),id:250",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testNpmFail[gradle 3.5, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 3729,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:250"
+    },
+    {
+        "id": "build:(id:1818679),id:254",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testNpmOnly[gradle 3.5, kotlin 1.1.61]",
+        "status": "FAILURE",
+        "duration": 15402,
+        "muted": true,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:254"
+    },
+    {
+        "id": "build:(id:1818679),id:266",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testWebPackRunAmendConfigAndReRun[gradle 4.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 47955,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:266"
+    },
+    {
+        "id": "build:(id:1818679),id:271",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testMultiModule[gradle 4.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 28498,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:271"
+    },
+    {
+        "id": "build:(id:1818679),id:275",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundleFail[gradle 4.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 23255,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:275"
+    },
+    {
+        "id": "build:(id:1818679),id:279",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testBundleWithParts[gradle 4.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 25711,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:279"
+    },
+    {
+        "id": "build:(id:1818679),id:283",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundleWithDce[gradle 4.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 28513,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:283"
+    },
+    {
+        "id": "build:(id:1818679),id:287",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundle[gradle 4.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 22462,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:287"
+    },
+    {
+        "id": "build:(id:1818679),id:291",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectNoBundles[gradle 4.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 14211,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:291"
+    },
+    {
+        "id": "build:(id:1818679),id:295",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testEmptyProject[gradle 4.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 18442,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:295"
+    },
+    {
+        "id": "build:(id:1818679),id:299",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testWebPackRunAndStop[gradle 4.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 25268,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:299"
+    },
+    {
+        "id": "build:(id:1818679),id:303",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testNpmFail[gradle 4.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 4154,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:303"
+    },
+    {
+        "id": "build:(id:1818679),id:307",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testNpmOnly[gradle 4.1, kotlin 1.1.61]",
+        "status": "FAILURE",
+        "duration": 15001,
+        "muted": true,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:307"
+    },
+    {
+        "id": "build:(id:1818679),id:319",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testWebPackRunAmendConfigAndReRun[gradle 4.2.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 48288,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:319"
+    },
+    {
+        "id": "build:(id:1818679),id:324",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testMultiModule[gradle 4.2.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 24930,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:324"
+    },
+    {
+        "id": "build:(id:1818679),id:328",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundleFail[gradle 4.2.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 23782,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:328"
+    },
+    {
+        "id": "build:(id:1818679),id:332",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testBundleWithParts[gradle 4.2.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 24547,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:332"
+    },
+    {
+        "id": "build:(id:1818679),id:336",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundleWithDce[gradle 4.2.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 28636,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:336"
+    },
+    {
+        "id": "build:(id:1818679),id:340",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundle[gradle 4.2.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 21601,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:340"
+    },
+    {
+        "id": "build:(id:1818679),id:344",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectNoBundles[gradle 4.2.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 13638,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:344"
+    },
+    {
+        "id": "build:(id:1818679),id:348",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testEmptyProject[gradle 4.2.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 18051,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:348"
+    },
+    {
+        "id": "build:(id:1818679),id:352",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testWebPackRunAndStop[gradle 4.2.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 24965,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:352"
+    },
+    {
+        "id": "build:(id:1818679),id:356",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testNpmFail[gradle 4.2.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 3783,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:356"
+    },
+    {
+        "id": "build:(id:1818679),id:360",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testNpmOnly[gradle 4.2.1, kotlin 1.1.61]",
+        "status": "FAILURE",
+        "duration": 14171,
+        "muted": true,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:360"
+    },
+    {
+        "id": "build:(id:1818679),id:372",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testWebPackRunAmendConfigAndReRun[gradle 4.3.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 46880,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:372"
+    },
+    {
+        "id": "build:(id:1818679),id:377",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testMultiModule[gradle 4.3.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 25581,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:377"
+    },
+    {
+        "id": "build:(id:1818679),id:381",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundleFail[gradle 4.3.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 21758,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:381"
+    },
+    {
+        "id": "build:(id:1818679),id:385",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testBundleWithParts[gradle 4.3.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 23521,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:385"
+    },
+    {
+        "id": "build:(id:1818679),id:389",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundleWithDce[gradle 4.3.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 28768,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:389"
+    },
+    {
+        "id": "build:(id:1818679),id:393",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundle[gradle 4.3.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 23452,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:393"
+    },
+    {
+        "id": "build:(id:1818679),id:397",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectNoBundles[gradle 4.3.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 13761,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:397"
+    },
+    {
+        "id": "build:(id:1818679),id:401",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testEmptyProject[gradle 4.3.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 17619,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:401"
+    },
+    {
+        "id": "build:(id:1818679),id:405",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testWebPackRunAndStop[gradle 4.3.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 24865,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:405"
+    },
+    {
+        "id": "build:(id:1818679),id:409",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testNpmFail[gradle 4.3.1, kotlin 1.1.61]",
+        "status": "SUCCESS",
+        "duration": 3869,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:409"
+    },
+    {
+        "id": "build:(id:1818679),id:413",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testNpmOnly[gradle 4.3.1, kotlin 1.1.61]",
+        "status": "FAILURE",
+        "duration": 14070,
+        "muted": true,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:413"
+    },
+    {
+        "id": "build:(id:1818679),id:425",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testWebPackRunAmendConfigAndReRun[gradle 4.3.1, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 44615,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:425"
+    },
+    {
+        "id": "build:(id:1818679),id:429",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testMultiModule[gradle 4.3.1, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 27038,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:429"
+    },
+    {
+        "id": "build:(id:1818679),id:433",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundleFail[gradle 4.3.1, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 23187,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:433"
+    },
+    {
+        "id": "build:(id:1818679),id:437",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testBundleWithParts[gradle 4.3.1, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 25243,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:437"
+    },
+    {
+        "id": "build:(id:1818679),id:441",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundleWithDce[gradle 4.3.1, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 26030,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:441"
+    },
+    {
+        "id": "build:(id:1818679),id:445",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundle[gradle 4.3.1, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 22712,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:445"
+    },
+    {
+        "id": "build:(id:1818679),id:449",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectNoBundles[gradle 4.3.1, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 15112,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:449"
+    },
+    {
+        "id": "build:(id:1818679),id:453",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testEmptyProject[gradle 4.3.1, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 14477,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:453"
+    },
+    {
+        "id": "build:(id:1818679),id:457",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testWebPackRunAndStop[gradle 4.3.1, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 26081,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:457"
+    },
+    {
+        "id": "build:(id:1818679),id:461",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testNpmFail[gradle 4.3.1, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 4867,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:461"
+    },
+    {
+        "id": "build:(id:1818679),id:465",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testNpmOnly[gradle 4.3.1, kotlin 1.2.31]",
+        "status": "FAILURE",
+        "duration": 16991,
+        "muted": true,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:465"
+    },
+    {
+        "id": "build:(id:1818679),id:477",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testWebPackRunAmendConfigAndReRun[gradle 4.4.1, kotlin 1.2.21]",
+        "status": "SUCCESS",
+        "duration": 58583,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:477"
+    },
+    {
+        "id": "build:(id:1818679),id:482",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testMultiModule[gradle 4.4.1, kotlin 1.2.21]",
+        "status": "SUCCESS",
+        "duration": 28614,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:482"
+    },
+    {
+        "id": "build:(id:1818679),id:486",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundleFail[gradle 4.4.1, kotlin 1.2.21]",
+        "status": "SUCCESS",
+        "duration": 23027,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:486"
+    },
+    {
+        "id": "build:(id:1818679),id:490",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testBundleWithParts[gradle 4.4.1, kotlin 1.2.21]",
+        "status": "SUCCESS",
+        "duration": 25676,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:490"
+    },
+    {
+        "id": "build:(id:1818679),id:494",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundleWithDce[gradle 4.4.1, kotlin 1.2.21]",
+        "status": "SUCCESS",
+        "duration": 26129,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:494"
+    },
+    {
+        "id": "build:(id:1818679),id:498",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundle[gradle 4.4.1, kotlin 1.2.21]",
+        "status": "SUCCESS",
+        "duration": 23221,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:498"
+    },
+    {
+        "id": "build:(id:1818679),id:502",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectNoBundles[gradle 4.4.1, kotlin 1.2.21]",
+        "status": "SUCCESS",
+        "duration": 14752,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:502"
+    },
+    {
+        "id": "build:(id:1818679),id:506",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testEmptyProject[gradle 4.4.1, kotlin 1.2.21]",
+        "status": "SUCCESS",
+        "duration": 18719,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:506"
+    },
+    {
+        "id": "build:(id:1818679),id:510",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testWebPackRunAndStop[gradle 4.4.1, kotlin 1.2.21]",
+        "status": "SUCCESS",
+        "duration": 25804,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:510"
+    },
+    {
+        "id": "build:(id:1818679),id:514",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testNpmFail[gradle 4.4.1, kotlin 1.2.21]",
+        "status": "SUCCESS",
+        "duration": 4167,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:514"
+    },
+    {
+        "id": "build:(id:1818679),id:518",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testNpmOnly[gradle 4.4.1, kotlin 1.2.21]",
+        "status": "FAILURE",
+        "duration": 14453,
+        "muted": true,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:518"
+    },
+    {
+        "id": "build:(id:1818679),id:530",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testWebPackRunAmendConfigAndReRun[gradle 4.4.1, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 39090,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:530"
+    },
+    {
+        "id": "build:(id:1818679),id:534",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testMultiModule[gradle 4.4.1, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 28394,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:534"
+    },
+    {
+        "id": "build:(id:1818679),id:538",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundleFail[gradle 4.4.1, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 23880,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:538"
+    },
+    {
+        "id": "build:(id:1818679),id:542",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testBundleWithParts[gradle 4.4.1, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 25560,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:542"
+    },
+    {
+        "id": "build:(id:1818679),id:546",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundleWithDce[gradle 4.4.1, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 26544,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:546"
+    },
+    {
+        "id": "build:(id:1818679),id:550",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundle[gradle 4.4.1, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 23355,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:550"
+    },
+    {
+        "id": "build:(id:1818679),id:554",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectNoBundles[gradle 4.4.1, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 14902,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:554"
+    },
+    {
+        "id": "build:(id:1818679),id:558",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testEmptyProject[gradle 4.4.1, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 14436,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:558"
+    },
+    {
+        "id": "build:(id:1818679),id:562",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testWebPackRunAndStop[gradle 4.4.1, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 25823,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:562"
+    },
+    {
+        "id": "build:(id:1818679),id:566",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testNpmFail[gradle 4.4.1, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 3293,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:566"
+    },
+    {
+        "id": "build:(id:1818679),id:570",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testNpmOnly[gradle 4.4.1, kotlin 1.2.31]",
+        "status": "FAILURE",
+        "duration": 13970,
+        "muted": true,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:570"
+    },
+    {
+        "id": "build:(id:1818679),id:582",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testWebPackRunAmendConfigAndReRun[gradle 4.5, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 50118,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:582"
+    },
+    {
+        "id": "build:(id:1818679),id:587",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testMultiModule[gradle 4.5, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 27941,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:587"
+    },
+    {
+        "id": "build:(id:1818679),id:591",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundleFail[gradle 4.5, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 22911,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:591"
+    },
+    {
+        "id": "build:(id:1818679),id:595",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testBundleWithParts[gradle 4.5, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 25589,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:595"
+    },
+    {
+        "id": "build:(id:1818679),id:599",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundleWithDce[gradle 4.5, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 28670,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:599"
+    },
+    {
+        "id": "build:(id:1818679),id:603",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundle[gradle 4.5, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 23661,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:603"
+    },
+    {
+        "id": "build:(id:1818679),id:607",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectNoBundles[gradle 4.5, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 14907,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:607"
+    },
+    {
+        "id": "build:(id:1818679),id:611",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testEmptyProject[gradle 4.5, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 17965,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:611"
+    },
+    {
+        "id": "build:(id:1818679),id:615",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testWebPackRunAndStop[gradle 4.5, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 26267,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:615"
+    },
+    {
+        "id": "build:(id:1818679),id:619",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testNpmFail[gradle 4.5, kotlin 1.2.31]",
+        "status": "SUCCESS",
+        "duration": 3532,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:619"
+    },
+    {
+        "id": "build:(id:1818679),id:623",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testNpmOnly[gradle 4.5, kotlin 1.2.31]",
+        "status": "FAILURE",
+        "duration": 14177,
+        "muted": true,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:623"
+    },
+    {
+        "id": "build:(id:1818679),id:635",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testWebPackRunAmendConfigAndReRun[gradle 4.5, kotlin 1.2.41]",
+        "status": "SUCCESS",
+        "duration": 42103,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:635"
+    },
+    {
+        "id": "build:(id:1818679),id:639",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testMultiModule[gradle 4.5, kotlin 1.2.41]",
+        "status": "SUCCESS",
+        "duration": 27119,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:639"
+    },
+    {
+        "id": "build:(id:1818679),id:643",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundleFail[gradle 4.5, kotlin 1.2.41]",
+        "status": "SUCCESS",
+        "duration": 22649,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:643"
+    },
+    {
+        "id": "build:(id:1818679),id:647",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testBundleWithParts[gradle 4.5, kotlin 1.2.41]",
+        "status": "SUCCESS",
+        "duration": 25185,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:647"
+    },
+    {
+        "id": "build:(id:1818679),id:651",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundleWithDce[gradle 4.5, kotlin 1.2.41]",
+        "status": "SUCCESS",
+        "duration": 26646,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:651"
+    },
+    {
+        "id": "build:(id:1818679),id:655",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundle[gradle 4.5, kotlin 1.2.41]",
+        "status": "SUCCESS",
+        "duration": 23466,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:655"
+    },
+    {
+        "id": "build:(id:1818679),id:659",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectNoBundles[gradle 4.5, kotlin 1.2.41]",
+        "status": "SUCCESS",
+        "duration": 14875,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:659"
+    },
+    {
+        "id": "build:(id:1818679),id:663",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testEmptyProject[gradle 4.5, kotlin 1.2.41]",
+        "status": "SUCCESS",
+        "duration": 15931,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:663"
+    },
+    {
+        "id": "build:(id:1818679),id:667",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testWebPackRunAndStop[gradle 4.5, kotlin 1.2.41]",
+        "status": "SUCCESS",
+        "duration": 26614,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:667"
+    },
+    {
+        "id": "build:(id:1818679),id:671",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testNpmFail[gradle 4.5, kotlin 1.2.41]",
+        "status": "SUCCESS",
+        "duration": 3843,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:671"
+    },
+    {
+        "id": "build:(id:1818679),id:675",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testNpmOnly[gradle 4.5, kotlin 1.2.41]",
+        "status": "FAILURE",
+        "duration": 14625,
+        "muted": true,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:675"
+    },
+    {
+        "id": "build:(id:1818679),id:687",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testWebPackRunAmendConfigAndReRun[gradle 4.6, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 57820,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:687"
+    },
+    {
+        "id": "build:(id:1818679),id:692",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testMultiModule[gradle 4.6, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 27827,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:692"
+    },
+    {
+        "id": "build:(id:1818679),id:696",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundleFail[gradle 4.6, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 23221,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:696"
+    },
+    {
+        "id": "build:(id:1818679),id:700",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testBundleWithParts[gradle 4.6, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 25584,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:700"
+    },
+    {
+        "id": "build:(id:1818679),id:704",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundleWithDce[gradle 4.6, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 27977,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:704"
+    },
+    {
+        "id": "build:(id:1818679),id:708",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundle[gradle 4.6, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 23390,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:708"
+    },
+    {
+        "id": "build:(id:1818679),id:712",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectNoBundles[gradle 4.6, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 14578,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:712"
+    },
+    {
+        "id": "build:(id:1818679),id:716",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testEmptyProject[gradle 4.6, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 18337,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:716"
+    },
+    {
+        "id": "build:(id:1818679),id:720",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testWebPackRunAndStop[gradle 4.6, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 26705,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:720"
+    },
+    {
+        "id": "build:(id:1818679),id:724",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testNpmFail[gradle 4.6, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 5683,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:724"
+    },
+    {
+        "id": "build:(id:1818679),id:728",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testNpmOnly[gradle 4.6, kotlin 1.2.51]",
+        "status": "FAILURE",
+        "duration": 14680,
+        "muted": true,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:728"
+    },
+    {
+        "id": "build:(id:1818679),id:740",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testWebPackRunAmendConfigAndReRun[gradle 4.7, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 53689,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:740"
+    },
+    {
+        "id": "build:(id:1818679),id:745",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testMultiModule[gradle 4.7, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 28778,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:745"
+    },
+    {
+        "id": "build:(id:1818679),id:749",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundleFail[gradle 4.7, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 23766,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:749"
+    },
+    {
+        "id": "build:(id:1818679),id:753",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testBundleWithParts[gradle 4.7, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 25728,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:753"
+    },
+    {
+        "id": "build:(id:1818679),id:757",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundleWithDce[gradle 4.7, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 27310,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:757"
+    },
+    {
+        "id": "build:(id:1818679),id:761",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundle[gradle 4.7, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 22698,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:761"
+    },
+    {
+        "id": "build:(id:1818679),id:765",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectNoBundles[gradle 4.7, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 14805,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:765"
+    },
+    {
+        "id": "build:(id:1818679),id:769",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testEmptyProject[gradle 4.7, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 18470,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:769"
+    },
+    {
+        "id": "build:(id:1818679),id:773",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testWebPackRunAndStop[gradle 4.7, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 26113,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:773"
+    },
+    {
+        "id": "build:(id:1818679),id:777",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testNpmFail[gradle 4.7, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 3778,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:777"
+    },
+    {
+        "id": "build:(id:1818679),id:781",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testNpmOnly[gradle 4.7, kotlin 1.2.51]",
+        "status": "FAILURE",
+        "duration": 14331,
+        "muted": true,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:781"
+    },
+    {
+        "id": "build:(id:1818679),id:793",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testWebPackRunAmendConfigAndReRun[gradle 4.8, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 50626,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:793"
+    },
+    {
+        "id": "build:(id:1818679),id:798",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testMultiModule[gradle 4.8, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 29089,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:798"
+    },
+    {
+        "id": "build:(id:1818679),id:802",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundleFail[gradle 4.8, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 23427,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:802"
+    },
+    {
+        "id": "build:(id:1818679),id:806",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testBundleWithParts[gradle 4.8, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 26295,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:806"
+    },
+    {
+        "id": "build:(id:1818679),id:810",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundleWithDce[gradle 4.8, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 27199,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:810"
+    },
+    {
+        "id": "build:(id:1818679),id:814",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundle[gradle 4.8, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 22773,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:814"
+    },
+    {
+        "id": "build:(id:1818679),id:818",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectNoBundles[gradle 4.8, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 14813,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:818"
+    },
+    {
+        "id": "build:(id:1818679),id:822",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testEmptyProject[gradle 4.8, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 17995,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:822"
+    },
+    {
+        "id": "build:(id:1818679),id:826",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testWebPackRunAndStop[gradle 4.8, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 26735,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:826"
+    },
+    {
+        "id": "build:(id:1818679),id:830",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testNpmFail[gradle 4.8, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 4100,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:830"
+    },
+    {
+        "id": "build:(id:1818679),id:834",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testNpmOnly[gradle 4.8, kotlin 1.2.51]",
+        "status": "FAILURE",
+        "duration": 14843,
+        "muted": true,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:834"
+    },
+    {
+        "id": "build:(id:1818679),id:846",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testWebPackRunAmendConfigAndReRun[gradle 4.9, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 46222,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:846"
+    },
+    {
+        "id": "build:(id:1818679),id:851",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testMultiModule[gradle 4.9, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 26140,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:851"
+    },
+    {
+        "id": "build:(id:1818679),id:855",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundleFail[gradle 4.9, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 22257,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:855"
+    },
+    {
+        "id": "build:(id:1818679),id:859",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testBundleWithParts[gradle 4.9, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 24482,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:859"
+    },
+    {
+        "id": "build:(id:1818679),id:863",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundleWithDce[gradle 4.9, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 27846,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:863"
+    },
+    {
+        "id": "build:(id:1818679),id:867",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectWebPackBundle[gradle 4.9, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 23687,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:867"
+    },
+    {
+        "id": "build:(id:1818679),id:871",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testSimpleProjectNoBundles[gradle 4.9, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 13938,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:871"
+    },
+    {
+        "id": "build:(id:1818679),id:875",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testEmptyProject[gradle 4.9, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 18203,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:875"
+    },
+    {
+        "id": "build:(id:1818679),id:879",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testWebPackRunAndStop[gradle 4.9, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 25837,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:879"
+    },
+    {
+        "id": "build:(id:1818679),id:883",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testNpmFail[gradle 4.9, kotlin 1.2.51]",
+        "status": "SUCCESS",
+        "duration": 4095,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:883"
+    },
+    {
+        "id": "build:(id:1818679),id:887",
+        "name": "org.jetbrains.kotlin.gradle.frontend.SimpleFrontendProjectTest.testNpmOnly[gradle 4.9, kotlin 1.2.51]",
+        "status": "FAILURE",
+        "duration": 14563,
+        "muted": true,
+        "href": "/app/rest/testOccurrences/build:(id:1818679),id:887"
+    }
+]

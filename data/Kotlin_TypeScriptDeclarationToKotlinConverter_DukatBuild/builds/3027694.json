@@ -1,0 +1,79 @@
+{
+    "id": 3027694,
+    "buildTypeId": "Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+    "number": "1227",
+    "status": "SUCCESS",
+    "state": "finished",
+    "href": "/app/rest/builds/id:3027694",
+    "webUrl": "https://teamcity.jetbrains.com/viewLog.html?buildId=3027694&buildTypeId=Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+    "statusText": "Tests passed: 629",
+    "buildType": {
+        "id": "Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+        "name": "Build",
+        "projectName": "Kotlin / Kotlin Tools and Libraries / TypeScript Declaration to Kotlin Converter",
+        "projectId": "Kotlin_TypeScriptDeclarationToKotlinConverter",
+        "href": "/app/rest/buildTypes/id:Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+        "webUrl": "https://teamcity.jetbrains.com/viewType.html?buildTypeId=Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild"
+    },
+    "queuedDate": "20200716T151246+0000",
+    "startDate": "20200716T151247+0000",
+    "finishDate": "20200716T151623+0000",
+    "triggered": {
+        "type": "vcs",
+        "details": "jetbrains.git",
+        "date": "20200716T151246+0000"
+    },
+    "lastChanges": {
+        "change": [
+            {
+                "id": 6397546,
+                "version": "05937127ab90e82e56577ccebb0650f6ebd32996",
+                "username": "shagen.ogandzhanian",
+                "date": "20200716T151147+0000",
+                "href": "/app/rest/changes/id:6397546",
+                "webUrl": "https://teamcity.jetbrains.com/viewModification.html?modId=6397546&personal=false"
+            }
+        ],
+        "count": 1
+    },
+    "changes": {
+        "href": "/app/rest/changes?locator=build:(id:3027694)"
+    },
+    "revisions": {
+        "count": 1,
+        "revision": [
+            {
+                "version": "05937127ab90e82e56577ccebb0650f6ebd32996",
+                "vcsBranchName": "refs/heads/master",
+                "vcs-root-instance": {
+                    "id": "9833",
+                    "vcs-root-id": "Kotlin_TypeScriptDeclarationToKotlinConverter_HttpsGithubComKotlinDukatRefsHeads",
+                    "name": "https://github.com/Kotlin/dukat#refs/heads/master",
+                    "href": "/app/rest/vcs-root-instances/id:9833"
+                }
+            }
+        ]
+    },
+    "agent": {
+        "name": "kotlin-linux-i-04c481da75dee1369",
+        "typeId": 2829
+    },
+    "testOccurrences": {
+        "count": 629,
+        "href": "/app/rest/testOccurrences?locator=build:(id:3027694)",
+        "passed": 629
+    },
+    "artifacts": {
+        "count": 0,
+        "href": "/app/rest/builds/id:3027694/artifacts/children/"
+    },
+    "relatedIssues": {
+        "href": "/app/rest/builds/id:3027694/relatedIssues"
+    },
+    "statistics": {
+        "href": "/app/rest/builds/id:3027694/statistics"
+    },
+    "vcsLabels": [],
+    "finishOnAgentDate": "20200716T151623+0000",
+    "customization": {}
+}

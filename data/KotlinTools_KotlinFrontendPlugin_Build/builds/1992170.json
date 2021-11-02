@@ -1,0 +1,69 @@
+{
+    "id": 1992170,
+    "buildTypeId": "KotlinTools_KotlinFrontendPlugin_Build",
+    "number": "178",
+    "status": "FAILURE",
+    "state": "finished",
+    "branchName": "master",
+    "defaultBranch": true,
+    "href": "/app/rest/builds/id:1992170",
+    "webUrl": "https://teamcity.jetbrains.com/viewLog.html?buildId=1992170&buildTypeId=KotlinTools_KotlinFrontendPlugin_Build",
+    "statusText": "Compilation error: :kotlin-frontend:compileKotlin (new)",
+    "buildType": {
+        "id": "KotlinTools_KotlinFrontendPlugin_Build",
+        "name": "Build",
+        "projectName": "Kotlin / Kotlin Tools and Libraries / Kotlin Frontend Plugin",
+        "projectId": "KotlinTools_KotlinFrontendPlugin",
+        "href": "/app/rest/buildTypes/id:KotlinTools_KotlinFrontendPlugin_Build",
+        "webUrl": "https://teamcity.jetbrains.com/viewType.html?buildTypeId=KotlinTools_KotlinFrontendPlugin_Build"
+    },
+    "queuedDate": "20190220T104919+0000",
+    "startDate": "20190220T104921+0000",
+    "finishDate": "20190220T105024+0000",
+    "triggered": {
+        "type": "vcs",
+        "details": "jetbrains.git",
+        "date": "20190220T104919+0000"
+    },
+    "changes": {
+        "href": "/app/rest/changes?locator=build:(id:1992170)",
+        "count": 0
+    },
+    "revisions": {
+        "count": 1,
+        "revision": [
+            {
+                "version": "de5b8164da3ba4b84ecdd2b4c5ce2abcda15d611",
+                "vcsBranchName": "refs/heads/master",
+                "vcs-root-instance": {
+                    "id": "4771",
+                    "vcs-root-id": "KotlinTools_KotlinFrontendPlugin_HttpsGithubComCy6erGn0mKotlinFrontendPluginRefs",
+                    "name": "kotlin-frontend-plugin",
+                    "href": "/app/rest/vcs-root-instances/id:4771"
+                }
+            }
+        ]
+    },
+    "agent": {
+        "name": "ubuntu-16.04-v202-i3-i-05ad8daa723977b6e",
+        "typeId": 2332
+    },
+    "problemOccurrences": {
+        "count": 2,
+        "href": "/app/rest/problemOccurrences?locator=build:(id:1992170)",
+        "newFailed": 1
+    },
+    "artifacts": {
+        "count": 0,
+        "href": "/app/rest/builds/id:1992170/artifacts/children/"
+    },
+    "relatedIssues": {
+        "href": "/app/rest/builds/id:1992170/relatedIssues"
+    },
+    "statistics": {
+        "href": "/app/rest/builds/id:1992170/statistics"
+    },
+    "vcsLabels": [],
+    "finishOnAgentDate": "20190220T105024+0000",
+    "customization": {}
+}

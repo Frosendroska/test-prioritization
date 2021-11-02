@@ -1,0 +1,83 @@
+{
+    "id": 3672469,
+    "buildTypeId": "KotlinTools_Exposed_Build",
+    "number": "1945",
+    "status": "SUCCESS",
+    "state": "finished",
+    "branchName": "master",
+    "defaultBranch": true,
+    "href": "/app/rest/builds/id:3672469",
+    "webUrl": "https://teamcity.jetbrains.com/viewLog.html?buildId=3672469&buildTypeId=KotlinTools_Exposed_Build",
+    "statusText": "Tests passed: 543, ignored: 3; inspections total: 110, errors: 0",
+    "buildType": {
+        "id": "KotlinTools_Exposed_Build",
+        "name": "Build",
+        "projectName": "Kotlin / Kotlin Tools and Libraries / Exposed",
+        "projectId": "Exposed",
+        "href": "/app/rest/buildTypes/id:KotlinTools_Exposed_Build",
+        "webUrl": "https://teamcity.jetbrains.com/viewType.html?buildTypeId=KotlinTools_Exposed_Build"
+    },
+    "queuedDate": "20211025T212550+0000",
+    "startDate": "20211025T212552+0000",
+    "finishDate": "20211025T213209+0000",
+    "triggered": {
+        "type": "vcs",
+        "details": "jetbrains.git",
+        "date": "20211025T212550+0000"
+    },
+    "lastChanges": {
+        "change": [
+            {
+                "id": 7451356,
+                "version": "d3e18d85c1525e693f2e2e85ecfd222a34e4018d",
+                "username": "fantocci",
+                "date": "20211025T212238+0000",
+                "href": "/app/rest/changes/id:7451356",
+                "webUrl": "https://teamcity.jetbrains.com/viewModification.html?modId=7451356&personal=false"
+            }
+        ],
+        "count": 1
+    },
+    "changes": {
+        "href": "/app/rest/changes?locator=build:(id:3672469)",
+        "count": 1
+    },
+    "revisions": {
+        "count": 1,
+        "revision": [
+            {
+                "version": "d3e18d85c1525e693f2e2e85ecfd222a34e4018d",
+                "vcsBranchName": "refs/heads/master",
+                "vcs-root-instance": {
+                    "id": "5489",
+                    "vcs-root-id": "Exposed_Exposed1_2",
+                    "name": "exposed (1)",
+                    "href": "/app/rest/vcs-root-instances/id:5489"
+                }
+            }
+        ]
+    },
+    "agent": {
+        "name": "kotlin-linux-i-0d4279e92a163c16d",
+        "typeId": 2829
+    },
+    "testOccurrences": {
+        "count": 546,
+        "href": "/app/rest/testOccurrences?locator=build:(id:3672469)",
+        "passed": 543,
+        "ignored": 3
+    },
+    "artifacts": {
+        "count": 0,
+        "href": "/app/rest/builds/id:3672469/artifacts/children/"
+    },
+    "relatedIssues": {
+        "href": "/app/rest/builds/id:3672469/relatedIssues"
+    },
+    "statistics": {
+        "href": "/app/rest/builds/id:3672469/statistics"
+    },
+    "vcsLabels": [],
+    "finishOnAgentDate": "20211025T213209+0000",
+    "customization": {}
+}

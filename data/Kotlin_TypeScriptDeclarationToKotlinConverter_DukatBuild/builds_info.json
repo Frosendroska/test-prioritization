@@ -1,0 +1,176 @@
+{
+    "count": 17,
+    "href": "/app/rest/builds?locator=buildType:Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+    "build": [
+        {
+            "id": 3637778,
+            "buildTypeId": "Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "number": "1552",
+            "status": "SUCCESS",
+            "state": "finished",
+            "href": "/app/rest/builds/id:3637778",
+            "webUrl": "https://teamcity.jetbrains.com/viewLog.html?buildId=3637778&buildTypeId=Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "finishOnAgentDate": "20211001T110213+0000"
+        },
+        {
+            "id": 3637758,
+            "buildTypeId": "Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "number": "1551",
+            "status": "SUCCESS",
+            "state": "finished",
+            "href": "/app/rest/builds/id:3637758",
+            "webUrl": "https://teamcity.jetbrains.com/viewLog.html?buildId=3637758&buildTypeId=Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "finishOnAgentDate": "20211001T105005+0000"
+        },
+        {
+            "id": 3617521,
+            "buildTypeId": "Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "number": "1550",
+            "status": "SUCCESS",
+            "state": "finished",
+            "href": "/app/rest/builds/id:3617521",
+            "webUrl": "https://teamcity.jetbrains.com/viewLog.html?buildId=3617521&buildTypeId=Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "finishOnAgentDate": "20210915T165957+0000"
+        },
+        {
+            "id": 3617453,
+            "buildTypeId": "Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "number": "1549",
+            "status": "SUCCESS",
+            "state": "finished",
+            "href": "/app/rest/builds/id:3617453",
+            "webUrl": "https://teamcity.jetbrains.com/viewLog.html?buildId=3617453&buildTypeId=Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "finishOnAgentDate": "20210915T161845+0000"
+        },
+        {
+            "id": 3609480,
+            "buildTypeId": "Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "number": "1548",
+            "status": "SUCCESS",
+            "state": "finished",
+            "href": "/app/rest/builds/id:3609480",
+            "webUrl": "https://teamcity.jetbrains.com/viewLog.html?buildId=3609480&buildTypeId=Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "finishOnAgentDate": "20210909T083726+0000"
+        },
+        {
+            "id": 3287885,
+            "buildTypeId": "Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "number": "1528",
+            "status": "SUCCESS",
+            "state": "finished",
+            "href": "/app/rest/builds/id:3287885",
+            "webUrl": "https://teamcity.jetbrains.com/viewLog.html?buildId=3287885&buildTypeId=Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "finishOnAgentDate": "20210127T175407+0000"
+        },
+        {
+            "id": 3157826,
+            "buildTypeId": "Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "number": "1523",
+            "status": "SUCCESS",
+            "state": "finished",
+            "href": "/app/rest/builds/id:3157826",
+            "webUrl": "https://teamcity.jetbrains.com/viewLog.html?buildId=3157826&buildTypeId=Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "finishOnAgentDate": "20201020T115456+0000"
+        },
+        {
+            "id": 3157759,
+            "buildTypeId": "Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "number": "1522",
+            "status": "FAILURE",
+            "state": "finished",
+            "href": "/app/rest/builds/id:3157759",
+            "webUrl": "https://teamcity.jetbrains.com/viewLog.html?buildId=3157759&buildTypeId=Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "finishOnAgentDate": "20201020T113749+0000"
+        },
+        {
+            "id": 3157735,
+            "buildTypeId": "Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "number": "1521",
+            "status": "FAILURE",
+            "state": "finished",
+            "href": "/app/rest/builds/id:3157735",
+            "webUrl": "https://teamcity.jetbrains.com/viewLog.html?buildId=3157735&buildTypeId=Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "finishOnAgentDate": "20201020T112602+0000"
+        },
+        {
+            "id": 3157733,
+            "buildTypeId": "Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "number": "1520",
+            "status": "FAILURE",
+            "state": "finished",
+            "href": "/app/rest/builds/id:3157733",
+            "webUrl": "https://teamcity.jetbrains.com/viewLog.html?buildId=3157733&buildTypeId=Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "finishOnAgentDate": "20201020T111534+0000"
+        },
+        {
+            "id": 3141539,
+            "buildTypeId": "Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "number": "1492",
+            "status": "FAILURE",
+            "state": "finished",
+            "href": "/app/rest/builds/id:3141539",
+            "webUrl": "https://teamcity.jetbrains.com/viewLog.html?buildId=3141539&buildTypeId=Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "finishOnAgentDate": "20201007T215512+0000"
+        },
+        {
+            "id": 3136522,
+            "buildTypeId": "Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "number": "1479",
+            "status": "FAILURE",
+            "state": "finished",
+            "href": "/app/rest/builds/id:3136522",
+            "webUrl": "https://teamcity.jetbrains.com/viewLog.html?buildId=3136522&buildTypeId=Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "finishOnAgentDate": "20201005T134609+0000"
+        },
+        {
+            "id": 3136472,
+            "buildTypeId": "Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "number": "1478",
+            "status": "FAILURE",
+            "state": "finished",
+            "href": "/app/rest/builds/id:3136472",
+            "webUrl": "https://teamcity.jetbrains.com/viewLog.html?buildId=3136472&buildTypeId=Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "finishOnAgentDate": "20201005T133906+0000"
+        },
+        {
+            "id": 3134055,
+            "buildTypeId": "Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "number": "1477",
+            "status": "FAILURE",
+            "state": "finished",
+            "href": "/app/rest/builds/id:3134055",
+            "webUrl": "https://teamcity.jetbrains.com/viewLog.html?buildId=3134055&buildTypeId=Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "finishOnAgentDate": "20201002T231447+0000"
+        },
+        {
+            "id": 3027694,
+            "buildTypeId": "Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "number": "1227",
+            "status": "SUCCESS",
+            "state": "finished",
+            "href": "/app/rest/builds/id:3027694",
+            "webUrl": "https://teamcity.jetbrains.com/viewLog.html?buildId=3027694&buildTypeId=Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "finishOnAgentDate": "20200716T151623+0000"
+        },
+        {
+            "id": 2947673,
+            "buildTypeId": "Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "number": "1065",
+            "status": "SUCCESS",
+            "state": "finished",
+            "href": "/app/rest/builds/id:2947673",
+            "webUrl": "https://teamcity.jetbrains.com/viewLog.html?buildId=2947673&buildTypeId=Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "finishOnAgentDate": "20200528T120338+0000"
+        },
+        {
+            "id": 2232286,
+            "buildTypeId": "Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "number": "57",
+            "status": "SUCCESS",
+            "state": "finished",
+            "href": "/app/rest/builds/id:2232286",
+            "webUrl": "https://teamcity.jetbrains.com/viewLog.html?buildId=2232286&buildTypeId=Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
+            "finishOnAgentDate": "20190429T125737+0000"
+        }
+    ]
+}
