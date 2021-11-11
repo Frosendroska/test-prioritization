@@ -8,8 +8,10 @@ class SimpleTestOccurrencesFilter(TestOccurrencesFilter):
 
     def test_ok(self, test, test_info):
         test_name = test["name"]
-        if test_info.allRuns == 0 or test_info.numRun.get(test_name, 0) == 0:
+        if test_info.allRuns == 0:
             return False
+        if test_info.numRun.get(test_name, 0) == 0:
+            return True
 
         run = test_info.numRun.get(test_name, 0)
         failed = test_info.numFailed.get(test_name, 0)

@@ -3,6 +3,8 @@ from simple_test_info import SimpleTestOccurrencesInfo
 from src.simple.simple_test_filter import SimpleTestOccurrencesFilter
 from src.simple.simple_test_metric import SimpleTestOccurrencesMetric
 from src.simple.simple_test_rank import SimpleTestOccurrencesRank
+from src.util import downloaded
+import numpy as np
 
 
 def get_test_occurrences(project_dir, build_id):
@@ -18,8 +20,8 @@ def calc_metric(project_dir, builds):
     test_metric = SimpleTestOccurrencesMetric()
 
     metric = []
-    for build in builds:
-        test_occurrences = get_test_occurrences(project_dir, build["id"])
+    for build_id in builds:
+        test_occurrences = get_test_occurrences(project_dir, build_id)
         if not test_occurrences:
             continue
 
@@ -32,21 +34,25 @@ def calc_metric(project_dir, builds):
 
 
 def calc(project):
-    project_dir = "data/" + project + "/"
+    project_dir = "../../data/" + project + "/"
     with open(project_dir + "builds_info.json") as file:
         builds_info = json.load(file)
-        builds = builds_info["build"][::-1]  # chronological order
-        metric = calc_metric(project_dir, builds)
-        print(metric)
+        builds = builds_info[::-1]  # chronological order
+        return calc_metric(project_dir, builds)
 
 
 def main():
-    projects = ["KotlinTools_Exposed_Build",
-                "Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild",
-                "KotlinTools_KotlinFrontendPlugin_Build"]
+    # projects = downloaded
+    projects = ["Kotlin_dev_GradleIntegrationTests"]
     for project in projects:
-        print(project + ":", end=" ")
-        calc(project)
+        print(project)
+        metric = calc(project)
+        nonnull = list(filter(lambda x: x is not None, metric))
+        print(metric)
+        print(nonnull)
+        print('mean = ', np.mean(nonnull))
+        print()
+        print()
 
 
 if __name__ == "__main__":
