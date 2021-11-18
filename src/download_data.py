@@ -1,5 +1,7 @@
 import json
 import os
+import time
+from tqdm import tqdm
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -25,7 +27,7 @@ def pretty_print_json(obj):
 
 
 def get_testOccurrences(build_id):
-    locator = "?locator=build:(id:" + str(build_id) + ")"
+    locator = "?locator=count:-1,build:(id:" + str(build_id) + ")"
     tests_fields = "&fields=testOccurrence(name,status),nextHref"
     url = TEST_OCCURRENCES_URL + locator + tests_fields
 
@@ -50,12 +52,12 @@ def get_build(build_id):
 
 
 def get_build_ids(project, all_branches=False):
-    locator = ["buildType:" + project]
+    locator = "count:-1,buildType:" + project
     if all_branches:
-        locator.append("branch:(default:any)")
+        locator += ",branch:(default:any)"
 
     info_fields = "?fields=build(id),nextHref"
-    url = BUILDS_MULTIPLE_URL + ",".join(locator) + info_fields
+    url = BUILDS_MULTIPLE_URL + locator + info_fields
 
     response = requests.get(url, headers=headers).json()
     build_ids = response["build"]
@@ -83,7 +85,7 @@ def save_data_from_project(project, max_builds=None, all_branches=False):
         build_ids = build_ids[:max_builds]
 
     write_json_to_file(build_ids, project_dir + "builds_info.json")
-    for build_id in build_ids:
+    for build_id in tqdm(build_ids):
         write_json_to_file(get_build(build_id), builds_dir + str(build_id) + ".json")
         write_json_to_file(get_testOccurrences(build_id), tests_dir + str(build_id) + ".json")
 
@@ -93,8 +95,9 @@ def main():
     projects = []
     for project in projects:
         print(project + " in progress...")
-        save_data_from_project(project, max_builds=10)
-        print(project + " done.")
+        start_time = time.time()
+        save_data_from_project(project)
+        print(project + " done in %.2f seconds." % (time.time() - start_time))
 
 
 if __name__ == "__main__":
