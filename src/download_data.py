@@ -3,11 +3,13 @@ import os
 import time
 from tqdm import tqdm
 from pathlib import Path
-
 from dotenv import load_dotenv
 import requests
 
+from src.util import parse_projects_file
+
 DATA_DIRECTORY = Path("..") / Path("data")
+
 URL_BASE = "https://teamcity.jetbrains.com"
 API_BASE = URL_BASE + "/app/rest/"
 BUILDS_URL = API_BASE + "builds/"
@@ -23,8 +25,9 @@ def load_token():
     headers["Authorization"] = "Bearer " + os.environ.get("TOKEN")
 
 
-def pretty_print_json(obj):
-    print(json.dumps(obj, indent=2))
+def write_json_to_file(data, filename):
+    with open(filename, "w", encoding="utf-8") as file:
+        json.dump(data, file, ensure_ascii=False, indent=4)
 
 
 def get_test_occurrences(build_id):
@@ -69,15 +72,11 @@ def get_build_ids(project, all_branches=False):
     return list(map(lambda b: b["id"], build_ids))
 
 
-def write_json_to_file(data, filename):
-    with open(filename, "w", encoding="utf-8") as file:
-        json.dump(data, file, ensure_ascii=False, indent=4)
-
-
 def save_data_from_project(project, max_builds=None, all_branches=False):
     project_dir = DATA_DIRECTORY / Path(f"{project}")
     builds_dir = project_dir / "builds"
     tests_dir = project_dir / "testOccurrences"
+    builds_info = project_dir / "builds_info.json"
     builds_dir.mkdir(parents=True, exist_ok=True)
     tests_dir.mkdir(parents=True, exist_ok=True)
 
@@ -85,15 +84,22 @@ def save_data_from_project(project, max_builds=None, all_branches=False):
     if max_builds is not None:
         build_ids = build_ids[:max_builds]
 
-    write_json_to_file(build_ids, project_dir / "builds_info.json")
-    for build_id in tqdm(build_ids):
+    ids_to_download = build_ids
+    if builds_info.exists():
+        with open(builds_info) as file:
+            downloaded_ids = set(json.load(file))
+        ids_to_download = list(set(build_ids).difference(downloaded_ids))
+        build_ids = list(set(build_ids).union(downloaded_ids))
+
+    write_json_to_file(build_ids, builds_info)
+    for build_id in tqdm(ids_to_download):
         write_json_to_file(get_build(build_id), builds_dir / f"{build_id}.json")
         write_json_to_file(get_test_occurrences(build_id), tests_dir / f"{build_id}.json")
 
 
 def main():
     load_token()
-    projects = []
+    projects = parse_projects_file()
     for project in projects:
         print(project + " in progress...")
         start_time = time.time()
