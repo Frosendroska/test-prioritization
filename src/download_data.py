@@ -7,6 +7,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 import requests
 
+DATA_DIRECTORY = Path("..") / Path("data")
 URL_BASE = "https://teamcity.jetbrains.com"
 API_BASE = URL_BASE + "/app/rest/"
 BUILDS_URL = API_BASE + "builds/"
@@ -26,8 +27,8 @@ def pretty_print_json(obj):
     print(json.dumps(obj, indent=2))
 
 
-def get_testOccurrences(build_id):
-    locator = "?locator=count:-1,build:(id:" + str(build_id) + ")"
+def get_test_occurrences(build_id):
+    locator = f"?locator=count:-1,build:(id:{build_id})"
     tests_fields = "&fields=testOccurrence(name,status),nextHref"
     url = TEST_OCCURRENCES_URL + locator + tests_fields
 
@@ -44,7 +45,7 @@ def get_testOccurrences(build_id):
 
 
 def get_build(build_id):
-    locator = "id:" + str(build_id)
+    locator = f"id:{build_id}"
     build_fields = "?fields=id,number,branchName,status"
 
     url = BUILDS_URL + locator + build_fields
@@ -52,7 +53,7 @@ def get_build(build_id):
 
 
 def get_build_ids(project, all_branches=False):
-    locator = "count:-1,buildType:" + project
+    locator = f"count:-1,buildType:{project}"
     if all_branches:
         locator += ",branch:(default:any)"
 
@@ -74,20 +75,20 @@ def write_json_to_file(data, filename):
 
 
 def save_data_from_project(project, max_builds=None, all_branches=False):
-    project_dir = "../data/" + project + "/"
-    builds_dir = project_dir + "builds/"
-    tests_dir = project_dir + "testOccurrences/"
-    Path(builds_dir).mkdir(parents=True, exist_ok=True)
-    Path(tests_dir).mkdir(parents=True, exist_ok=True)
+    project_dir = DATA_DIRECTORY / Path(f"{project}")
+    builds_dir = project_dir / "builds"
+    tests_dir = project_dir / "testOccurrences"
+    builds_dir.mkdir(parents=True, exist_ok=True)
+    tests_dir.mkdir(parents=True, exist_ok=True)
 
     build_ids = get_build_ids(project, all_branches)
     if max_builds is not None:
         build_ids = build_ids[:max_builds]
 
-    write_json_to_file(build_ids, project_dir + "builds_info.json")
+    write_json_to_file(build_ids, project_dir / "builds_info.json")
     for build_id in tqdm(build_ids):
-        write_json_to_file(get_build(build_id), builds_dir + str(build_id) + ".json")
-        write_json_to_file(get_testOccurrences(build_id), tests_dir + str(build_id) + ".json")
+        write_json_to_file(get_build(build_id), builds_dir / f"{build_id}.json")
+        write_json_to_file(get_test_occurrences(build_id), tests_dir / f"{build_id}.json")
 
 
 def main():

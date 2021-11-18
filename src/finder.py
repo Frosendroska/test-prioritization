@@ -10,10 +10,6 @@ load_dotenv()
 headers["Authorization"] = "Bearer " + os.environ.get("TOKEN")
 
 
-def pretty_print_json(obj):
-    print(json.dumps(obj, indent=2))
-
-
 url = "https://teamcity.jetbrains.com/app/rest/buildTypes"
 response = requests.get(url, headers=headers).json()
 buildTypes = response.get("buildType")

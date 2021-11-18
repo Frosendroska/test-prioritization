@@ -2,7 +2,7 @@ from src.base_models import TestOccurrencesMetric
 import numpy as np
 
 
-class SimpleTestOccurrencesMetric(TestOccurrencesMetric):
+class AverageFailedPosition(TestOccurrencesMetric):
     def measure(self, test_occurrences):
         pos = []
         for i in range(len(test_occurrences)):

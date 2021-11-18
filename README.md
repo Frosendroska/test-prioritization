@@ -1,6 +1,6 @@
 # test-prioritization
-Для работы с API необходимо положить в .env файл в корне репозитория:
+To work with the API, you need to put in an .env file in the root of the repository:
 ```
 TOKEN=<your_teamcity_access_token>
 ```
-Для работы с выкачанными данными нужно распаковать архив `data.zip` в корне репозитория.
+To work with the downloaded data you need to unpack the `data.zip` archive in the root of the repository.

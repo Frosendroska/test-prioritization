@@ -1,19 +1,22 @@
 import json
 
-from tqdm import tqdm
 import matplotlib.pyplot as plt
+from tqdm import tqdm
+from pathlib import Path
 
 from simple_test_info import SimpleTestOccurrencesInfo
 from src.simple.simple_test_filter import SimpleTestOccurrencesFilter
-from src.simple.simple_test_metric import SimpleTestOccurrencesMetric
+from src.simple.average_failed_position import AverageFailedPosition
 from src.simple.simple_test_rank import SimpleTestOccurrencesRank
 from src.util import downloaded
 import numpy as np
 
+DATA_DIRECTORY = Path("..") / Path("..") / Path("data")
+
 
 def get_test_occurrences(project, build_id):
-    project_dir = "../../data/" + project + "/"
-    filename = project_dir + "testOccurrences/" + str(build_id) + ".json"
+    project_dir = DATA_DIRECTORY / Path(f"{project}")
+    filename = project_dir / Path("testOccurrences") / Path(f"{build_id}.json")
     with open(filename) as file:
         return json.load(file)
 
@@ -35,8 +38,8 @@ def show_stats(project, test_info):
     flaky_counts = [num_flaky(test_info, fraction) for fraction in failed_to_run_fractions]
     plt.plot(failed_to_run_fractions, flaky_counts)
     plt.title(project)
-    plt.xlabel('x')
-    plt.ylabel('fraction of tests: failed / run >= x')
+    plt.xlabel("x")
+    plt.ylabel("fraction of tests: failed / run >= x")
     plt.show()
 
 
@@ -44,7 +47,7 @@ def calc_metric(project, builds):
     test_info = SimpleTestOccurrencesInfo()
     test_filter = SimpleTestOccurrencesFilter()
     test_rank = SimpleTestOccurrencesRank()
-    test_metric = SimpleTestOccurrencesMetric()
+    test_metric = AverageFailedPosition()
 
     metric = []
     all_tests = []
@@ -64,8 +67,8 @@ def calc_metric(project, builds):
 
 
 def calc(project):
-    project_dir = "../../data/" + project + "/"
-    with open(project_dir + "builds_info.json") as file:
+    project_dir = DATA_DIRECTORY / Path(f"{project}")
+    with open(project_dir / Path("builds_info.json")) as file:
         builds_info = json.load(file)
         builds = builds_info[::-1]  # chronological order
         print('# builds =', len(builds))
@@ -74,7 +77,7 @@ def calc(project):
 
 def main():
     projects = downloaded
-    # projects = ["Exposed_TestOracle"]
+    # projects = []
     for project in projects:
         print(project)
         metric = calc(project)
