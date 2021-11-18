@@ -54,7 +54,7 @@ class Pipelines:
 
             # tests_filtered = test_filter.filter(test_occurrences, test_info)
             tests_ranked = self.test_rank.rank(test_occurrences, self.test_info)
-            metric.append([test_metric.measure(tests_ranked) for test_metric in test_metrics])
+            metric.append([test_metric.measure(tests_ranked, test_occurrences) for test_metric in test_metrics])
 
             self.test_info.update(test_occurrences)
         show_stats(project, self.test_info)

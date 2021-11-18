@@ -3,7 +3,7 @@ from pathlib import Path
 import numpy as np
 
 from simple_test_info import SimpleTestOccurrencesInfo
-from src.simple.average_failed_position import AverageFailedPosition
+from src.simple.simple_test_metrics import AverageFailedPosition, RankedDurationRatio
 from src.simple.Pipelines import Pipelines
 from src.simple.simple_test_filter import SimpleTestOccurrencesFilter
 from src.simple.simple_test_rank import SimpleTestOccurrencesRank
@@ -24,9 +24,10 @@ def main():
         print(project)
         metric = pipelines.run_all_with_metrics(project, test_metrics)
         transposed = np.transpose(metric)
-        for metric in transposed:
+        for i, metric in enumerate(transposed):
             nonnull = list(filter(lambda x: x is not None, metric))
-            print("metric mean = ", np.mean(nonnull), end="\n\n")
+            print(f"metric {i} mean = ", np.mean(nonnull))
+        print()
 
 
 if __name__ == "__main__":

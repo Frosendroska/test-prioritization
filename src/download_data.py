@@ -32,7 +32,7 @@ def write_json_to_file(data, filename):
 
 def get_test_occurrences(build_id):
     locator = f"?locator=count:-1,build:(id:{build_id})"
-    tests_fields = "&fields=testOccurrence(name,status),nextHref"
+    tests_fields = "&fields=testOccurrence(name,status,duration),nextHref"
     url = TEST_OCCURRENCES_URL + locator + tests_fields
 
     response = requests.get(url, headers=headers).json()
