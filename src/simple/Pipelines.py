@@ -65,5 +65,5 @@ class Pipelines:
         with open(project_dir / Path("builds_info.json"), "r") as file:
             builds_info = json.load(file)
             builds = builds_info[::-1]  # chronological order
-            print('# builds =', len(builds))
+            print("# builds =", len(builds))
             return self.__calc_metric(project, builds, test_metrics)

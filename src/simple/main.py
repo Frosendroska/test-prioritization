@@ -26,7 +26,7 @@ def main():
         transposed = np.transpose(metric)
         for metric in transposed:
             nonnull = list(filter(lambda x: x is not None, metric))
-            print('metric mean = ', np.mean(nonnull), end="\n\n")
+            print("metric mean = ", np.mean(nonnull), end="\n\n")
 
 
 if __name__ == "__main__":
