@@ -1,21 +1,23 @@
-downloaded = ['KotlinTools_KotlinFrontendPlugin_Build',
-              'Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild',
-              'KotlinTools_Exposed_Build',
-              'Exposed_TestOracle',
-              'Kotlin_dev_BuildIntegrityTest',
-              'Kotlin_dev_GradleIntegrationTests']
+downloaded = ['Kotlin_dev_GradleIntegrationTests',  # 1279 builds, 400 tests
+              'Kotlin_dev_BuildIntegrityTest',      # 899 builds, 250 tests,
+              'Exposed_TestOracle',                 # 1465 builds, 500 tests
+              'Kotlin_dev_CompilerAndPlugin_191',   # 1293 builds, 24k tests
+              'Kotlin_dev_CompilerAndPlugin_192',   # 1262 builds, 24k tests
+              'Kotlin_dev_CompilerAndPlugin_as34']  # 2312 builds, 25k tests
 
-count = [(899, 'Kotlin_dev_BuildIntegrityTest'),  # 250 tests
-         (1140, 'Kotlin_dev_Aggregate'),  # 100k tests
-         (1262, 'Kotlin_dev_CompilerAndPlugin_192'),  # 24k tests
-         (1279, 'Kotlin_dev_GradleIntegrationTests'),  # 400 tests
-         (1293, 'Kotlin_dev_CompilerAndPlugin_191'),  # 24k tests
+small_projects = ['KotlinTools_KotlinFrontendPlugin_Build',                    # 15 builds, 150 tests
+                  'Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild',  # 17 builds, 700 tests
+                  'KotlinTools_Exposed_Build']                                 # 21 builds, 500 tests
+
+count = [(899, 'Kotlin_dev_BuildIntegrityTest'),            # 250 tests
+         (1262, 'Kotlin_dev_CompilerAndPlugin_192'),        # 24k tests
+         (1279, 'Kotlin_dev_GradleIntegrationTests'),       # 400 tests
+         (1293, 'Kotlin_dev_CompilerAndPlugin_191'),        # 24k tests
          (1296, 'Kotlin_dev_CodegenTestsOnDifferentJDKs'),  # 40k tests
-         (1296, 'Kotlin_dev_BootstrapTest'),  # 3500 tests
-         (1456, 'Exposed_TestOracle'),  # 500 tests
-         (2312, 'Kotlin_dev_CompilerAndPlugin_as34'),  # 25k tests
-         (2319, 'Kotlin_dev_CompilerAndPlugin_as35'),  # 23k tests
-         (2336, 'Kotlin_dev_CompilerAndPlugin_183')]  # 25k test
+         (1456, 'Exposed_TestOracle'),                      # 500 tests
+         (2312, 'Kotlin_dev_CompilerAndPlugin_as34'),       # 25k tests
+         (2319, 'Kotlin_dev_CompilerAndPlugin_as35'),       # 23k tests
+         (2336, 'Kotlin_dev_CompilerAndPlugin_183')]        # 25k tests
 
 count2 = [(106, 'Kotlin_master_Aggregate'), (107, 'IdeaVim_Nvim'), (107, 'KotlinTools_Ktor_BuildGradleWindows'),
           (107, 'MPS_20191_Distribution_BuildNumber'), (111, 'MPS_20192_Distribution_Statistics'), (113, 'bt554'),
