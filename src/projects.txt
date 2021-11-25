@@ -4,9 +4,11 @@
 # KotlinTools_Exposed_Build                                 # 21 builds, 500 tests
 
 # big projects
-Kotlin_dev_GradleIntegrationTests  # 1279 builds, 400 tests
-Exposed_TestOracle                 # 1465 builds, 500 tests
-Kotlin_dev_CompilerAndPlugin_191   # 1293 builds, 24k tests
-Kotlin_dev_CompilerAndPlugin_192   # 1262 builds, 24k tests
-Kotlin_dev_CompilerAndPlugin_as34  # 2312 builds, 25k tests
-Kotlin_dev_CompilerAndPlugin_as35
+Kotlin_dev_GradleIntegrationTests  # 1279 builds, 420 tests
+Exposed_TestOracle                 # 1465 builds, 139 tests
+Kotlin_dev_CompilerAndPlugin_191   # 1293 builds, 23k tests
+Kotlin_dev_CompilerAndPlugin_192   # 1262 builds, 23k tests
+Kotlin_dev_CompilerAndPlugin_as34  # 2312 builds, 23k tests
+Kotlin_dev_CompilerAndPlugin_as35  # 2194 builds, 23k tests
+Kotlin_dev_CompilerAndPlugin_183   # 2300 builds, 25k tests
+Kotlin_dev_Aggregate               # 188 builds, 100k tests, not fully downloaded

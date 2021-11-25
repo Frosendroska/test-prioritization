@@ -10,16 +10,15 @@ def parse_projects_file(prefix=Path(".")):
 
 
 count = [
-    (899, "Kotlin_dev_BuildIntegrityTest"),  # 250 tests
-    (1262, "Kotlin_dev_CompilerAndPlugin_192"),  # 24k tests
-    (1279, "Kotlin_dev_GradleIntegrationTests"),  # 400 tests
-    (1293, "Kotlin_dev_CompilerAndPlugin_191"),  # 24k tests
-    (1296, "Kotlin_dev_CodegenTestsOnDifferentJDKs"),  # 40k tests
-    (1456, "Exposed_TestOracle"),  # 500 tests
-    (2312, "Kotlin_dev_CompilerAndPlugin_as34"),  # 25k tests
+    (1456, "Exposed_TestOracle"),  # 139 tests
+    (1293, "Kotlin_dev_CompilerAndPlugin_191"),  # 23k tests
+    (1262, "Kotlin_dev_CompilerAndPlugin_192"),  # 23k tests
+    (2312, "Kotlin_dev_CompilerAndPlugin_as34"),  # 22k tests
     (2319, "Kotlin_dev_CompilerAndPlugin_as35"),  # 23k tests
-    (2336, "Kotlin_dev_CompilerAndPlugin_183"),
-]  # 25k tests
+    (1279, "Kotlin_dev_GradleIntegrationTests"),  # 420 tests
+    (2336, "Kotlin_dev_CompilerAndPlugin_183"),  # 25k tests
+    (1140, "Kotlin_dev_Aggregate"),  # 100k tests, not fully downloaded
+]
 
 count2 = [
     (106, "Kotlin_master_Aggregate"),
@@ -129,37 +128,16 @@ count2 = [
     (874, "Kotlin_dev_CompilerAndPlugin_183_c"),
     (878, "IntellijIdeaPlugins_RLanguage_Build"),
     (878, "Kotlin_dev_CompilerAndPlugin_191_c"),
-    (899, "Kotlin_dev_BuildIntegrityTest"),
     (1031, "bt425"),
     (1069, "bt157"),
-    (1140, "Kotlin_dev_Aggregate"),
-    (1210, "Kotlin_PluginsCompatibilityCheck_Trunk130"),
-    (1262, "Kotlin_dev_CompilerAndPlugin_192"),
-    (1279, "Kotlin_dev_GradleIntegrationTests"),
     (1291, "bt419"),
     (1292, "bt420"),
-    (1293, "Kotlin_dev_CompilerAndPlugin_191"),
-    (1293, "Kotlin_dev_BootstrapTest_progressive"),
     (1295, "bt704"),
     (1295, "bt422"),
-    (1295, "ProjectsWrittenInKotlin_KotlinWorkshop"),
-    (1296, "Kotlin_dev_CodegenTestsOnDifferentJDKs"),
-    (1296, "Kotlin_dev_BootstrapTest"),
     (1299, "bt421"),
     (1366, "bt156"),
-    (1370, "Kotlin_dev_Compiler"),
-    (1433, "ProjectsWrittenInKotlin_SamplesForSpring"),
-    (1444, "Kotlin_dev_CompilerAllPlugins"),
-    (1456, "Exposed_TestOracle"),
     (1464, "bt495"),
-    (1464, "Kotlin_CompilerAndPluginBootstrapNoTests"),
     (1473, "bt345"),
-    (1639, "KotlinTools_KotlinxTrain_BuildKotlinMasterSnapshot"),
-    (2312, "Kotlin_dev_CompilerAndPlugin_as34"),
     (2314, "bt423"),
-    (2319, "Kotlin_dev_CompilerAndPlugin_as35"),
     (2329, "bt227"),
-    (2336, "Kotlin_dev_CompilerAndPlugin_183"),
-    (2563, "Kotlin_dev_BuildNumber"),
-    (2854, "Kotlin_IncrementalCompilationCheck_CompareIcVsClean"),
 ]
