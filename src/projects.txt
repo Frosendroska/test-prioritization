@@ -5,8 +5,8 @@
 
 # big projects
 Kotlin_dev_GradleIntegrationTests  # 1279 builds, 400 tests
-Kotlin_dev_BuildIntegrityTest      # 899 builds, 250 tests
 Exposed_TestOracle                 # 1465 builds, 500 tests
 Kotlin_dev_CompilerAndPlugin_191   # 1293 builds, 24k tests
 Kotlin_dev_CompilerAndPlugin_192   # 1262 builds, 24k tests
 Kotlin_dev_CompilerAndPlugin_as34  # 2312 builds, 25k tests
+Kotlin_dev_CompilerAndPlugin_as35

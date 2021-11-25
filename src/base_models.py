@@ -4,7 +4,7 @@ class TestOccurrencesInfo:
 
 
 class TestOccurrencesMetric:
-    name = None
+    description = None
 
     def measure(self, test_ranked, test_occurrences):
         raise NotImplementedError("TestOccurrencesMetric.measure")

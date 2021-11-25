@@ -3,7 +3,7 @@ from pathlib import Path
 from simple_test_info import SimpleTestOccurrencesInfo
 from src.simple.pipelines import Pipelines
 from src.simple.simple_test_filter import SimpleTestOccurrencesFilter
-from src.simple.simple_test_metrics import AverageFailedPosition, RankedDurationRatio
+from src.simple.simple_test_metrics import *
 from src.simple.simple_test_rank import SimpleTestOccurrencesRank
 from src.simple.statistics import generate_report
 from src.util import parse_projects_file
@@ -15,7 +15,10 @@ def main():
     test_info = SimpleTestOccurrencesInfo()
     test_filter = SimpleTestOccurrencesFilter()
     test_rank = SimpleTestOccurrencesRank()
-    test_metrics = [AverageFailedPosition(), RankedDurationRatio()]
+    test_metrics = [AverageFailedPosition(),
+                    AverageFailedPositionRankedRatio(),
+                    RankedDurationRatio(),
+                    RankedDurationDifference()]
 
     pipelines = Pipelines(test_info, test_filter, test_rank)
 

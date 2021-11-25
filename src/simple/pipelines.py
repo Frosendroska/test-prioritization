@@ -42,22 +42,22 @@ class Pipelines:
 
     def __calc_metric(self, project, builds, test_metrics):
         metric_results = []
-        all_tests = []
+        num_tests = []
         for build_id in tqdm(builds, file=sys.stdout):
             test_occurrences = get_test_occurrences(project, build_id)
-            all_tests.append(test_occurrences)
             if not test_occurrences:
                 continue
 
+            num_tests.append(len(test_occurrences))
             # tests_filtered = test_filter.filter(test_occurrences, test_info)
             tests_ranked = self.test_rank.rank(test_occurrences, self.test_info)
             metric_results.append([test_metric.measure(tests_ranked, test_occurrences) for test_metric in test_metrics])
 
             self.test_info.update(test_occurrences)
         flaky_test_stats = calc_flaky_count(self.test_info)
-        metric_names = [metric.name for metric in test_metrics]
+        metric_names = [metric.description for metric in test_metrics]
         metrics = zip(metric_names, np.transpose(metric_results))
-        return Statistics(project, metrics, flaky_test_stats)
+        return Statistics(project, int(np.mean(num_tests)), metrics, flaky_test_stats)
 
     def run_all_with_metrics(self, project, test_metrics):
         project_dir = DATA_DIRECTORY / Path(f"{project}")
