@@ -3,9 +3,9 @@ from pathlib import Path
 import numpy as np
 
 from simple_test_info import SimpleTestOccurrencesInfo
-from src.simple.simple_test_metrics import AverageFailedPosition, RankedDurationRatio
 from src.simple.Pipelines import Pipelines
 from src.simple.simple_test_filter import SimpleTestOccurrencesFilter
+from src.simple.simple_test_metrics import AverageFailedPosition, RankedDurationRatio
 from src.simple.simple_test_rank import SimpleTestOccurrencesRank
 from src.util import parse_projects_file
 
@@ -16,7 +16,7 @@ def main():
     test_info = SimpleTestOccurrencesInfo()
     test_filter = SimpleTestOccurrencesFilter()
     test_rank = SimpleTestOccurrencesRank()
-    test_metrics = [AverageFailedPosition()]
+    test_metrics = [AverageFailedPosition(), RankedDurationRatio()]
 
     pipelines = Pipelines(test_info, test_filter, test_rank)
 

@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+import sys
 
 from matplotlib import pyplot as plt
 import numpy as np
@@ -46,7 +47,7 @@ class Pipelines:
     def __calc_metric(self, project, builds, test_metrics):
         metric = []
         all_tests = []
-        for build_id in tqdm(builds):
+        for build_id in tqdm(builds, file=sys.stdout):
             test_occurrences = get_test_occurrences(project, build_id)
             all_tests.append(test_occurrences)
             if not test_occurrences:
