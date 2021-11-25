@@ -3,4 +3,4 @@ tqdm==4.62.3
 numpy==1.21.2
 matplotlib==3.4.3
 requests==2.26.0
-black==19.10b0
+domonic==0.7.2

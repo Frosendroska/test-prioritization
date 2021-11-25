@@ -1,8 +1,11 @@
-from src.base_models import TestOccurrencesMetric
 import numpy as np
+
+from src.base_models import TestOccurrencesMetric
 
 
 class AverageFailedPosition(TestOccurrencesMetric):
+    name = "Average failed position"
+
     def measure(self, test_ranked, test_occurrences):
         pos = []
         for i in range(len(test_occurrences)):
@@ -12,6 +15,8 @@ class AverageFailedPosition(TestOccurrencesMetric):
 
 
 class RankedDurationRatio(TestOccurrencesMetric):
+    name = "Ranked duration ratio"
+
     def __time_until_last_failure(self, test_occurrences):
         start = False
         time = 0
