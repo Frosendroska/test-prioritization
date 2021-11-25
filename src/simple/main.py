@@ -15,10 +15,12 @@ def main():
     test_info = SimpleTestOccurrencesInfo()
     test_filter = SimpleTestOccurrencesFilter()
     test_rank = SimpleTestOccurrencesRank()
-    test_metrics = [AverageFailedPosition(),
-                    AverageFailedPositionRankedRatio(),
-                    RankedDurationRatio(),
-                    RankedDurationDifference()]
+    test_metrics = [
+        AverageFailedPosition(),
+        AverageFailedPositionRankedRatio(),
+        RankedDurationRatio(),
+        RankedDurationDifference(),
+    ]
 
     pipelines = Pipelines(test_info, test_filter, test_rank)
 
