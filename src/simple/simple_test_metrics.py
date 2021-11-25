@@ -48,9 +48,9 @@ class RankedDurationRatio(TestOccurrencesMetric):
 
 
 class RankedDurationDifference(TestOccurrencesMetric):
-    description = "Duration until last failed test - teamcity order"
+    description = "Duration until last failed test -- teamcity order(in seconds)"
 
     def measure(self, test_ranked, test_occurrences):
         time_before = time_until_last_failure(test_occurrences)
         time_ranked = time_until_last_failure(test_ranked)
-        return time_ranked - time_before
+        return (time_ranked - time_before) / 1000  # seconds
