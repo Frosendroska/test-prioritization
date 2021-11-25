@@ -4,3 +4,4 @@ numpy==1.21.2
 matplotlib==3.4.3
 requests==2.26.0
 domonic==0.7.2
+black==19.10b0
