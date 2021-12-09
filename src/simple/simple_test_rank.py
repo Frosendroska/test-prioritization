@@ -1,7 +1,7 @@
-from src.base_models import TestOccurrencesRank
+from src.shared.base_models import TestOccurrencesRank
 
 
-class SimpleTestOccurrencesRank(TestOccurrencesRank):
+class SimpleTestRank(TestOccurrencesRank):
     def key(self, test, test_info):
         test_name = test["name"]
         run = test_info.num_runs.get(test_name, 0)
