@@ -1,5 +1,5 @@
 class TestOccurrencesInfo:
-    def update(self, test_occurrences):
+    def update(self, test_occurrences, changes):
         raise NotImplementedError("TestOccurrencesInfo.update")
 
 
