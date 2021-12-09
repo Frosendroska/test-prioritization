@@ -1,18 +1,20 @@
 import json
 import os
-import time
-from tqdm import tqdm
 from pathlib import Path
+import time
+
 from dotenv import load_dotenv
 import requests
+from tqdm import tqdm
 
-from src.util import parse_projects_file
+from src.util.util import parse_projects_file
 
-DATA_DIRECTORY = Path("..") / Path("data")
+DATA_DIRECTORY = Path("..") / Path("..") / Path("data")
 
 URL_BASE = "https://teamcity.jetbrains.com"
 API_BASE = URL_BASE + "/app/rest/"
 BUILDS_URL = API_BASE + "builds/"
+CHANGES_URL = API_BASE + "changes/"
 TEST_OCCURRENCES_URL = API_BASE + "testOccurrences/"
 BUILDS_MULTIPLE_URL = BUILDS_URL + "multiple/"
 headers = {"Accept": "application/json"}
@@ -47,12 +49,36 @@ def get_test_occurrences(build_id):
     return testOccurrences
 
 
+def get_changed_files(build_id):
+    locator = f"?locator=count:-1,build:(id:{build_id})"
+    changes_fields = "&fields=change(files),nextHref"
+    url = CHANGES_URL + locator + changes_fields
+
+    response = requests.get(url, headers=headers).json()
+    changes = response["change"]
+    if changes is None:
+        return None
+
+    while "nextHref" in response:
+        response = requests.get(URL_BASE + response["nextHref"], headers=headers).json()
+        changes += response["change"]
+
+    filenames = []
+    for change in changes:
+        files = change["files"]["file"]
+        filenames += list(map(lambda f: f["file"], files))
+
+    return filenames
+
+
 def get_build(build_id):
     locator = f"id:{build_id}"
     build_fields = "?fields=id,number,branchName,status"
 
     url = BUILDS_URL + locator + build_fields
-    return requests.get(url, headers=headers).json()
+    base_info = requests.get(url, headers=headers).json()
+    base_info["changed_files"] = get_changed_files(build_id)
+    return base_info
 
 
 def get_build_ids(project, all_branches=False):
@@ -99,7 +125,7 @@ def save_data_from_project(project, max_builds=None, all_branches=False):
 
 def main():
     load_token()
-    projects = parse_projects_file()
+    projects = parse_projects_file(prefix=Path(".."))
     for project in projects:
         print(project + " in progress...")
         start_time = time.time()

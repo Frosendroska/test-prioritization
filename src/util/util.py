@@ -1,7 +1,7 @@
 from pathlib import Path
 
 
-def parse_projects_file(prefix=Path(".")):
+def parse_projects_file(prefix=Path("")):
     projects = []
     with open(prefix / Path("projects.txt"), "r") as file:
         for line in file:
@@ -105,29 +105,10 @@ count2 = [
     (466, "Kotlin_KotlinX_Css"),
     (473, "bt565"),
     (473, "NUnit_NUnit3_FrameworkMSBuild_FrameworkLinuxMono40"),
-    (485, "TeamCityPluginsByJetBrains_RustPlugin_FuturesBuild"),
-    (500, "OpenSourceProjects_Druid_Inspections"),
-    (518, "Kotlin_dev_CompilerWithTests"),
-    (527, "NUnit_NUnit3_BuildAndTest_WindowsNetAllFrameworks"),
     (527, "bt780"),
-    (528, "Kotlin_JpsCompilationChec_CompareIcVsClean"),
-    (531, "Kotlin_dev_CompilerAndPlugin_as36"),
-    (532, "IntellijIdeaPlugins_Rust_193_TestIdea"),
-    (537, "IntellijIdeaPlugins_Rust_193_TestCLion"),
-    (557, "Kotlin_KotlinPublic_CompilerDistAndMavenArtifacts"),
-    (592, "GitExtensions_Master"),
-    (596, "Kotlin_KotlinPublic_BuildNumber"),
     (698, "bt133"),
     (703, "bt132"),
-    (706, "KotlinTools_KotlinxTrain_KotlinMaster_KotlinVersions"),
     (739, "bt136"),
-    (742, "Kotlin_dev_SanityTestKotlinNativeLinuxComposite"),
-    (755, "IntellijIdeaPlugins_Rust_OldestIdea_TestsRust"),
-    (812, "Kotlin_dev_CompilerAndPlugin_192_c"),
-    (828, "Kotlin_TypeScriptDeclarationToKotlinConverter_DukatExtendedSet"),
-    (874, "Kotlin_dev_CompilerAndPlugin_183_c"),
-    (878, "IntellijIdeaPlugins_RLanguage_Build"),
-    (878, "Kotlin_dev_CompilerAndPlugin_191_c"),
     (1031, "bt425"),
     (1069, "bt157"),
     (1291, "bt419"),
@@ -135,9 +116,4 @@ count2 = [
     (1295, "bt704"),
     (1295, "bt422"),
     (1299, "bt421"),
-    (1366, "bt156"),
-    (1464, "bt495"),
-    (1473, "bt345"),
-    (2314, "bt423"),
-    (2329, "bt227"),
 ]
