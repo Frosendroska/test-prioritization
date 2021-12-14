@@ -15,7 +15,7 @@ class BayesTestRank(TestOccurrencesRank):
 
         runs = test_info.num_runs[test_name]
         freq_fail = test_info.num_failed[test_name] / runs
-        alpha = 1
+        alpha, beta = 3, 0.75
 
         prod_changed_log = 0
         for filename in test_info.changed_files:
@@ -25,7 +25,7 @@ class BayesTestRank(TestOccurrencesRank):
 
         prod_changed_log -= len(test_info.changed_files) * np.log(test_info.num_failed[test_name] + alpha)
 
-        p_fail = np.log(freq_fail) + prod_changed_log
+        p_fail = beta * np.log(freq_fail) + (1 - beta) * prod_changed_log
         return -p_fail
 
     def rank(self, test_occurrences, test_info):
