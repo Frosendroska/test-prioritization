@@ -1,7 +1,7 @@
 from src.shared.base_models import TestOccurrencesFilter
 
 
-class SimpleTestFilter(TestOccurrencesFilter):
+class HistoryBasedTestFilter(TestOccurrencesFilter):
     RUN_THRESHOLD = 0.5
     FAILED_THRESHOLD = 0.8
     IGNORED_THRESHOLD = 0.5

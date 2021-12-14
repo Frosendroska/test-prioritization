@@ -1,7 +1,9 @@
 from src.shared.base_models import TestOccurrencesRank
 
 
-class SimpleTestRank(TestOccurrencesRank):
+class HistoryBasedTestRank(TestOccurrencesRank):
+    name = "History-based rank"
+
     def key(self, test, test_info):
         test_name = test["name"]
         run = test_info.num_runs.get(test_name, 0)
