@@ -10,7 +10,8 @@ from src.util.util import parse_projects_file
 def main():
     projects = parse_projects_file()
 
-    test_info = TestInfo()
+    gamma = 0.8
+    test_info = TestInfo(gamma)
     test_rank = BayesTestRank()
     test_metrics = [
         AverageFailedPosition(),
