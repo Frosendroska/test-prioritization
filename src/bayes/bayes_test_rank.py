@@ -8,13 +8,17 @@ class BayesTestRank(TestOccurrencesRank):
 
     def key(self, test, test_info):
         test_name = test["name"]
-        if test_info.num_runs.get(test_name, 0) == 0:
-            return -np.inf
-        if test_info.num_failed.get(test_name, 0) == 0:
+        runs = test_info.num_runs.get(test_name, 0)
+        failed = test_info.num_failed.get(test_name, 0)
+        if len(test_info.changed_files) == 0:
+            return 1 - failed / runs if runs > 0 else 0
+
+        if runs == 0:
+            return 0
+        if failed == 0:
             return np.inf
 
-        runs = test_info.num_runs[test_name]
-        freq_fail = test_info.num_failed[test_name] / runs
+        freq_fail = failed / runs
         alpha, beta = 3, 0.75
 
         prod_changed_log = 0
