@@ -51,28 +51,36 @@ class Pipelines:
     def __calc_metric(self, project, builds, test_metrics):
         metric_results = []
         num_tests = []
+        builds_with_changes = []
+
         for build_id in tqdm(builds, file=sys.stdout):
             changed_files = get_changed_files(project, build_id)
-            if len(changed_files) == 0:
-                continue
             test_occurrences = get_test_occurrences(project, build_id)
             if not test_occurrences:
                 continue
 
+            self.test_info.changed_files = changed_files
             num_tests.append(len(test_occurrences))
             tests_ranked = self.test_rank.rank(test_occurrences, self.test_info)
-            metric_results.append([test_metric.measure(tests_ranked, test_occurrences) for test_metric in test_metrics])
+            metrics = [test_metric.measure(tests_ranked, test_occurrences) for test_metric in test_metrics]
+            self.test_info.update(test_occurrences)
 
-            self.test_info.update(test_occurrences, changed_files)
+            ok = True
+            for m in metrics:
+                ok &= m is not None
+            if ok:
+                builds_with_changes.append(len(changed_files) > 0)
+                metric_results.append(metrics)
+
         flaky_test_stats = calc_flaky_count(self.test_info)
         metric_names = [metric.description for metric in test_metrics]
         metrics = zip(metric_names, np.transpose(metric_results))
-        return Statistics(project, int(np.mean(num_tests)), metrics, flaky_test_stats)
+        return Statistics(project, int(np.mean(num_tests)), metrics, flaky_test_stats, builds_with_changes)
 
     def run_all_with_metrics(self, project, test_metrics):
         project_dir = DATA_DIRECTORY / Path(f"{project}")
         with open(project_dir / Path("builds_info.json"), "r") as file:
             builds_info = json.load(file)
-            builds = builds_info[::-1]  # chronological order
+            builds = sorted(builds_info)  # chronological order
             print("# builds =", len(builds))
             return self.__calc_metric(project, builds, test_metrics)
