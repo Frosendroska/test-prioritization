@@ -12,11 +12,12 @@ def generate_report(projects_statistics, output_file_name="report.html"):
 
 
 class Statistics:
-    def __init__(self, project, num_tests, metrics, flaky_test_stats, builds_with_changes):
+    def __init__(self, project, num_tests, metrics, flaky_test_stats, num_failures, builds_with_changes):
         self.project = project
         self.num_tests = num_tests
         self.metrics = metrics
         self.flaky_test_stats = flaky_test_stats
+        self.num_failures = num_failures
         self.builds_with_changes = builds_with_changes
 
     def __pyplot_to_img(self):
@@ -28,6 +29,7 @@ class Statistics:
     def create_project_report(self):
         metrics_to_show = []
         metric_plots = []
+        num_builds = None
         for metric_class, metric_result in self.metrics:
             num_builds = len(metric_result)
             metrics = [[], []]
@@ -52,10 +54,18 @@ class Statistics:
         failed_to_run_fractions, flaky_counts = self.flaky_test_stats
         plt.figure(figsize=(6, 4))
         plt.plot(failed_to_run_fractions, flaky_counts)
-        plt.title("Flaky tests")
+        plt.title("fraction of tests: failed / run >= x")
         plt.xlabel("x")
-        plt.ylabel("fraction of tests: failed / run >= x")
-        plot_img = self.__pyplot_to_img()
+        flaky_counts_img = self.__pyplot_to_img()
+        plt.close()
+
+        indices = list(range(self.num_tests))
+        num_failures_list = [self.num_failures.get(i, 0) for i in indices]
+        plt.figure(figsize=(6, 4))
+        plt.plot(indices, num_failures_list)
+        plt.title("# test fails on position i")
+        plt.xlabel("i")
+        num_failures_img = self.__pyplot_to_img()
         plt.close()
 
         return div(
@@ -64,6 +74,7 @@ class Statistics:
             div(f"{self.num_tests} tests on average."),
             div(f"{br()}".join(metrics_to_show)),
             *metric_plots,
-            plot_img,
+            flaky_counts_img,
+            num_failures_img,
             hr(),
         )

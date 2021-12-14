@@ -52,6 +52,7 @@ class Pipelines:
         metric_results = []
         num_tests = []
         builds_with_changes = []
+        num_failures = {}
 
         for build_id in tqdm(builds, file=sys.stdout):
             changed_files = get_changed_files(project, build_id)
@@ -65,6 +66,10 @@ class Pipelines:
             metrics = [test_metric.measure(tests_ranked, test_occurrences) for test_metric in test_metrics]
             self.test_info.update(test_occurrences)
 
+            for i, test in enumerate(tests_ranked):
+                if test["status"] == "FAILURE":
+                    num_failures[i] = num_failures.get(i, 0) + 1
+
             ok = True
             for m in metrics:
                 ok &= m is not None
@@ -74,7 +79,9 @@ class Pipelines:
 
         flaky_test_stats = calc_flaky_count(self.test_info)
         metrics = zip(test_metrics, np.transpose(metric_results))
-        return Statistics(project, int(np.mean(num_tests)), metrics, flaky_test_stats, builds_with_changes)
+        return Statistics(
+            project, int(np.mean(num_tests)), metrics, flaky_test_stats, num_failures, builds_with_changes
+        )
 
     def run_all_with_metrics(self, project, test_metrics):
         project_dir = DATA_DIRECTORY / Path(f"{project}")
