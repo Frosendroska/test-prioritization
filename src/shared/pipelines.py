@@ -73,8 +73,7 @@ class Pipelines:
                 metric_results.append(metrics)
 
         flaky_test_stats = calc_flaky_count(self.test_info)
-        metric_names = [metric.description for metric in test_metrics]
-        metrics = zip(metric_names, np.transpose(metric_results))
+        metrics = zip(test_metrics, np.transpose(metric_results))
         return Statistics(project, int(np.mean(num_tests)), metrics, flaky_test_stats, builds_with_changes)
 
     def run_all_with_metrics(self, project, test_metrics):

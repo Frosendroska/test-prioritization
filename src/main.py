@@ -1,7 +1,8 @@
 from shared.pipelines import Pipelines
 from shared.statistics import generate_report
 from shared.test_info import TestInfo
-from shared.test_metrics import *
+from shared.duration_metrics import *
+from shared.failed_position_metrics import *
 from history_based.history_based_test_rank import HistoryBasedTestRank
 from src.bayes.bayes_test_rank import BayesTestRank
 from src.util.util import parse_projects_file
@@ -12,12 +13,20 @@ def main():
 
     gamma = 0.8
     test_info = TestInfo(gamma)
-    test_rank = BayesTestRank()
+    test_rank = HistoryBasedTestRank()
     test_metrics = [
-        AverageFailedPosition(),
-        AverageFailedPositionRankedRatio(),
-        RankedDurationRatio(),
-        RankedDurationDifference(),
+        FirstFailedPosition(),
+        FirstFailedPositionRankedRatio(),
+        AverageFailedPosition(show_graph=True),
+        AverageFailedPositionRankedRatio(show_graph=True),
+        LastFailedPosition(),
+        LastFailedPositionRankedRatio(),
+        FirstFailureDurationRatio(),
+        FirstFailureDurationDifference(show_graph=True),
+        LastFailureDurationRatio(),
+        LastFailureDurationDifference(show_graph=True),
+        AverageFailureDurationRatio(show_graph=True),
+        AverageFailureDurationDifference(show_graph=True),
     ]
 
     pipelines = Pipelines(test_info, test_rank)

@@ -28,7 +28,7 @@ class Statistics:
     def create_project_report(self):
         metrics_to_show = []
         metric_plots = []
-        for metric_name, metric_result in self.metrics:
+        for metric_class, metric_result in self.metrics:
             num_builds = len(metric_result)
             metrics = [[], []]
             x = [[], []]
@@ -37,16 +37,17 @@ class Statistics:
                 metrics[changed].append(m)
                 x[changed].append(i + 1)
 
-            plt.figure(figsize=(6, 4))
-            plt.scatter(x[0], metrics[0], s=3, color="#1F77B4")
-            plt.scatter(x[1], metrics[1], s=3, color="#E7363A")
-            plt.title(metric_name)
-            plt.xlabel("# test")
-            plt.ylabel("value")
-            metric_plots.append(self.__pyplot_to_img())
-            plt.close()
+            if metric_class.show_graph:
+                plt.figure(figsize=(6, 4))
+                plt.scatter(x[0], metrics[0], s=3, color="#1F77B4")
+                plt.scatter(x[1], metrics[1], s=3, color="#E7363A")
+                plt.title(metric_class.description)
+                plt.xlabel("# test")
+                plt.ylabel("value")
+                metric_plots.append(self.__pyplot_to_img())
+                plt.close()
 
-            metrics_to_show.append(f"{metric_name}: mean = {np.round(np.mean(metric_result), 2)}")
+            metrics_to_show.append(f"{metric_class.description}: mean = {np.round(np.mean(metric_result), 2)}")
 
         failed_to_run_fractions, flaky_counts = self.flaky_test_stats
         plt.figure(figsize=(6, 4))
