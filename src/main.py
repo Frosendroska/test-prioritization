@@ -3,6 +3,7 @@ from shared.statistics import generate_report
 from shared.test_info import TestInfo
 from shared.test_metrics import *
 from simple.simple_test_rank import SimpleTestRank
+from src.bayes.bayes_test_rank import BayesTestRank
 from src.util.util import parse_projects_file
 
 
