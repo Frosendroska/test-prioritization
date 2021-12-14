@@ -17,7 +17,7 @@ count = [
     (2319, "Kotlin_dev_CompilerAndPlugin_as35"),  # 23k tests
     (1279, "Kotlin_dev_GradleIntegrationTests"),  # 420 tests
     (2336, "Kotlin_dev_CompilerAndPlugin_183"),  # 25k tests
-    (1140, "Kotlin_dev_Aggregate"),  # 100k tests, not fully downloaded
+    (1140, "Kotlin_dev_Aggregate"),  # 100k tests
 ]
 
 count2 = [
