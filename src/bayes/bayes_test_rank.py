@@ -4,6 +4,8 @@ from src.shared.base_models import TestOccurrencesRank
 
 
 class BayesTestRank(TestOccurrencesRank):
+    name = "naive-bayes"
+
     def key(self, test, test_info):
         test_name = test["name"]
         if test_info.num_runs.get(test_name, 0) == 0:

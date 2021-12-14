@@ -26,7 +26,7 @@ def main():
         print(project)
         statistics = pipelines.run_all_with_metrics(project, test_metrics)
         project_reports.append(statistics.create_project_report())
-    generate_report(project_reports)
+    generate_report(project_reports, output_file_name=f"{test_rank.name}-rank-report.html")
 
 
 if __name__ == "__main__":
