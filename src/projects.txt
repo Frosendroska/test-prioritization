@@ -1,0 +1,19 @@
+# small test projects
+# KotlinTools_KotlinFrontendPlugin_Build                    # 15 builds, 150 tests, no changes
+# Kotlin_TypeScriptDeclarationToKotlinConverter_DukatBuild  # 17 builds, 700 tests
+# KotlinTools_Exposed_Build                                 # 21 builds, 500 tests
+
+# with changes
+Exposed_TestOracle                                  # 1465(368) builds, 139 tests
+Kotlin_dev_CompilerAndPlugin_as34                   # 2312(366) builds, 23k tests
+Kotlin_dev_CompilerAndPlugin_as35                   # 2194(362) builds, 23k tests
+Kotlin_dev_CompilerAndPlugin_183                    # 2300(325) builds, 25k tests
+KotlinTools_KotlinxTrain_BuildKotlinMasterSnapshot  # 1639(259) builds, 552 tests
+
+# no changes
+# Kotlin_dev_GradleIntegrationTests  # 1279 builds, 420 tests, no changes
+# Kotlin_dev_CompilerAndPlugin_191   # 1293 builds, 23k tests, no changes
+# Kotlin_dev_CompilerAndPlugin_192   # 1262 builds, 23k tests, no changes
+# Kotlin_dev_Aggregate               # 1140 builds, 100k tests, no changes
+# Kotlin_dev_CompilerWithTests       # no changes
+# Kotlin_dev_CompilerAndPlugin_as36  # no changes
