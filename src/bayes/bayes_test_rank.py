@@ -4,6 +4,10 @@ from src.shared.base_models import TestOccurrencesRank
 
 
 class BayesTestRank(TestOccurrencesRank):
+    """
+    Sort based on the priority, which is the probability of falling using the
+    naive-bayes formula (with the assumption of independence).
+    """
     name = "naive-bayes"
 
     def key(self, test, test_info):

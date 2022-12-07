@@ -2,6 +2,9 @@ from src.shared.base_models import TestOccurrencesRank
 
 
 class HistoryBasedTestRank(TestOccurrencesRank):
+    """
+    Sort based on the priority, which is the percentage of the fall of this test on past runs.
+    """
     name = "history-based"
 
     def key(self, test, test_info):
