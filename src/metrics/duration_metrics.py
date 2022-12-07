@@ -1,6 +1,6 @@
 import numpy as np
 
-from src.shared.base_models import TestOccurrencesMetric
+from src.metrics.metrics import TestOccurrencesMetric
 
 
 def time_until_first_failure(test_occurrences):

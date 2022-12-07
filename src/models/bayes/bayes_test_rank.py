@@ -1,6 +1,6 @@
 import numpy as np
 
-from src.shared.base_models import TestOccurrencesRank
+from src.models.models import TestOccurrencesRank
 
 
 class BayesTestRank(TestOccurrencesRank):

@@ -1,4 +1,4 @@
-from src.shared.base_models import TestOccurrencesFilter
+from src.models.models import TestOccurrencesFilter
 
 
 class HistoryBasedTestFilter(TestOccurrencesFilter):

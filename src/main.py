@@ -1,10 +1,9 @@
 from shared.pipelines import Pipelines
 from shared.statistics import generate_report
 from shared.test_info import TestInfo
-from shared.duration_metrics import *
-from shared.failed_position_metrics import *
-from history_based.history_based_test_rank import HistoryBasedTestRank
-from src.bayes.bayes_test_rank import BayesTestRank
+from src.metrics.duration_metrics import *
+from src.metrics.failed_position_metrics import *
+from src.models.history_based.history_based_test_rank import HistoryBasedTestRank
 from src.util.util import parse_projects_file
 
 
