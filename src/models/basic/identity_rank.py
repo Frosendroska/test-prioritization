@@ -7,7 +7,6 @@ class IdentityTestRank(TestOccurrencesRank):
     """
 
     name = "identity"
-    counter = 0
 
     def key(self, test, test_info):
         pass

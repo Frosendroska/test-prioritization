@@ -1,5 +1,7 @@
 from pathlib import Path
 
+RESULTS_PATH = Path("..") / Path("results")
+
 
 def parse_projects_file(prefix=Path("")):
     projects = []

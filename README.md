@@ -10,4 +10,5 @@ Firstly, create the token for working with API
 ```
 TOKEN=<your_teamcity_access_token>
 ```
+* Run `download_data.py` in `scripts/`
 * To work with the downloaded data you need to unpack the `data.zip` archive in the root of the repository.

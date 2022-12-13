@@ -4,11 +4,15 @@ from io import BytesIO
 from domonic.html import br, div, hr, html, img, render
 from matplotlib import pyplot as plt
 import numpy as np
+from pathlib import Path
+
+from src.util.util import RESULTS_PATH
 
 
-def generate_report(projects_statistics, output_file_name="report.html"):
+def generate_report(projects_statistics, output_file_name):
     document = html(*projects_statistics)
-    render(f"{document}", output_file_name)
+    RESULTS_PATH.mkdir(parents=True, exist_ok=True)
+    render(f"{document}", RESULTS_PATH / output_file_name)
 
 
 class Statistics:
