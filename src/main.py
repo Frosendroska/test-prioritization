@@ -51,7 +51,7 @@ def main():
             statistics = pipelines[i].run_all_with_metrics(project, test_metrics)
             project_reports.append(statistics.create_project_report())
             generate_report(project_reports,
-                            output_file_name=f"{pipelines[i].test_rank.name}-for-{project}-rank-report.html")
+                            output_file_name=f"{project}-{pipelines[i].test_rank.name}-rank-report.html")
 
 
 if __name__ == "__main__":
