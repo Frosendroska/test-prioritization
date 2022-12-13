@@ -23,13 +23,14 @@ class BayesTestRank(TestOccurrencesRank):
             return np.inf
 
         freq_fail = failed / runs
-        alpha, beta = 3, 0.75
+        alpha, beta = 0.01, 0.8
 
         prod_changed_log = 0
         for filename in test_info.changed_files:
             key = (filename, test_name)
             changed_and_failed = test_info.file_changed_test_failed.get(key, 0)
-            prod_changed_log += np.log(changed_and_failed + alpha * freq_fail)
+            prod_changed_log += np.log(changed_and_failed + alpha)
+            prod_changed_log -= np.log(test_info.num_failed[test_name] + alpha * len(test_info.changed_files))
 
         prod_changed_log -= len(test_info.changed_files) * np.log(test_info.num_failed[test_name] + alpha)
 

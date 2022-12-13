@@ -44,7 +44,7 @@ class Statistics:
                 x[changed].append(i + 1)
 
             if metric_class.show_graph:
-                plt.figure(figsize=(6, 4))
+                plt.figure(figsize=(6, 4), constrained_layout=True)
                 plt.scatter(x[0], metrics[0], s=3, color="#1F77B4")
                 plt.scatter(x[1], metrics[1], s=3, color="#E7363A")
                 plt.title(metric_class.description)
@@ -56,19 +56,21 @@ class Statistics:
             metrics_to_show.append(f"{metric_class.description}: mean = {np.round(np.mean(metric_result), 2)}")
 
         failed_to_run_fractions, flaky_counts = self.flaky_test_stats
-        plt.figure(figsize=(6, 4))
+        plt.figure(figsize=(6, 4), constrained_layout=True)
         plt.plot(failed_to_run_fractions, flaky_counts)
         plt.title("fraction of tests: failed / run >= x")
         plt.xlabel("x")
+        plt.yscale('log')
         flaky_counts_img = self.__pyplot_to_img()
         plt.close()
 
         indices = list(range(self.num_tests))
         num_failures_list = [self.num_failures.get(i, 0) for i in indices]
-        plt.figure(figsize=(6, 4))
-        plt.plot(indices, num_failures_list)
+        plt.figure(figsize=(6, 4), constrained_layout=True)
+        plt.scatter(indices, num_failures_list, s=2)
         plt.title("# test fails on position i")
         plt.xlabel("i")
+        plt.yscale('log')
         num_failures_img = self.__pyplot_to_img()
         plt.close()
 
