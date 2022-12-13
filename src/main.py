@@ -40,9 +40,9 @@ def main():
     ]
 
     pipelines = [Pipelines(test_info, test_rank_history_based),
-                 Pipelines(test_info, BayesTestRank),
-                 Pipelines(test_info, IdentityTestRank),
-                 Pipelines(test_info, RandomTestRank)]
+                 Pipelines(test_info, test_rank_bayes_based),
+                 Pipelines(test_info, test_rank_identity_based),
+                 Pipelines(test_info, test_rank_random_based)]
 
     for i in range(len(pipelines)):
         project_reports = []
