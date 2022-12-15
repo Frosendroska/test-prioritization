@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 RESULTS_PATH = Path("..") / Path("results")
@@ -8,6 +9,20 @@ def parse_projects_file(prefix=Path("")):
     with open(prefix / Path("projects.txt"), "r") as file:
         for line in file:
             projects += line.rstrip().split("#")[0].split()
+    return projects
+
+
+def parse_small_projects_file(prefix=Path("")):
+    projects = []
+    process = False
+    with open(prefix / Path("projects.txt"), "r") as file:
+        for line in file:
+            if "test" in line:
+                process = True
+            if process:
+                projects += line.rstrip().split("#")[0].split()
+            if process and line in os.linesep:
+                break
     return projects
 
 
