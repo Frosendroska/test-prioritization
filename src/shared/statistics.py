@@ -1,11 +1,11 @@
 from base64 import b64encode
 from io import BytesIO
 
-from domonic.html import br, div, hr, html, img, render
+from domonic.html import br, div, hr, html, img, render, p
 from matplotlib import pyplot as plt
 import numpy as np
 
-from src.util.util import RESULTS_PATH
+from src.util.util import RESULTS_PATH, BUILD_HTML_COLOR, MARKED_HTML_COLOR
 
 
 def generate_report(projects_statistics, output_file_name, results_path=RESULTS_PATH):
@@ -29,6 +29,35 @@ class Statistics:
         image_base64 = b64encode(tmp_image.getvalue()).decode("utf-8")
         return img() >> {"_src": f"data:image/png;base64,{image_base64}"}
 
+    def __flaky_counts_img(self):
+        failed_to_run_fractions, flaky_counts = self.flaky_test_stats
+        plt.figure(figsize=(6, 4), constrained_layout=True)
+        plt.plot(failed_to_run_fractions, flaky_counts)
+        plt.title("fraction of tests: failed / run >= x")
+        plt.xlabel("x")
+        plt.yscale('log')
+        flaky_counts_img = self.__pyplot_to_img()
+        plt.close()
+        return flaky_counts_img
+
+    def __num_failures_img(self):
+        indices = list(range(self.num_tests))
+        num_failures_list = [self.num_failures.get(i, 0) for i in indices]
+        plt.figure(figsize=(6, 4), constrained_layout=True)
+        plt.scatter(indices, num_failures_list, s=2)
+        plt.title("# test fails on position i")
+        plt.xlabel("i")
+        plt.yscale('log')
+        num_failures_img = self.__pyplot_to_img()
+        plt.close()
+        return num_failures_img
+
+    def __general_project_report(self, num_builds):
+        return div(self.project, _style="font-size:25px;font-weight:bold;"), p(
+            div(f"Builds with failing tests: {num_builds}", _style="font-weight:bold;"),
+            div(f"Tests on average: {self.num_tests}", _style="font-weight:bold;")
+        )
+
     def create_project_report(self):
         metrics_to_show = []
         metric_plots = []
@@ -44,8 +73,8 @@ class Statistics:
 
             if metric_class.show_graph:
                 plt.figure(figsize=(6, 4), constrained_layout=True)
-                plt.scatter(x[0], metrics[0], s=3, color="#1F77B4")
-                plt.scatter(x[1], metrics[1], s=3, color="#E7363A")
+                plt.scatter(x[0], metrics[0], s=3, color=BUILD_HTML_COLOR)
+                plt.scatter(x[1], metrics[1], s=3, color=MARKED_HTML_COLOR)
                 plt.title(metric_class.description)
                 plt.xlabel("# test")
                 plt.ylabel("value")
@@ -54,29 +83,11 @@ class Statistics:
 
             metrics_to_show.append(f"{metric_class.description}: mean = {np.round(np.mean(metric_result), 2)}")
 
-        failed_to_run_fractions, flaky_counts = self.flaky_test_stats
-        plt.figure(figsize=(6, 4), constrained_layout=True)
-        plt.plot(failed_to_run_fractions, flaky_counts)
-        plt.title("fraction of tests: failed / run >= x")
-        plt.xlabel("x")
-        plt.yscale('log')
-        flaky_counts_img = self.__pyplot_to_img()
-        plt.close()
-
-        indices = list(range(self.num_tests))
-        num_failures_list = [self.num_failures.get(i, 0) for i in indices]
-        plt.figure(figsize=(6, 4), constrained_layout=True)
-        plt.scatter(indices, num_failures_list, s=2)
-        plt.title("# test fails on position i")
-        plt.xlabel("i")
-        plt.yscale('log')
-        num_failures_img = self.__pyplot_to_img()
-        plt.close()
+        flaky_counts_img = self.__flaky_counts_img()
+        num_failures_img = self.__num_failures_img()
 
         return div(
-            div(self.project, _style="font-size:20px;font-weight:bold;"),
-            div(f"{num_builds} builds with failing tests."),
-            div(f"{self.num_tests} tests on average."),
+            *self.__general_project_report(num_builds),
             div(f"{br()}".join(metrics_to_show)),
             *metric_plots,
             flaky_counts_img,

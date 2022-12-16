@@ -2,6 +2,8 @@ import os
 from pathlib import Path
 
 RESULTS_PATH = Path("..") / Path("results")
+BUILD_HTML_COLOR = "#0296EA"
+MARKED_HTML_COLOR = "#E80379"
 
 
 def parse_projects_file(prefix=Path("")):

@@ -41,8 +41,8 @@ def main():
                  Pipelines(test_info, test_rank_random_based)]
 
     for i in range(len(pipelines)):
-        project_reports = []
         for project in projects:
+            project_reports = []
             print(project)
             statistics = pipelines[i].run_all_with_metrics(project, test_metrics)
             project_reports.append(statistics.create_project_report())
