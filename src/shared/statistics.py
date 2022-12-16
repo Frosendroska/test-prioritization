@@ -1,7 +1,7 @@
 from base64 import b64encode
 from io import BytesIO
 
-from domonic.html import br, div, hr, html, img, render, p
+from domonic.html import br, div, hr, html, img, render, p, tr, th, style, td, table
 from matplotlib import pyplot as plt
 import numpy as np
 
@@ -58,6 +58,21 @@ class Statistics:
             div(f"Tests on average: {self.num_tests}", _style="font-weight:bold;")
         )
 
+    def __general_metric_report(self, metrics_to_show):
+        strings = [": mean = ".join(s) for s in metrics_to_show]
+        return div(br(), f"{br()}".join(strings))  # TODO
+
+    def __general_metric_report_table(self, metrics_to_show):
+        rows = [tr(td(s[0]), td(s[1])) for s in metrics_to_show]
+        return p(
+            style("""
+                table, th, td {
+                    border: 1px solid black;
+                    border-collapse: collapse;
+                }"""),
+            table(tr(th("metrics"), th("mean")), *rows),
+        )
+
     def create_project_report(self):
         metrics_to_show = []
         metric_plots = []
@@ -81,14 +96,14 @@ class Statistics:
                 metric_plots.append(self.__pyplot_to_img())
                 plt.close()
 
-            metrics_to_show.append(f"{metric_class.description}: mean = {np.round(np.mean(metric_result), 2)}")
+            metrics_to_show.append([f"{metric_class.description}", f"{np.round(np.mean(metric_result), 2)}"])
 
         flaky_counts_img = self.__flaky_counts_img()
         num_failures_img = self.__num_failures_img()
 
         return div(
             *self.__general_project_report(num_builds),
-            div(f"{br()}".join(metrics_to_show)),
+            self.__general_metric_report_table(metrics_to_show),
             *metric_plots,
             flaky_counts_img,
             num_failures_img,
