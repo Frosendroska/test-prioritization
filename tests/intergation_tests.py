@@ -7,6 +7,7 @@ from src.util.util import parse_small_projects_file
 import src.metrics as metrics
 import src.models as models
 from pathlib import Path
+from src.util.util import OrderType
 
 
 @pytest.mark.integtest
@@ -21,18 +22,19 @@ def test_integration():
     test_rank_random_based = models.RandomTestRank()
 
     test_metrics = [
-        metrics.FirstFailedPosition(),
-        metrics.FirstFailedPositionRankedRatio(),
-        metrics.AverageFailedPosition(show_graph=True),
-        metrics.AverageFailedPositionRankedRatio(show_graph=True),
-        metrics.LastFailedPosition(),
-        metrics.LastFailedPositionRankedRatio(),
+        metrics.FirstFailedPosition(OrderType.INITIAL),
+        metrics.FirstFailedPosition(OrderType.RANKED),
+        metrics.FirstFailedPositionRatio(),
+        metrics.AverageFailedPosition(OrderType.INITIAL),
+        metrics.AverageFailedPosition(OrderType.RANKED),
+        metrics.AverageFailedPositionRatio(),
+        metrics.LastFailedPosition(OrderType.INITIAL),
+        metrics.LastFailedPosition(OrderType.RANKED),
+        metrics.LastFailedPositionRatio(),
+
         metrics.FirstFailureDurationRatio(),
-        metrics.FirstFailureDurationDifference(show_graph=True),
         metrics.LastFailureDurationRatio(),
-        metrics.LastFailureDurationDifference(show_graph=True),
-        metrics.AverageFailureDurationRatio(show_graph=True),
-        metrics.AverageFailureDurationDifference(show_graph=True),
+        metrics.AverageFailureDurationRatio(),
     ]
 
     pipelines = [Pipelines(test_info, test_rank_history_based),
@@ -41,11 +43,10 @@ def test_integration():
                  Pipelines(test_info, test_rank_random_based)]
 
     for i in range(len(pipelines)):
+        project_reports = []
         for project in projects:
-            project_reports = []
             print(project)
             statistics = pipelines[i].run_all_with_metrics(project, test_metrics)
             project_reports.append(statistics.create_project_report())
-            generate_report(project_reports,
-                            f"{project}-{pipelines[i].test_rank.name}-rank-report.html",
-                            Path("..") / Path("results-test"))
+        generate_report(project_reports, f"{pipelines[i].test_rank.name}-rank-report.html",
+                        Path("..") / Path("results-test"))
