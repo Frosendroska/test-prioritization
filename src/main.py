@@ -22,11 +22,11 @@ def main():
 
     test_metrics = [
         metrics.FirstFailedPosition(),
-        metrics.FirstFailedPositionRankedRatio(),
+        metrics.FirstFailedPositionRatio(),
         metrics.AverageFailedPosition(show_graph=True),
-        metrics.AverageFailedPositionRankedRatio(show_graph=True),
+        metrics.AverageFailedPositionRatio(show_graph=True),
         metrics.LastFailedPosition(),
-        metrics.LastFailedPositionRankedRatio(),
+        metrics.LastFailedPositionRatio(),
         metrics.FirstFailureDurationRatio(),
         metrics.FirstFailureDurationDifference(show_graph=True),
         metrics.LastFailureDurationRatio(),

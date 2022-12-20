@@ -5,7 +5,7 @@ from domonic.html import br, div, hr, html, img, render, p, tr, th, style, td, t
 from matplotlib import pyplot as plt
 import numpy as np
 
-from src.util.util import RESULTS_PATH, BUILD_HTML_COLOR, MARKED_HTML_COLOR
+from src.util.util import RESULTS_PATH, BUILD_HTML_COLOR, MARKED_HTML_COLOR, HTML_FRONT, BEAUTIFUL_TABLE
 
 
 def generate_report(projects_statistics, output_file_name, results_path=RESULTS_PATH):
@@ -65,11 +65,7 @@ class Statistics:
     def __general_metric_report_table(self, metrics_to_show):
         rows = [tr(td(s[0]), td(s[1])) for s in metrics_to_show]
         return p(
-            style("""
-                table, th, td {
-                    border: 1px solid black;
-                    border-collapse: collapse;
-                }"""),
+            style(HTML_FRONT + BEAUTIFUL_TABLE),
             table(tr(th("metrics"), th("mean")), *rows),
         )
 

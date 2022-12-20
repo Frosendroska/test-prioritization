@@ -1,6 +1,7 @@
 import numpy as np
 
 from src.metrics.metrics import TestOccurrencesMetric
+from src.util.util import OrderType
 
 
 def time_until_first_failure(test_occurrences):
@@ -33,23 +34,29 @@ def time_until_last_failure(test_occurrences):
     return time
 
 
-def metric_ratio_with_other_order(metric, test_ranked, test_occurrences):
-    time_before = metric(test_occurrences)
-    time_ranked = metric(test_ranked)
-    return None if time_before == 0 else time_ranked / time_before
-
-
 def metric_difference_with_other_order(metric, test_ranked, test_occurrences):
     time_before = metric(test_occurrences)
     time_ranked = metric(test_ranked)
     return (time_ranked - time_before) / 1000  # seconds
 
 
+def metric_ratio_with_other_order(metric, test_ranked, test_occurrences):
+    time_before = metric(test_occurrences)
+    time_ranked = metric(test_ranked)
+    return None if time_before == 0 else time_ranked / time_before
+
+
 class FirstFailureDurationRatio(TestOccurrencesMetric):
-    description = "Duration until first failed test / teamcity order"
+
+    def __init__(self, order_type: OrderType = OrderType.BOTH, description="", show_graph=True):
+        super().__init__(order_type, description, show_graph)
+        self.description = "Duration until first failed test ratio"
 
     def measure(self, test_ranked, test_occurrences):
-        return metric_ratio_with_other_order(time_until_first_failure, test_ranked, test_occurrences)
+        if self.order_type == OrderType.BOTH:
+            return metric_ratio_with_other_order(time_until_first_failure, test_ranked, test_occurrences)
+        else:
+            raise AttributeError("This metric is for different type of order")
 
 
 class FirstFailureDurationDifference(TestOccurrencesMetric):
@@ -60,10 +67,16 @@ class FirstFailureDurationDifference(TestOccurrencesMetric):
 
 
 class AverageFailureDurationRatio(TestOccurrencesMetric):
-    description = "Average duration until failed test / teamcity order"
+
+    def __init__(self, order_type: OrderType = OrderType.BOTH, description="", show_graph=True):
+        super().__init__(order_type, description, show_graph)
+        self.description = "Average duration until failed test ratio"
 
     def measure(self, test_ranked, test_occurrences):
-        return metric_ratio_with_other_order(average_time_until_failure, test_ranked, test_occurrences)
+        if self.order_type == OrderType.BOTH:
+            return metric_ratio_with_other_order(average_time_until_failure, test_ranked, test_occurrences)
+        else:
+            raise AttributeError("This metric is for different type of order")
 
 
 class AverageFailureDurationDifference(TestOccurrencesMetric):
@@ -74,10 +87,16 @@ class AverageFailureDurationDifference(TestOccurrencesMetric):
 
 
 class LastFailureDurationRatio(TestOccurrencesMetric):
-    description = "Duration until last failed test / teamcity order"
+
+    def __init__(self, order_type: OrderType = OrderType.BOTH, description="", show_graph=True):
+        super().__init__(order_type, description, show_graph)
+        self.description = "Duration until last failed test ratio"
 
     def measure(self, test_ranked, test_occurrences):
-        return metric_ratio_with_other_order(time_until_last_failure, test_ranked, test_occurrences)
+        if self.order_type == OrderType.BOTH:
+            return metric_ratio_with_other_order(time_until_last_failure, test_ranked, test_occurrences)
+        else:
+            raise AttributeError("This metric is for different type of order")
 
 
 class LastFailureDurationDifference(TestOccurrencesMetric):
