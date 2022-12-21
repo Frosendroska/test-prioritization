@@ -4,6 +4,7 @@ from shared.test_info import TestInfo
 from src.util.util import parse_projects_file
 import metrics
 import models
+from src.util.util import OrderType
 
 
 def main():
@@ -21,18 +22,19 @@ def main():
     test_rank_random_based = models.RandomTestRank()
 
     test_metrics = [
-        metrics.FirstFailedPosition(),
+        metrics.FirstFailedPosition(OrderType.INITIAL),
+        metrics.FirstFailedPosition(OrderType.RANKED),
         metrics.FirstFailedPositionRatio(),
-        metrics.AverageFailedPosition(show_graph=True),
-        metrics.AverageFailedPositionRatio(show_graph=True),
-        metrics.LastFailedPosition(),
+        metrics.AverageFailedPosition(OrderType.INITIAL),
+        metrics.AverageFailedPosition(OrderType.RANKED),
+        metrics.AverageFailedPositionRatio(),
+        metrics.LastFailedPosition(OrderType.INITIAL),
+        metrics.LastFailedPosition(OrderType.RANKED),
         metrics.LastFailedPositionRatio(),
+
         metrics.FirstFailureDurationRatio(),
-        metrics.FirstFailureDurationDifference(show_graph=True),
         metrics.LastFailureDurationRatio(),
-        metrics.LastFailureDurationDifference(show_graph=True),
-        metrics.AverageFailureDurationRatio(show_graph=True),
-        metrics.AverageFailureDurationDifference(show_graph=True),
+        metrics.AverageFailureDurationRatio(),
     ]
 
     pipelines = [Pipelines(test_info, test_rank_history_based),
@@ -41,13 +43,12 @@ def main():
                  Pipelines(test_info, test_rank_random_based)]
 
     for i in range(len(pipelines)):
+        project_reports = []
         for project in projects:
-            project_reports = []
             print(project)
             statistics = pipelines[i].run_all_with_metrics(project, test_metrics)
             project_reports.append(statistics.create_project_report())
-            generate_report(project_reports,
-                            output_file_name=f"{project}-{pipelines[i].test_rank.name}-rank-report.html")
+        generate_report(project_reports, f"{pipelines[i].test_rank.name}-rank-report.html")
 
 
 if __name__ == "__main__":

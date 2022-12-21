@@ -63,9 +63,7 @@ class Pipelines:
             self.test_info.changed_files = changed_files
             num_tests.append(len(test_occurrences))
             tests_ranked = self.test_rank.rank(test_occurrences, self.test_info)
-            cur_build_metrics = []
-            for test_metric in test_metrics:
-                cur_build_metrics.append(test_metric.measure(test_occurrences, tests_ranked))
+            cur_build_metrics = [test_metric.measure(tests_ranked, test_occurrences) for test_metric in test_metrics]
             self.test_info.update(test_occurrences)
 
             for i, test in enumerate(tests_ranked):
