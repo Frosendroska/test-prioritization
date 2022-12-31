@@ -33,8 +33,11 @@ def test_integration():
         metrics.LastFailedPositionRatio(),
 
         metrics.FirstFailureDurationRatio(),
+        metrics.FirstFailureDurationDifference(),
         metrics.LastFailureDurationRatio(),
+        metrics.LastFailureDurationDifference(),
         metrics.AverageFailureDurationRatio(),
+        metrics.AverageFailureDurationDifference(),
     ]
 
     pipelines = [Pipelines(test_info, test_rank_history_based),
