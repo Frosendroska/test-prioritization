@@ -1,21 +1,21 @@
-from shared.pipelines import Pipelines
-from shared.statistics import generate_report
-from shared.test_info import TestInfo
-from src.util.util import parse_projects_file
-import metrics
-import models
+import pytest
+
+from src.shared.pipelines import Pipelines
+from src.shared.statistics import generate_report
+from src.shared.test_info import TestInfo
+from src.util.util import parse_small_projects_file
+import src.metrics as metrics
+import src.models as models
+from pathlib import Path
 from src.util.util import OrderType
 
 
-def main():
-    """
-    To get data run scripts/download_data.py
-    :print: statistics for data to the results/
-    """
-    projects = parse_projects_file()
-
+@pytest.mark.integtest
+def test_integration():
+    projects = parse_small_projects_file("../src")
     gamma = 0.8
     test_info = TestInfo(gamma)
+
     test_rank_history_based = models.HistoryBasedTestRank()
     test_rank_bayes_based = models.BayesTestRank()
     test_rank_identity_based = models.IdentityTestRank()
@@ -51,8 +51,5 @@ def main():
             print(project)
             statistics = pipelines[i].run_all_with_metrics(project, test_metrics)
             project_reports.append(statistics.create_project_report())
-        generate_report(project_reports, f"{pipelines[i].test_rank.name}-rank-report.html")
-
-
-if __name__ == "__main__":
-    main()
+        generate_report(project_reports, f"{pipelines[i].test_rank.name}-rank-report.html",
+                        Path("..") / Path("results-test"))

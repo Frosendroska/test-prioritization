@@ -1,4 +1,6 @@
-from src.shared.base_models import TestOccurrencesInfo
+class TestOccurrencesInfo:
+    def update(self, test_occurrences):
+        raise NotImplementedError("TestOccurrencesInfo.update")
 
 
 class TestInfo(TestOccurrencesInfo):

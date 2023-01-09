@@ -63,7 +63,7 @@ class Pipelines:
             self.test_info.changed_files = changed_files
             num_tests.append(len(test_occurrences))
             tests_ranked = self.test_rank.rank(test_occurrences, self.test_info)
-            metrics = [test_metric.measure(tests_ranked, test_occurrences) for test_metric in test_metrics]
+            cur_build_metrics = [test_metric.measure(tests_ranked, test_occurrences) for test_metric in test_metrics]
             self.test_info.update(test_occurrences)
 
             for i, test in enumerate(tests_ranked):
@@ -71,11 +71,11 @@ class Pipelines:
                     num_failures[i] = num_failures.get(i, 0) + 1
 
             ok = True
-            for m in metrics:
+            for m in cur_build_metrics:
                 ok &= m is not None
             if ok:
                 builds_with_changes.append(len(changed_files) > 0)
-                metric_results.append(metrics)
+                metric_results.append(cur_build_metrics)
 
         flaky_test_stats = calc_flaky_count(self.test_info)
         metrics = zip(test_metrics, np.transpose(metric_results))

@@ -1,4 +1,39 @@
+import os
 from pathlib import Path
+from enum import Enum
+
+RESULTS_PATH = Path("..") / Path("results")
+BUILD_HTML_COLOR = "#0296EA"
+MARKED_HTML_COLOR = "#E80379"
+
+BEAUTIFUL_TABLE = """
+ table, th, td {
+                border-collapse: collapse;
+                font-family: Tahoma, Geneva, sans-serif;
+                padding: 5px;
+                border: 1px solid #dddfe1;
+            }
+
+            table tbody td {
+                color: #636363;
+                border: 1px solid #dddfe1;
+            }
+
+            table tbody tr {
+                background-color: #f9fafb;
+            }
+
+            table tbody tr:nth-child(odd) {
+                background-color: #ffffff;
+            }
+"""
+HTML_FRONT = "div { font-family: Tahoma, Geneva, sans-serif; }"
+
+
+class OrderType(Enum):
+    INITIAL = "team city order"
+    RANKED = "ranked"
+    BOTH = ""
 
 
 def parse_projects_file(prefix=Path("")):
@@ -6,6 +41,20 @@ def parse_projects_file(prefix=Path("")):
     with open(prefix / Path("projects.txt"), "r") as file:
         for line in file:
             projects += line.rstrip().split("#")[0].split()
+    return projects
+
+
+def parse_small_projects_file(prefix=Path("")):
+    projects = []
+    process = False
+    with open(prefix / Path("projects.txt"), "r") as file:
+        for line in file:
+            if "test" in line:
+                process = True
+            if process:
+                projects += line.rstrip().split("#")[0].split()
+            if process and line in os.linesep:
+                break
     return projects
 
 
